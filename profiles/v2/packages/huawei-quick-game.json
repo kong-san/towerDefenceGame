@@ -1,0 +1,9 @@
+{
+  "common": {
+    "buildPath": "project://build",
+    "outputName": "huawei-quick-game",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "huawei-quick-game",
+    "name": "神木"
+  }
+}

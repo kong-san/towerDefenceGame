@@ -1,0 +1,18 @@
+{
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile"
+  },
+  "options": {
+    "web-mobile": {
+      "orientation": "landscape",
+      "embedWebDebugger": false,
+      "__version__": "1.0.1"
+    }
+  }
+}

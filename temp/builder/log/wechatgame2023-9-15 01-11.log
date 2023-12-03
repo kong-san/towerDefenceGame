@@ -1,0 +1,443 @@
+2023-9-15 01:11:30-debug: Start build task, options:{"name":"神木","platform":"wechatgame","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"subpackage","replaceSplashScreen":true,"startScene":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","outputName":"wechatgame-009","scenes":[{"url":"db://assets/load.scene","uuid":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","inBundle":false},{"url":"db://assets/preIntroduce.scene","uuid":"1ae7d9f0-4b05-405c-96bd-84883c05b5c6","inBundle":false},{"url":"db://assets/scene.scene","uuid":"d1d1c4a5-1307-4697-824d-3a98958a74fa","inBundle":false}],"wechatgame":[],"server":"","packages":{"cocos-service":{"configID":"5526e7","services":[],"__version__":"3.0.4"},"wechatgame":{"startSceneAssetBundle":true,"orientation":"landscapeRight","appid":"wx6ac3f5090a6b99c5","buildOpenDataContextTemplate":"","separateEngine":false,"wasm":"wasm","enabelWebGL2":"off","__version__":"1.0.2"}},"__version__":"1.3.3"}
+2023-9-15 01:11:30-debug: cocos-service:(onBeforeBuild) start...0%
+2023-9-15 01:11:30-debug: =================================== Build Task (wechatgame-009) Start ================================
+2023-9-15 01:11:30-debug: // ---- build task cocos-service：onBeforeBuild ----
+2023-9-15 01:11:30-debug: Build with Cocos Creator 3.6.2
+2023-9-15 01:11:30-debug: Process: heapTotal 201.45MB heapUsed 194.27MB rss 309.82MB
+2023-9-15 01:11:30-debug: Query all assets info in project
+2023-9-15 01:11:30-debug: cocos-service:(onBeforeBuild) in 13 ms2%
+2023-9-15 01:11:30-debug: // ---- build task cocos-service：onBeforeBuild ---- (13ms)
+2023-9-15 01:11:30-debug: init custom config: keepNodeUuid: false, useCache: true
+2023-9-15 01:11:30-debug: BuildAssetLibrary initialized with asset 605!
+2023-9-15 01:11:30-debug: BuildAssetLibrary query-assets with assets 422
+2023-9-15 01:11:30-debug:   Number of all scenes: 3
+2023-9-15 01:11:30-debug:   Number of all scripts: 31
+2023-9-15 01:11:30-debug:   Number of other assets: 643
+2023-9-15 01:11:30-debug: wechatgame:(onAfterInit) start...2%
+2023-9-15 01:11:30-debug: // ---- build task wechatgame：onAfterInit ----
+2023-9-15 01:11:30-debug: Process: heapTotal 201.81MB heapUsed 194.93MB rss 310.82MB
+2023-9-15 01:11:30-error: Error: ENOENT: no such file or directory, open 'D:\Gameproject\NewProject-001\assets\resources\logo.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at Object.readFileSync (fs.js:377:35)    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\wechatgame\dist\hooks.ccc:1:3918    at new Promise (<anonymous>)    at validRatio (D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\wechatgame\dist\hooks.ccc:1:3838)    at BuildTask.onAfterInit (D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\wechatgame\dist\hooks.ccc:1:3270)    at BuildTask.runPluginTask (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:9221)    at BuildTask.build (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3662)
+2023-9-15 01:11:30-error: Error: Run build plugin wechatgame:(onAfterInit) failed!    at BuildTask.runPluginTask (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:9513)    at BuildTask.build (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3662)    at Ipc.<anonymous> (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:4492)
+2023-9-15 01:11:30-error: Error: ENOENT: no such file or directory, open 'D:\Gameproject\NewProject-001\assets\resources\logo.png'    at Object.openSync (fs.js:476:3)    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1846)    at Object.readFileSync (fs.js:377:35)    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8872)    at D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\wechatgame\dist\hooks.ccc:1:3918    at new Promise (<anonymous>)    at validRatio (D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\wechatgame\dist\hooks.ccc:1:3838)    at BuildTask.onAfterInit (D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\wechatgame\dist\hooks.ccc:1:3270)    at BuildTask.runPluginTask (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:9221)    at BuildTask.build (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:3662)
+2023-9-15 01:11:30-debug: ================================ Build Task (wechatgame-009) Finished in (61)ms ================================
+2023-9-15 01:12:57-debug: Start build task, options:{"name":"神木","platform":"wechatgame","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"subpackage","replaceSplashScreen":true,"startScene":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","outputName":"wechatgame-009","scenes":[{"url":"db://assets/load.scene","uuid":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","inBundle":false},{"url":"db://assets/preIntroduce.scene","uuid":"1ae7d9f0-4b05-405c-96bd-84883c05b5c6","inBundle":false},{"url":"db://assets/scene.scene","uuid":"d1d1c4a5-1307-4697-824d-3a98958a74fa","inBundle":false}],"wechatgame":[],"server":"","packages":{"cocos-service":{"configID":"5526e7","services":[],"__version__":"3.0.4"},"wechatgame":{"startSceneAssetBundle":true,"orientation":"landscapeRight","appid":"wx6ac3f5090a6b99c5","buildOpenDataContextTemplate":"","separateEngine":false,"wasm":"wasm","enabelWebGL2":"off","__version__":"1.0.2"}},"__version__":"1.3.3"}
+2023-9-15 01:12:57-debug: Build with Cocos Creator 3.6.2
+2023-9-15 01:12:57-debug: cocos-service:(onBeforeBuild) start...0%
+2023-9-15 01:12:57-debug: // ---- build task cocos-service：onBeforeBuild ----
+2023-9-15 01:12:57-debug: =================================== Build Task (wechatgame-009) Start ================================
+2023-9-15 01:12:57-debug: Process: heapTotal 202.56MB heapUsed 195.32MB rss 311.00MB
+2023-9-15 01:12:57-debug: // ---- build task cocos-service：onBeforeBuild ---- (9ms)
+2023-9-15 01:12:57-debug: Query all assets info in project
+2023-9-15 01:12:57-debug: cocos-service:(onBeforeBuild) in 9 ms2%
+2023-9-15 01:12:57-debug: init custom config: keepNodeUuid: false, useCache: true
+2023-9-15 01:12:57-debug:   Number of all scripts: 31
+2023-9-15 01:12:57-debug: BuildAssetLibrary initialized with asset 605!
+2023-9-15 01:12:57-debug:   Number of all scenes: 3
+2023-9-15 01:12:57-debug: BuildAssetLibrary query-assets with assets 422
+2023-9-15 01:12:57-debug: wechatgame:(onAfterInit) start...2%
+2023-9-15 01:12:57-debug:   Number of other assets: 643
+2023-9-15 01:12:57-debug: // ---- build task wechatgame：onAfterInit ----
+2023-9-15 01:12:57-debug: Process: heapTotal 202.92MB heapUsed 196.04MB rss 312.39MB
+2023-9-15 01:12:57-debug: // ---- build task cocos-service：onAfterInit ----
+2023-9-15 01:12:57-debug: // ---- build task wechatgame：onAfterInit ---- (7ms)
+2023-9-15 01:12:57-debug: Process: heapTotal 203.42MB heapUsed 195.90MB rss 312.09MB
+2023-9-15 01:12:57-debug: cocos-service:(onAfterInit) start...3%
+2023-9-15 01:12:57-debug: wechatgame:(onAfterInit) in 7 ms3%
+2023-9-15 01:12:57-debug: cocos-service:(onAfterInit) in 9 ms4%
+2023-9-15 01:12:57-debug: // ---- build task localization-editor：onAfterInit ----
+2023-9-15 01:12:57-debug: Process: heapTotal 203.42MB heapUsed 195.99MB rss 311.72MB
+2023-9-15 01:12:57-debug: // ---- build task cocos-service：onAfterInit ---- (9ms)
+2023-9-15 01:12:57-debug: localization-editor:(onAfterInit) start...4%
+2023-9-15 01:12:57-debug: // ---- build task localization-editor：onAfterInit ---- (5ms)
+2023-9-15 01:12:57-debug: // ---- build task 加载刷新项目脚本 ----
+2023-9-15 01:12:57-debug: localization-editor:(onAfterInit) in 5 ms4%
+2023-9-15 01:12:57-debug: Process: heapTotal 203.42MB heapUsed 196.07MB rss 311.80MB
+2023-9-15 01:12:57-debug: 加载刷新项目脚本 start4%
+2023-9-15 01:12:57-debug: reload all scripts.
+2023-9-15 01:12:57-debug: Incremental keys: 
+2023-9-15 01:12:57-debug: Unregister ShenMuManeger
+2023-9-15 01:12:57-debug: Unregister livingSystemManeger
+2023-9-15 01:12:57-debug: Unregister BingPerManeger
+2023-9-15 01:12:57-debug: Set detail map pack:///resolution-detail-map.json: {}
+2023-9-15 01:12:57-debug: Unregister combatConfigManeger
+2023-9-15 01:12:57-debug: Unregister audioBeginController
+2023-9-15 01:12:57-debug: Unregister targetManeger
+2023-9-15 01:12:57-debug: Unregister GuangziPerManeger
+2023-9-15 01:12:57-debug: Unregister sureComponent
+2023-9-15 01:12:57-debug: Unregister PaoPerManeger
+2023-9-15 01:12:57-debug: Unregister updateComponent
+2023-9-15 01:12:57-debug: Unregister dijiTargetManeger
+2023-9-15 01:12:57-debug: Unregister DanPerManeger
+2023-9-15 01:12:57-debug: Unregister diji
+2023-9-15 01:12:57-debug: Unregister FengyiPerManeger
+2023-9-15 01:12:57-debug: Unregister BulletPerManeger
+2023-9-15 01:12:57-debug: Unregister KongperManeger
+2023-9-15 01:12:57-debug: Unregister blockControlLeftManeger
+2023-9-15 01:12:57-debug: Unregister ToolStateManeger
+2023-9-15 01:12:57-debug: Unregister blockControlRightManeger
+2023-9-15 01:12:57-debug: Unregister dijiDeathPerManeger
+2023-9-15 01:12:57-debug: Unregister createFengManeger
+2023-9-15 01:12:57-debug: Unregister createSoldier
+2023-9-15 01:12:57-debug: Unregister infoManeger
+2023-9-15 01:12:57-debug: Unregister loadManeger
+2023-9-15 01:12:57-debug: Unregister toolPyManeger
+2023-9-15 01:12:57-debug: Unregister locationPyManeger
+2023-9-15 01:12:57-debug: Unregister middleManeger
+2023-9-15 01:12:57-debug: Unregister scrollControl
+2023-9-15 01:12:57-debug: Unregister selectToolManeger
+2023-9-15 01:12:57-debug: Unregister tryAgain
+2023-9-15 01:12:57-debug: Unregister talkManeger
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/93/93b3e14c65c29642a7e02f2941ad4992f625fc3f.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/68/686f716b2bfb35b93424f89e7d4dd5a93ed25ef1.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/83/8309b5dbc6dc546c0cb65722438a8de37875a316.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/e3/e3ee62c1f67db1da85725d21288b0723fb49a298.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/1f/1f2887ea3facfdecbd66bad39a69e458152bd04a.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/bc/bc618c01f836b0960ffc639ac6a311a057d6590b.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/16/16477c34ade813da56b2d3e3782ef6dfc083a36d.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/1b/1b565cfdc2627d315e9f9c07100e7b1e9ca6d05c.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/9e/9e1fa747e09a107ac0fe835470c3e887c66cc935.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/9b/9bc02791e3741ce6c6fa7bebafa242f7650f204f.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/9d/9dde1bd56c61610f5dbe2a6db49188b3743f8a8c.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/ed/ed4aa66836e03ae74abe12adf006b1083510c228.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/82/824113c2322d92c2fcf6e43ce3c219ed87e8dd99.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/33/3351552c3e50b25b60dd6ec6f538e752330437c7.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/22/22a9769f0530dcbf9778e73ac4a21ffcb79b7566.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/db/db0a17a65a72774020fa915245394b6ce28a3e98.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/d8/d8ea12ade3c52fa69d0b3062be1ee88efd10ade2.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/9d/9d12b10b967c697519021f2bdc93f6d24e9da170.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/88/88deed57ff9161b3ac6e010e4bd4a5e225d0e8d9.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/52/52fc1954807e9ece5cc3e65b40026d57e6b41472.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/b7/b754a84393aa60218f76c69e6274d3f7b69da87e.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/cc/cca8185474538e658345c0bb828d1ec55bdabe10.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/e9/e99af8e47e11ceddacb4163a0073918104d33d4f.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/ae/aea1e851f9de21134b1cfbaa07b0dbedd9f9b708.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/d8/d8d5afda0e4968a334825adc323f705a9b229fc9.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/88/8803e270d36c797b492198d19aaab74a9b249167.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/f8/f840eccdfd11a2f387a627e34db9da1e3943697f.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/6f/6fca296441468aa982d3836080f72e9c0b3a8989.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/a2/a285254399b65dadb330108c41155d3e7a9c93c0.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/37/375bf305fb9a91dfd608dcd484a31e8ef8edaf93.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/09/09aa212bab6f05b5bad441886cf8d11d6d152f45.js'
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/16/16b41bd5264b6cc8b47d28362e4657a009fc274b.js'
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js" loaded.
+2023-9-15 01:12:57-debug: Invalidating 'pack:///chunks/cb/cbf18ec9067c9321c9a80053ea5a1250babcf343.js'
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/3c/3c129dd3878f3c36a2f58858fef8784225a67521.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\3c\3c129dd3878f3c36a2f58858fef8784225a67521.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\3c\3c129dd3878f3c36a2f58858fef8784225a67521.js is not in module cache!
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\e2\e23c6896228395856b62748963b016583c240ff0.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\e2\e23c6896228395856b62748963b016583c240ff0.js is not in module cache!
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\ae\aee7f588161c5cddb625e7e854a7c0447d539e4a.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\ae\aee7f588161c5cddb625e7e854a7c0447d539e4a.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\c6\c6452b9e6ed420006642a70e362c6fd53045b78e.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\c6\c6452b9e6ed420006642a70e362c6fd53045b78e.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register ShenMuManeger
+2023-9-15 01:12:57-debug: [[Executor]] Register livingSystemManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/e3/e3ee62c1f67db1da85725d21288b0723fb49a298.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/c6/c6452b9e6ed420006642a70e362c6fd53045b78e.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register combatConfigManeger
+2023-9-15 01:12:57-debug: [[Executor]] Register BingPerManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/e2/e23c6896228395856b62748963b016583c240ff0.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/ae/aee7f588161c5cddb625e7e854a7c0447d539e4a.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\37\379ce177efea351b890d62f89c911acb17de7c12.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\37\379ce177efea351b890d62f89c911acb17de7c12.js is not in module cache!
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\00\00dc851764e5d8838d85d134850870fb3e7ece66.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\00\00dc851764e5d8838d85d134850870fb3e7ece66.js is not in module cache!
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\f9\f97faa3e87c0d9e931c152e9adfd34a97b8d7443.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\f9\f97faa3e87c0d9e931c152e9adfd34a97b8d7443.js is not in module cache!
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\bb\bbe24bcd4c82adc45a48534309d1267486f5e687.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\bb\bbe24bcd4c82adc45a48534309d1267486f5e687.js is not in module cache!
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\cf\cf2ca6e396af4942db883604a0d3815c8390880a.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\cf\cf2ca6e396af4942db883604a0d3815c8390880a.js is not in module cache!
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\04\048b33b38b7770c3c91d18153e60a2161b1207f6.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\04\048b33b38b7770c3c91d18153e60a2161b1207f6.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register targetManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/9e/9e1fa747e09a107ac0fe835470c3e887c66cc935.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\a6\a6d14a1573f9bf8fa770c163f5fd270016550d8d.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\a6\a6d14a1573f9bf8fa770c163f5fd270016550d8d.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/a6/a6d14a1573f9bf8fa770c163f5fd270016550d8d.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register GuangziPerManeger
+2023-9-15 01:12:57-debug: [[Executor]] Register audioBeginController
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/cf/cf2ca6e396af4942db883604a0d3815c8390880a.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register PaoPerManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/bb/bbe24bcd4c82adc45a48534309d1267486f5e687.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register sureComponent
+2023-9-15 01:12:57-debug: [[Executor]] Register updateComponent
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/ed/ed4aa66836e03ae74abe12adf006b1083510c228.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register DanPerManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/9b/9bc02791e3741ce6c6fa7bebafa242f7650f204f.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register dijiTargetManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/00/00dc851764e5d8838d85d134850870fb3e7ece66.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/f9/f97faa3e87c0d9e931c152e9adfd34a97b8d7443.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register diji
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/04/048b33b38b7770c3c91d18153e60a2161b1207f6.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register BulletPerManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/37/379ce177efea351b890d62f89c911acb17de7c12.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register FengyiPerManeger
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\46\460f13769d84abb46aa2179cd2a01c52ff4fd31a.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\46\460f13769d84abb46aa2179cd2a01c52ff4fd31a.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/46/460f13769d84abb46aa2179cd2a01c52ff4fd31a.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\6f\6f791fcb0c9f04191593d329744b15c87f1ee0fb.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\6f\6f791fcb0c9f04191593d329744b15c87f1ee0fb.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/6f/6f791fcb0c9f04191593d329744b15c87f1ee0fb.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register ToolStateManeger
+2023-9-15 01:12:57-debug: [[Executor]] Register KongperManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/cc/cca8185474538e658345c0bb828d1ec55bdabe10.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/b6/b657831aac04240aa480c63fa2a5f7fee10e65bd.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\b6\b657831aac04240aa480c63fa2a5f7fee10e65bd.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\b6\b657831aac04240aa480c63fa2a5f7fee10e65bd.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register blockControlLeftManeger
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\99\99fcc59744d4538441e2803f387cbb175b881355.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\99\99fcc59744d4538441e2803f387cbb175b881355.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register blockControlRightManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/99/99fcc59744d4538441e2803f387cbb175b881355.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/db/dbd0db5d0c720fe3f5e83faa59a6094fc48f2c70.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\db\dbd0db5d0c720fe3f5e83faa59a6094fc48f2c70.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\db\dbd0db5d0c720fe3f5e83faa59a6094fc48f2c70.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register createFengManeger
+2023-9-15 01:12:57-debug: [[Executor]] Register createSoldier
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/ba/ba1fad4558d3affde13cad58212beabd8cbfb263.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\ba\ba1fad4558d3affde13cad58212beabd8cbfb263.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\ba\ba1fad4558d3affde13cad58212beabd8cbfb263.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register dijiDeathPerManeger
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\be\bef7154dafb1c4c430e9c48b1adeafa97ab7e677.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\be\bef7154dafb1c4c430e9c48b1adeafa97ab7e677.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/be/bef7154dafb1c4c430e9c48b1adeafa97ab7e677.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/98/985159abb348b96d166c616007f4533c0f2ce04e.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\98\985159abb348b96d166c616007f4533c0f2ce04e.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\98\985159abb348b96d166c616007f4533c0f2ce04e.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register infoManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/eb/eb5f9b5ab2e73850a1f58a5a63f889a66d1624fb.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\eb\eb5f9b5ab2e73850a1f58a5a63f889a66d1624fb.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\eb\eb5f9b5ab2e73850a1f58a5a63f889a66d1624fb.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register loadManeger
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\93\93d7ea507818452777b2b050c5fb2590c75103a9.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\93\93d7ea507818452777b2b050c5fb2590c75103a9.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register locationPyManeger
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\5d\5df78d684e88f0913e70e0bca42a40fb5ef1059d.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\5d\5df78d684e88f0913e70e0bca42a40fb5ef1059d.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/5d/5df78d684e88f0913e70e0bca42a40fb5ef1059d.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/93/93d7ea507818452777b2b050c5fb2590c75103a9.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register toolPyManeger
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\c2\c2e9579968f34028878f91ab4ab61b8e765552c8.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\c2\c2e9579968f34028878f91ab4ab61b8e765552c8.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register middleManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/c2/c2e9579968f34028878f91ab4ab61b8e765552c8.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\19\193591e43427278113d68c6cfaa5520f604ae34b.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\19\193591e43427278113d68c6cfaa5520f604ae34b.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register scrollControl
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/19/193591e43427278113d68c6cfaa5520f604ae34b.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Register selectToolManeger
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/cc/cc011bdbad5b84b936fb3313818e678e0bd84e0a.js" loaded.
+2023-9-15 01:12:57-debug: D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\cc\cc011bdbad5b84b936fb3313818e678e0bd84e0a.js resolved to D:\Gameproject\NewProject-001\temp\programming\packer-driver\targets\editor\chunks\cc\cc011bdbad5b84b936fb3313818e678e0bd84e0a.js is not in module cache!
+2023-9-15 01:12:57-debug: [[Executor]] Register talkManeger
+2023-9-15 01:12:57-debug: [[Executor]] Register tryAgain
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/cb/cbf18ec9067c9321c9a80053ea5a1250babcf343.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/16/16b41bd5264b6cc8b47d28362e4657a009fc274b.js" loaded.
+2023-9-15 01:12:57-debug: [[Executor]] Module "pack:///chunks/3c/3c129dd3878f3c36a2f58858fef8784225a67521.js" loaded.
+2023-9-15 01:12:57-debug: // ---- build task 加载刷新项目脚本 ---- (84ms)
+2023-9-15 01:12:57-debug: // ---- build task 查询 Asset Bundle ----
+2023-9-15 01:12:57-debug: run build task 加载刷新项目脚本 success in 84 ms √6%
+2023-9-15 01:12:57-debug: 查询 Asset Bundle start6%
+2023-9-15 01:12:57-debug: Process: heapTotal 204.42MB heapUsed 197.07MB rss 312.96MB
+2023-9-15 01:12:57-debug: run build task 查询 Asset Bundle success in 15 ms √7%
+2023-9-15 01:12:57-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2023-9-15 01:12:57-debug: Process: heapTotal 204.42MB heapUsed 197.18MB rss 313.00MB
+2023-9-15 01:12:57-debug: // ---- build task 查询 Asset Bundle ---- (15ms)
+2023-9-15 01:12:57-debug: 查询使用的资源以及资源包配置 start7%
+2023-9-15 01:12:57-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,1baf0fc9-befa-459c-8bdd-af1a450a0319,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,620b6bf3-0369-4560-837f-2a2c00b73c26,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,1d08ef62-a503-4ce2-8b9a-46c90873f7d3
+2023-9-15 01:12:57-debug: Number of scenes: 3
+2023-9-15 01:12:57-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/right/cloud"Missing uuid: "b1e65df3-360a-4f5e-8452-3fc866fc13f5@f9941"
+2023-9-15 01:12:57-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/left/cloud"Missing uuid: "77b2f77e-fa93-4cff-991d-cc3ca1d274d3@f9941"
+2023-9-15 01:12:57-debug: Number of assets: 238
+2023-9-15 01:12:57-debug: Number of asset bundle: 6
+2023-9-15 01:12:57-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (137ms)
+2023-9-15 01:12:57-debug: run build task 查询使用的资源以及资源包配置 success in 137 ms √8%
+2023-9-15 01:12:57-debug: 整理脚本分组与脚本数据 start8%
+2023-9-15 01:12:57-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2023-9-15 01:12:57-debug: sort script group...
+2023-9-15 01:12:57-debug: Process: heapTotal 205.36MB heapUsed 189.99MB rss 311.15MB
+2023-9-15 01:12:57-debug: // ---- build task 整理纹理压缩任务 ----
+2023-9-15 01:12:57-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √9%
+2023-9-15 01:12:57-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2023-9-15 01:12:57-debug: 整理纹理压缩任务 start9%
+2023-9-15 01:12:57-debug: Process: heapTotal 205.36MB heapUsed 190.10MB rss 310.99MB
+2023-9-15 01:12:57-debug: Number of image-compress task: 4
+2023-9-15 01:12:57-debug: 初步划分 JSON 合并分组 start11%
+2023-9-15 01:12:57-debug: run build task 整理纹理压缩任务 success in 39 ms √11%
+2023-9-15 01:12:57-debug: // ---- build task 整理纹理压缩任务 ---- (39ms)
+2023-9-15 01:12:57-debug: // ---- build task 初步划分 JSON 合并分组 ----
+2023-9-15 01:12:57-debug: Process: heapTotal 205.36MB heapUsed 190.58MB rss 311.50MB
+2023-9-15 01:12:57-debug: Number of json group: 43
+2023-9-15 01:12:57-debug: // ---- build task 初步划分 JSON 合并分组 ---- (2ms)
+2023-9-15 01:12:57-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ----
+2023-9-15 01:12:57-debug: run build task 初步划分 JSON 合并分组 success in 2 ms √12%
+2023-9-15 01:12:57-debug: Process: heapTotal 206.36MB heapUsed 190.05MB rss 312.04MB
+2023-9-15 01:12:57-debug: 整理合并压缩 Texture2D 的 JSON 数据 start12%
+2023-9-15 01:12:57-debug: 收集 importMap 信息 start13%
+2023-9-15 01:12:57-debug: run build task 整理合并压缩 Texture2D 的 JSON 数据 success in 2 ms √13%
+2023-9-15 01:12:57-debug: Process: heapTotal 206.36MB heapUsed 190.17MB rss 312.16MB
+2023-9-15 01:12:57-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ---- (2ms)
+2023-9-15 01:12:57-debug: // ---- build task 收集 importMap 信息 ----
+2023-9-15 01:12:57-debug: // ---- build task localization-editor：onBeforeBuildAssets ----
+2023-9-15 01:12:57-debug: Process: heapTotal 206.36MB heapUsed 190.27MB rss 312.21MB
+2023-9-15 01:12:57-debug: run build task 收集 importMap 信息 success in 0 ms √14%
+2023-9-15 01:12:57-debug: localization-editor:(onBeforeBuildAssets) start...14%
+2023-9-15 01:12:57-debug: 构建自动图集 start17%
+2023-9-15 01:12:57-debug: // ---- build task localization-editor：onBeforeBuildAssets ---- (5ms)
+2023-9-15 01:12:57-debug: localization-editor:(onBeforeBuildAssets) in 5 ms17%
+2023-9-15 01:12:57-debug: Process: heapTotal 206.36MB heapUsed 190.34MB rss 312.29MB
+2023-9-15 01:12:57-debug: // ---- build task 构建自动图集 ----
+2023-9-15 01:12:57-debug: Start collect pack info
+2023-9-15 01:12:57-debug: // ---- build task 构建自动图集 ---- (1ms)
+2023-9-15 01:12:57-debug: run build task 构建自动图集 success in 1 ms √23%
+2023-9-15 01:12:57-debug: 图片拷贝压缩任务 start23%
+2023-9-15 01:12:57-debug: // ---- build task 图片拷贝压缩任务 ----
+2023-9-15 01:12:57-debug: Process: heapTotal 206.36MB heapUsed 190.43MB rss 312.38MB
+2023-9-15 01:12:57-debug: Use cache compress image of {Asset(3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3)} ({link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.png)}). suffix: .pkm@72,.pvr@85,.png,.jpg
+2023-9-15 01:12:57-debug: Use cache compress image of {Asset(63803eab-9cdc-4887-a45c-0f0e951e2426)} ({link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\63\63803eab-9cdc-4887-a45c-0f0e951e2426.png)}). suffix: .pkm@72,.pvr@85,.png,.jpg
+2023-9-15 01:12:57-debug: Use cache compress image of {Asset(23ae1faa-3b75-4a5b-8cd0-c386b03b9531)} ({link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.png)}). suffix: .pkm@72,.pvr@85,.png,.jpg
+2023-9-15 01:12:57-debug: Use cache compress image of {Asset(a6e8f35f-a94f-4c5f-8056-55c450f6adf4)} ({link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.png)}). suffix: .pkm@72,.pvr@85,.png,.jpg
+2023-9-15 01:12:57-debug: Num of sorted image asset: 4
+2023-9-15 01:12:57-debug: // ---- build task 图片拷贝压缩任务 ---- (40ms)
+2023-9-15 01:12:57-debug: run build task 图片拷贝压缩任务 success in 40 ms √30%
+2023-9-15 01:12:57-debug: Process: heapTotal 206.36MB heapUsed 190.05MB rss 312.70MB
+2023-9-15 01:12:57-debug: 将资源拷贝到指定位置 start30%
+2023-9-15 01:12:57-debug: // ---- build task 将资源拷贝到指定位置 ----
+2023-9-15 01:12:57-debug: Asset Bundle(internal) handle assets: 36
+2023-9-15 01:12:57-debug: Asset Bundle(start-scene) handle assets: 37
+2023-9-15 01:12:57-debug: Asset Bundle(resources) handle assets: 112
+2023-9-15 01:12:57-debug: Asset Bundle(main) handle assets: 96
+2023-9-15 01:12:57-debug: Asset Bundle(script) handle assets: 0
+2023-9-15 01:12:57-debug: Asset Bundle(music) handle assets: 13
+2023-9-15 01:12:57-debug: run build task 将资源拷贝到指定位置 success in 51 ms √37%
+2023-9-15 01:12:57-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ----
+2023-9-15 01:12:57-debug: Process: heapTotal 206.36MB heapUsed 190.36MB rss 312.73MB
+2023-9-15 01:12:57-debug: // ---- build task 将资源拷贝到指定位置 ---- (51ms)
+2023-9-15 01:12:57-debug: 将分组后的 json 与散文件构建到指定位置 start37%
+2023-9-15 01:12:58-debug: Json group(06efdbec0) compile success，json number: 6
+2023-9-15 01:12:58-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/left/cloud"Missing uuid: "77b2f77e-fa93-4cff-991d-cc3ca1d274d3@f9941"
+2023-9-15 01:12:58-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/right/cloud"Missing uuid: "b1e65df3-360a-4f5e-8452-3fc866fc13f5@f9941"
+2023-9-15 01:12:58-debug: Json group(0d436e443) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(04c602246) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(045b840ac) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(0be61df76) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(02ddcb2dc) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(099e475bf) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(04bd59316) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(07c591bfe) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(09506b8b4) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(0d813c55a) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(098d6f61a) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(05641ca82) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(05a0c5a74) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(08c40150a) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(0310a1a27) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(0c0eff804) compile success，json number: 6
+2023-9-15 01:12:58-debug: Json group(0f7202ac5) compile success，json number: 6
+2023-9-15 01:12:58-debug: // ---- build task 打包脚本 ----
+2023-9-15 01:12:58-debug: run build task 将分组后的 json 与散文件构建到指定位置 success in 393 ms √43%
+2023-9-15 01:12:58-debug: 打包脚本 start43%
+2023-9-15 01:12:58-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ---- (393ms)
+2023-9-15 01:12:58-debug: Process: heapTotal 213.84MB heapUsed 195.28MB rss 319.96MB
+2023-9-15 01:13:02-debug: 构建项目脚本 start...43%
+2023-9-15 01:13:02-debug: Process: heapTotal 224.10MB heapUsed 202.82MB rss 333.52MB
+2023-9-15 01:13:02-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2023-9-15 01:13:04-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts
+2023-9-15 01:13:04-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/diji.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts
+2023-9-15 01:13:08-debug: excute-script over with build-script 5148ms
+2023-9-15 01:13:08-debug: Copy externalScripts success!
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 203.44MB rss 327.91MB
+2023-9-15 01:13:08-debug: 构建引擎脚本 start...43%
+2023-9-15 01:13:08-debug: 构建项目脚本 in (5160 ms) √43%
+2023-9-15 01:13:08-debug: Use cache engine: {link(C:\Users\天下第~1\AppData\Local\Temp\CocosCreator\3.6.2\builder\engine\c3120909800723a836faa6d5141e9de3)}
+2023-9-15 01:13:08-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","animation","audio","base","dragon-bones","gfx-webgl","intersection-2d","marionette","particle","particle-2d","physics-2d-builtin","physics-ammo","primitive","profiler","skeletal-animation","spine","terrain","tiled-map","tween","ui","video","webview","xr"],"engineVersion":"3.6.2","platform":"WECHAT","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"skip":false,"ammoJsWasm":true,"assetURLFormat":"relative-from-out","flags":{"DEBUG":false},"entry":"D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine"}
+2023-9-15 01:13:08-debug: 构建引擎脚本 in (141 ms) √43%
+2023-9-15 01:13:08-debug: 压缩 Zip Bundle start50%
+2023-9-15 01:13:08-debug: // ---- build task 打包脚本 ---- (9911ms)
+2023-9-15 01:13:08-debug: // ---- build task 压缩 Zip Bundle ----
+2023-9-15 01:13:08-debug: run build task 打包脚本 success in 9911 ms √50%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.20MB rss 328.28MB
+2023-9-15 01:13:08-debug: 给所有的资源加上 MD5 后缀 start57%
+2023-9-15 01:13:08-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.29MB rss 328.13MB
+2023-9-15 01:13:08-debug: run build task 压缩 Zip Bundle success in 0 ms √57%
+2023-9-15 01:13:08-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (1ms)
+2023-9-15 01:13:08-debug: run build task 给所有的资源加上 MD5 后缀 success in 1 ms √67%
+2023-9-15 01:13:08-debug: 初始化 settings.json 与 config.json start67%
+2023-9-15 01:13:08-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.36MB rss 327.99MB
+2023-9-15 01:13:08-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √67%
+2023-9-15 01:13:08-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2023-9-15 01:13:08-debug: builder.tasks.settings.macro start67%
+2023-9-15 01:13:08-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.46MB rss 327.99MB
+2023-9-15 01:13:08-debug: // ---- build task builder.tasks.settings.macro ----
+2023-9-15 01:13:08-debug: 整理部分构建选项内数据到 settings.json start68%
+2023-9-15 01:13:08-debug: run build task builder.tasks.settings.macro success in 7 ms √68%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.54MB rss 327.99MB
+2023-9-15 01:13:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2023-9-15 01:13:08-debug: // ---- build task builder.tasks.settings.macro ---- (7ms)
+2023-9-15 01:13:08-debug: // ---- build task custom joint texture layouts ----
+2023-9-15 01:13:08-debug: run build task 整理部分构建选项内数据到 settings.json success in 6 ms √68%
+2023-9-15 01:13:08-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
+2023-9-15 01:13:08-debug: custom joint texture layouts start68%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.63MB rss 328.00MB
+2023-9-15 01:13:08-debug: // ---- build task custom joint texture layouts ---- (7ms)
+2023-9-15 01:13:08-debug: run build task custom joint texture layouts success in 7 ms √69%
+2023-9-15 01:13:08-debug: // ---- build task custom joint physics ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.70MB rss 328.00MB
+2023-9-15 01:13:08-debug: custom joint physics start69%
+2023-9-15 01:13:08-debug: 填充脚本数据到 settings.json start69%
+2023-9-15 01:13:08-debug: run build task custom joint physics success in 1 ms √69%
+2023-9-15 01:13:08-debug: // ---- build task 填充脚本数据到 settings.json ----
+2023-9-15 01:13:08-debug: // ---- build task custom joint physics ---- (1ms)
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.78MB rss 328.00MB
+2023-9-15 01:13:08-debug: 填充场景数据到 settings.json start70%
+2023-9-15 01:13:08-debug: run build task 填充脚本数据到 settings.json success in 1 ms √70%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.85MB rss 328.00MB
+2023-9-15 01:13:08-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2023-9-15 01:13:08-debug: // ---- build task 填充场景数据到 settings.json ----
+2023-9-15 01:13:08-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start71%
+2023-9-15 01:13:08-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2023-9-15 01:13:08-debug: run build task 填充场景数据到 settings.json success in 1 ms √71%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 206.93MB rss 328.00MB
+2023-9-15 01:13:08-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2023-9-15 01:13:08-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start71%
+2023-9-15 01:13:08-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2023-9-15 01:13:08-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 1 ms √71%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 207.10MB rss 328.00MB
+2023-9-15 01:13:08-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (1ms)
+2023-9-15 01:13:08-debug: options.md5Cache is false.
+2023-9-15 01:13:08-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2023-9-15 01:13:08-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √72%
+2023-9-15 01:13:08-debug: wechatgame:(onBeforeCompressSettings) start...72%
+2023-9-15 01:13:08-debug: // ---- build task wechatgame：onBeforeCompressSettings ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 207.20MB rss 328.00MB
+2023-9-15 01:13:08-debug: cocos-service:(onBeforeCompressSettings) start...73%
+2023-9-15 01:13:08-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 207.27MB rss 328.01MB
+2023-9-15 01:13:08-debug: wechatgame:(onBeforeCompressSettings) in 0 ms73%
+2023-9-15 01:13:08-debug: cocos-service:(onBeforeCompressSettings) in 8 ms74%
+2023-9-15 01:13:08-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (8ms)
+2023-9-15 01:13:08-debug: 生成 import-map.json start74%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.10MB heapUsed 207.37MB rss 328.01MB
+2023-9-15 01:13:08-debug: // ---- build task 生成 import-map.json ----
+2023-9-15 01:13:08-debug: // ---- build task 生成 import-map.json ---- (20ms)
+2023-9-15 01:13:08-debug: run build task 生成 import-map.json success in 20 ms √75%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.85MB heapUsed 203.46MB rss 329.06MB
+2023-9-15 01:13:08-debug: // ---- build task 压缩 config.json 与 settings.json ----
+2023-9-15 01:13:08-debug: 压缩 config.json 与 settings.json start75%
+2023-9-15 01:13:08-debug: // ---- build task 压缩 config.json 与 settings.json ---- (2ms)
+2023-9-15 01:13:08-debug: 保存 config.json start76%
+2023-9-15 01:13:08-debug: // ---- build task 保存 config.json ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.85MB heapUsed 203.77MB rss 329.04MB
+2023-9-15 01:13:08-debug: run build task 压缩 config.json 与 settings.json success in 2 ms √76%
+2023-9-15 01:13:08-debug: // ---- build task 保存 config.json ---- (5ms)
+2023-9-15 01:13:08-debug: 保存 settings.json start77%
+2023-9-15 01:13:08-debug: // ---- build task 保存 settings.json ----
+2023-9-15 01:13:08-debug: run build task 保存 config.json success in 5 ms √77%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.85MB heapUsed 203.91MB rss 329.04MB
+2023-9-15 01:13:08-debug: 整理静态模板文件 start78%
+2023-9-15 01:13:08-debug: // ---- build task 整理静态模板文件 ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.85MB heapUsed 204.03MB rss 329.04MB
+2023-9-15 01:13:08-debug: // ---- build task 保存 settings.json ---- (1ms)
+2023-9-15 01:13:08-debug: run build task 保存 settings.json success in 1 ms √78%
+2023-9-15 01:13:08-debug: // ---- build task 整理静态模板文件 ---- (42ms)
+2023-9-15 01:13:08-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.85MB heapUsed 206.86MB rss 329.44MB
+2023-9-15 01:13:08-debug: run build task 整理静态模板文件 success in 42 ms √79%
+2023-9-15 01:13:08-debug: cocos-service:(onAfterCompressSettings) start...79%
+2023-9-15 01:13:08-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (8ms)
+2023-9-15 01:13:08-debug: // ---- build task wechatgame：onAfterBuild ----
+2023-9-15 01:13:08-debug: cocos-service:(onAfterCompressSettings) in 8 ms81%
+2023-9-15 01:13:08-debug: Process: heapTotal 224.85MB heapUsed 207.91MB rss 329.16MB
+2023-9-15 01:13:08-debug: wechatgame:(onAfterBuild) start...81%
+2023-9-15 01:13:08-debug: cocos-service:(onAfterBuild) start...82%
+2023-9-15 01:13:08-debug: // ---- build task cocos-service：onAfterBuild ----
+2023-9-15 01:13:08-debug: Process: heapTotal 224.85MB heapUsed 208.16MB rss 329.16MB
+2023-9-15 01:13:08-debug: wechatgame:(onAfterBuild) in 20 ms82%
+2023-9-15 01:13:08-debug: // ---- build task wechatgame：onAfterBuild ---- (20ms)
+2023-9-15 01:13:08-debug: cocos-service:(onAfterBuild) in 7 ms83%
+2023-9-15 01:13:08-debug: // ---- build task cocos-service：onAfterBuild ---- (7ms)
+2023-9-15 01:13:08-debug: build success in 11030 ms!
+2023-9-15 01:13:08-debug: builder:build-project-total (11030ms)
+2023-9-15 01:13:08-debug: ================================ Build Task (wechatgame-009) Finished in (11036)ms ================================

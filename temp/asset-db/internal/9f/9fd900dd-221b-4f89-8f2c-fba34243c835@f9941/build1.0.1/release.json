@@ -1,0 +1,113 @@
+[
+    1,
+    [
+        "9f2QDdIhtPiY8s+6NCQ8g1@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "default_progressbar_bg",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 60,
+                "height": 15
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 60,
+                "height": 15
+            },
+            "rotated": false,
+            "capInsets": [
+                10,
+                4,
+                10,
+                4
+            ],
+            "vertices": {
+                "rawPosition": [
+                    -30,
+                    -7.5,
+                    0,
+                    30,
+                    -7.5,
+                    0,
+                    -30,
+                    7.5,
+                    0,
+                    30,
+                    7.5,
+                    0
+                ],
+                "indexes": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    1,
+                    3
+                ],
+                "uv": [
+                    0,
+                    15,
+                    60,
+                    15,
+                    0,
+                    0,
+                    60,
+                    0
+                ],
+                "nuv": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "minPos": {
+                    "x": -30,
+                    "y": -7.5,
+                    "z": 0
+                },
+                "maxPos": {
+                    "x": 30,
+                    "y": 7.5,
+                    "z": 0
+                }
+            },
+            "packable": true,
+            "pixelsToUnit": 100,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "meshType": 0
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

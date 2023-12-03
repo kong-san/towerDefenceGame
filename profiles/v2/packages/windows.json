@@ -1,0 +1,10 @@
+{
+  "common": {
+    "buildPath": "project://build",
+    "outputName": "windows",
+    "mainBundleCompressionType": "merge_all_json",
+    "platform": "windows",
+    "replaceSplashScreen": true,
+    "name": "shenmu"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "common": {
+    "buildPath": "project://build",
+    "outputName": "wechatgame-001",
+    "mainBundleCompressionType": "merge_all_json",
+    "platform": "wechatgame",
+    "name": "神木",
+    "replaceSplashScreen": true,
+    "mainBundleIsRemote": false,
+    "skipCompressTexture": false,
+    "server": "",
+    "debug": false
+  },
+  "options": {
+    "wechatgame": {
+      "startSceneAssetBundle": true,
+      "orientation": "landscapeRight",
+      "appid": "wx6ac3f5090a6b99c5",
+      "buildOpenDataContextTemplate": "",
+      "separateEngine": false,
+      "wasm": "wasm",
+      "enabelWebGL2": "off",
+      "__version__": "1.0.2"
+    }
+  }
+}

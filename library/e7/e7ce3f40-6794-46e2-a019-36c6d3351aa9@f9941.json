@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dijiBullet",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 99
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 100,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -50,
+        -49.5,
+        0,
+        50,
+        -49.5,
+        0,
+        -50,
+        49.5,
+        0,
+        50,
+        49.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        100,
+        100,
+        100,
+        0,
+        1,
+        100,
+        1
+      ],
+      "nuv": [
+        0,
+        0.01,
+        1,
+        0.01,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -50,
+        "y": -49.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 50,
+        "y": 49.5,
+        "z": 0
+      }
+    },
+    "texture": "e7ce3f40-6794-46e2-a019-36c6d3351aa9@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

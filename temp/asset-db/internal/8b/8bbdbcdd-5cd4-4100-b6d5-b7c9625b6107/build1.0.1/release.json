@@ -1,0 +1,67 @@
+[
+    1,
+    [
+        "81Dpbk5FZEaJtZ9OjzlzLA"
+    ],
+    [
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_props",
+                "_states",
+                "_defines"
+            ],
+            -1
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "default-clear-stencil",
+            [
+                {}
+            ],
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_TEXTURE": false
+                }
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

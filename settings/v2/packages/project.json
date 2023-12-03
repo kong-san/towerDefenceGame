@@ -1,0 +1,67 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "location"
+      },
+      {
+        "index": 2,
+        "name": "tools"
+      },
+      {
+        "index": 4,
+        "name": "enemy_self"
+      },
+      {
+        "index": 5,
+        "name": "emeny_target"
+      },
+      {
+        "index": 6,
+        "name": "tool_target"
+      },
+      {
+        "index": 7,
+        "name": "bullet_self"
+      },
+      {
+        "index": 8,
+        "name": "shenmu"
+      },
+      {
+        "index": 9,
+        "name": "shenmu_bullet"
+      },
+      {
+        "index": 10,
+        "name": "selectTool"
+      },
+      {
+        "index": 11,
+        "name": "emeny_kong"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 7,
+      "1": 3073,
+      "2": 2217,
+      "3": 4,
+      "4": 832,
+      "5": 260,
+      "6": 16,
+      "7": 260,
+      "8": 176,
+      "9": 16,
+      "10": 2,
+      "11": 6
+    }
+  }
+}

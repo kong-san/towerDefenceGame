@@ -1,0 +1,337 @@
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, PhysicsSystem2D, EPhysics2DDrawFlags, Collider2D, Contact2DType, resources, Layers, find, Prefab, instantiate, ProgressBar, NodePool, Label, BulletPerManeger, combatConfigManeger, livingSystemManeger, targetManeger, _dec, _dec2, _class, _class2, _descriptor, _crd, ccclass, property, FengyiPerManeger;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
+
+  function _reportPossibleCrUseOfBulletPerManeger(extras) {
+    _reporterNs.report("BulletPerManeger", "./BulletPerManeger", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfcombatConfigManeger(extras) {
+    _reporterNs.report("combatConfigManeger", "./combatConfigManeger", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOflivingSystemManeger(extras) {
+    _reporterNs.report("livingSystemManeger", "./livingSystemManeger", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOftargetManeger(extras) {
+    _reporterNs.report("targetManeger", "./targetManeger", _context.meta, extras);
+  }
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      Component = _cc.Component;
+      PhysicsSystem2D = _cc.PhysicsSystem2D;
+      EPhysics2DDrawFlags = _cc.EPhysics2DDrawFlags;
+      Collider2D = _cc.Collider2D;
+      Contact2DType = _cc.Contact2DType;
+      resources = _cc.resources;
+      Layers = _cc.Layers;
+      find = _cc.find;
+      Prefab = _cc.Prefab;
+      instantiate = _cc.instantiate;
+      ProgressBar = _cc.ProgressBar;
+      NodePool = _cc.NodePool;
+      Label = _cc.Label;
+    }, function (_unresolved_2) {
+      BulletPerManeger = _unresolved_2.BulletPerManeger;
+    }, function (_unresolved_3) {
+      combatConfigManeger = _unresolved_3.combatConfigManeger;
+    }, function (_unresolved_4) {
+      livingSystemManeger = _unresolved_4.livingSystemManeger;
+    }, function (_unresolved_5) {
+      targetManeger = _unresolved_5.targetManeger;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "8c4d4F6dClGFJ0jCIcXFG0p", "FengyiPerManeger", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'PhysicsSystem2D', 'EPhysics2DDrawFlags', 'Collider2D', 'Contact2DType', 'IPhysics2DContact', 'BoxCollider2D', 'director', 'Sprite', 'Color', 'resources', 'SpriteFrame', 'Layers', 'find', 'Prefab', 'instantiate', 'Vec2', 'ProgressBar', 'NodePool', 'Label']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("FengyiPerManeger", FengyiPerManeger = (_dec = ccclass('FengyiPerManeger'), _dec2 = property(_crd && livingSystemManeger === void 0 ? (_reportPossibleCrUseOflivingSystemManeger({
+        error: Error()
+      }), livingSystemManeger) : livingSystemManeger), _dec(_class = (_class2 = class FengyiPerManeger extends Component {
+        constructor() {
+          super(...arguments);
+          this.bulletArray = [];
+          this.hasEmeny = true;
+          this.bulletPool = new NodePool();
+          this.targetArray = new Array();
+
+          _initializerDefineProperty(this, "FengyiLivSysMag", _descriptor, this);
+
+          this.currentLivingValue = void 0;
+        }
+
+        onLoad() {
+          // director.enable = true;
+          //绘制物理信息
+          PhysicsSystem2D.instance.enable = true;
+          PhysicsSystem2D.instance.debugDrawFlags = EPhysics2DDrawFlags.Aabb | EPhysics2DDrawFlags.Pair | EPhysics2DDrawFlags.CenterOfMass | EPhysics2DDrawFlags.Joint | EPhysics2DDrawFlags.Shape;
+        }
+
+        start() {
+          this.initialFengyi(); // 批量生成子弹
+
+          var that = this;
+          var flag = false;
+          this.schedule(function () {
+            that.hasEmeny = that.node.parent.getComponent(_crd && targetManeger === void 0 ? (_reportPossibleCrUseOftargetManeger({
+              error: Error()
+            }), targetManeger) : targetManeger).hasEmeny;
+
+            if (that.hasEmeny) {
+              that.targetArray = that.node.parent.getComponent(_crd && targetManeger === void 0 ? (_reportPossibleCrUseOftargetManeger({
+                error: Error()
+              }), targetManeger) : targetManeger).emenyArray;
+              flag = false;
+
+              for (var i = 0; i < that.targetArray.length; i++) {
+                if (that.targetArray[i].isValid) {
+                  flag = true;
+                }
+              }
+
+              if (!flag) {
+                that.hasEmeny = false;
+                that.node.parent.getComponent(_crd && targetManeger === void 0 ? (_reportPossibleCrUseOftargetManeger({
+                  error: Error()
+                }), targetManeger) : targetManeger).hasEmeny = false;
+              }
+
+              console.log('createBullet');
+              that.createBullet();
+            }
+          }, 1); //注册单个碰撞体的回调函数
+          // console.log('tool information')
+
+          var collider = this.node.getComponent(Collider2D); // console.log(collider);
+          // console.log(collider);
+
+          if (collider) {
+            collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            collider.on(Contact2DType.END_CONTACT, this.onEndContact, this);
+            collider.on(Contact2DType.PRE_SOLVE, this.onPreSolve, this);
+            collider.on(Contact2DType.POST_SOLVE, this.onPostSolve, this);
+          } // 注册全局碰撞回调函数
+          // if (PhysicsSystem2D.instance) {
+          //     PhysicsSystem2D.instance.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+          //     PhysicsSystem2D.instance.on(Contact2DType.END_CONTACT, this.onEndContact, this);
+          //     PhysicsSystem2D.instance.on(Contact2DType.PRE_SOLVE, this.onPreSolve, this);
+          //     PhysicsSystem2D.instance.on(Contact2DType.POST_SOLVE, this.onPostSolve, this);
+          // }
+
+        }
+
+        onBeginContact(selfCollider, otherCollider, contact) {
+          // 只在两个碰撞体开始接触时被调用一次
+          // this.hasEmeny = true;
+          // console.log('I am PAO');
+          //64是tool_target
+          //16是diji_self
+          // console.log('selfCollider',selfCollider.group);
+          // console.log('otherCollider',otherCollider.node.name);
+          this.underFire(otherCollider); //当self碰撞体是self的时候，才会触发这个操作
+          // if (selfCollider.group == 4){
+          //     this.underFire(otherCollider)
+          // }
+        }
+
+        onEndContact(selfCollider, otherCollider, contact) {// 只在两个碰撞体结束接触时被调用一次
+          // console.log('PAO onEndContact');
+          // this.hasEmeny = false;
+        }
+
+        onPreSolve(selfCollider, otherCollider, contact) {
+          // 每次将要处理碰撞体接触逻辑时被调用
+          console.log('PAO onPreSolve');
+        }
+
+        onPostSolve(selfCollider, otherCollider, contact) {// 每次处理完碰撞体接触逻辑时被调用
+          // console.log('PAO onPostSolve');
+        }
+
+        update(deltaTime) {
+          console.log(this.bulletArray.length); //获取攻击速度
+
+          var speed = this.FengyiLivSysMag.attackSpeed;
+
+          for (var i = 0; i < this.bulletArray.length; i++) {
+            var bulletNode = this.bulletArray[i];
+            var istarget = bulletNode.getComponent(_crd && BulletPerManeger === void 0 ? (_reportPossibleCrUseOfBulletPerManeger({
+              error: Error()
+            }), BulletPerManeger) : BulletPerManeger).istarget;
+            var isOverScreen = bulletNode.getComponent(_crd && BulletPerManeger === void 0 ? (_reportPossibleCrUseOfBulletPerManeger({
+              error: Error()
+            }), BulletPerManeger) : BulletPerManeger).isOverScreen; // console.log("是否命中",istarget)
+
+            if (istarget || isOverScreen) {
+              // bulletNode.destroy()
+              this.bulletPool.put(bulletNode);
+            }
+
+            var y = bulletNode.position.y;
+            var x = bulletNode.position.x;
+            x = x - speed * deltaTime; // y = y + speed * deltaTime;
+
+            bulletNode.setPosition(x, y, 0); //TODO:出屏幕后销毁
+          }
+        }
+
+        destroyThisNode() {
+          this.node.destroy();
+        }
+
+        initialFengyi() {
+          var AttackSpeed = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.AttackSpeed;
+          var LivingValue = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.LivingValue;
+          var DefendValue = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.DefendValue;
+          var HarmValue = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.HarmValue;
+          var level = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.GradeValue;
+          this.node.parent.getChildByName("level").getComponent(Label).string = "L" + level;
+          this.FengyiLivSysMag = new (_crd && livingSystemManeger === void 0 ? (_reportPossibleCrUseOflivingSystemManeger({
+            error: Error()
+          }), livingSystemManeger) : livingSystemManeger)(LivingValue, HarmValue, DefendValue, level, AttackSpeed);
+          this.currentLivingValue = LivingValue;
+          find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJunList.push(this.node);
+          this.FengyiLivSysMag = new (_crd && livingSystemManeger === void 0 ? (_reportPossibleCrUseOflivingSystemManeger({
+            error: Error()
+          }), livingSystemManeger) : livingSystemManeger)(LivingValue, HarmValue, DefendValue, 6, AttackSpeed);
+          console.log("风翼军初始化成功");
+        }
+
+        refreshData() {
+          var AttackSpeed = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.AttackSpeed;
+          var LivingValue = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.LivingValue;
+          var DefendValue = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.DefendValue;
+          var HarmValue = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.HarmValue;
+          var level = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).FengYiJun.GradeValue;
+          this.FengyiLivSysMag.defendValue = DefendValue;
+          this.FengyiLivSysMag.gradeValue = level;
+          this.FengyiLivSysMag.attackSpeed = AttackSpeed;
+          this.FengyiLivSysMag.harmValue = HarmValue; //获取差值
+
+          var subValue = LivingValue - this.FengyiLivSysMag.livingValue;
+          this.FengyiLivSysMag.livingValue = LivingValue; //把差值加上
+
+          this.currentLivingValue += subValue;
+          this.node.parent.getChildByName("level").getComponent(Label).string = "L" + level;
+        }
+
+        underFire(Collider) {
+          //判断是被谁攻击的
+          //目前为默认减少10;
+          var harmedValueEmeny = find("Canvas/GlobalRoundControl").getComponent(_crd && combatConfigManeger === void 0 ? (_reportPossibleCrUseOfcombatConfigManeger({
+            error: Error()
+          }), combatConfigManeger) : combatConfigManeger).EmenyNormal.HarmValue;
+          var defendValue = this.FengyiLivSysMag.defendValue;
+
+          if (Collider.node.name == "Bullet_Pre") {
+            // console.log("我军受到攻击")
+            if (this.currentLivingValue - harmedValueEmeny * (1 - defendValue) <= 0) {
+              this.node.parent.destroy();
+            } else {
+              this.currentLivingValue -= harmedValueEmeny * (1 - defendValue); // console.log("生命值为：",this.FengyiLivSysMag.livingValue)
+
+              this.node.parent.getChildByName("ProgressBar").getComponent(ProgressBar).progress = 0.5 * (this.currentLivingValue / this.FengyiLivSysMag.livingValue);
+            }
+          }
+        } //生成子弹
+
+
+        createBullet() {
+          // let node = new Node();
+          // node.addComponent(Sprite);
+          var that = this;
+          resources.load("perfabs/FengyiBulletPer", Prefab, (err, Prefab) => {
+            if (!Prefab) {
+              console.log('子弹预制体为空');
+            } else {
+              console.log('预制体制作完成');
+              var node = instantiate(Prefab);
+
+              if (!node) {
+                console.log('没有节点');
+              } else {
+                // console.log(node)
+                // let pos = new Vec2();
+                node.layer = Layers.Enum.UI_2D;
+                var x = that.node.position.x + 400;
+                var y = that.node.position.x + 225; // let shit = pos.set(x,y)
+                // x = shit.x - 800;                   
+                // y = shit.y - 450;
+
+                console.log(x, y);
+                node.setPosition(0, 0, 0);
+                that.node.addChild(node);
+                that.bulletArray.push(node);
+              }
+            }
+          }); // resources.load('zidan1/spriteFrame',SpriteFrame,(_err,sproteFarme)=>{
+          //     node.getComponent(Sprite).spriteFrame = sproteFarme;
+          //     node.layer = Layers.Enum.UI_2D;
+          //     console.log(find("left"))
+          //     console.log(this.node)
+          //     node.parent = this.node;
+          //     console.log(node);
+          //     // node.parent = find("left").getChildByName("rightUp").getChildByName("pao")
+          // })
+        }
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "FengyiLivSysMag", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      })), _class2)) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=4c0f4df5af55113048bb91d84e9b284bb7697bd6.js.map

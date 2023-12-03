@@ -1,0 +1,13 @@
+{
+  "splash-setting": {
+    "url": "D:\\Gameproject\\NewProject-001\\assets\\logo.png",
+    "totalTime": 2321,
+    "clearColor": {
+      "x": 0.03137254901960784,
+      "y": 0.03137254901960784,
+      "z": 0.03137254901960784,
+      "w": 1
+    },
+    "displayWatermark": false
+  }
+}

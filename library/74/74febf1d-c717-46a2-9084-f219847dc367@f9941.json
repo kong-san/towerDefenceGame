@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yuyijunti",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 95,
+      "height": 97
+    },
+    "offset": {
+      "x": -2.5,
+      "y": 1.5
+    },
+    "originalSize": {
+      "width": 100,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -47.5,
+        -48.5,
+        0,
+        47.5,
+        -48.5,
+        0,
+        -47.5,
+        48.5,
+        0,
+        47.5,
+        48.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        100,
+        95,
+        100,
+        0,
+        3,
+        95,
+        3
+      ],
+      "nuv": [
+        0,
+        0.03,
+        0.95,
+        0.03,
+        0,
+        1,
+        0.95,
+        1
+      ],
+      "minPos": {
+        "x": -47.5,
+        "y": -48.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 47.5,
+        "y": 48.5,
+        "z": 0
+      }
+    },
+    "texture": "74febf1d-c717-46a2-9084-f219847dc367@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

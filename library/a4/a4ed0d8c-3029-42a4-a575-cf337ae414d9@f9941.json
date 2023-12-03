@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zidan1",
+    "atlas": "",
+    "rect": {
+      "x": 7,
+      "y": 6,
+      "width": 87,
+      "height": 88
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 100,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -43.5,
+        -44,
+        0,
+        43.5,
+        -44,
+        0,
+        -43.5,
+        44,
+        0,
+        43.5,
+        44,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        7,
+        94,
+        94,
+        94,
+        7,
+        6,
+        94,
+        6
+      ],
+      "nuv": [
+        0.07,
+        0.06,
+        0.94,
+        0.06,
+        0.07,
+        0.94,
+        0.94,
+        0.94
+      ],
+      "minPos": {
+        "x": -43.5,
+        "y": -44,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 43.5,
+        "y": 44,
+        "z": 0
+      }
+    },
+    "texture": "a4ed0d8c-3029-42a4-a575-cf337ae414d9@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

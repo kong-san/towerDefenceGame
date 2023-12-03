@@ -1,0 +1,520 @@
+2023-3-11 18:48:52-debug: Build with Cocos Creator 3.6.2
+2023-3-11 18:48:52-debug: cocos-service:(onBeforeBuild) start...0%
+2023-3-11 18:48:52-debug: =================================== Build Task (windows) Start ================================
+2023-3-11 18:48:52-debug: // ---- build task cocos-service：onBeforeBuild ----
+2023-3-11 18:48:52-debug: Process: heapTotal 197.11MB heapUsed 190.65MB rss 218.69MB
+2023-3-11 18:48:52-debug: Start build task, options:{"name":"NewProject-001","platform":"windows","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","replaceSplashScreen":false,"startScene":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","outputName":"windows","scenes":[{"url":"db://assets/load.scene","uuid":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","inBundle":false},{"url":"db://assets/scene.scene","uuid":"d1d1c4a5-1307-4697-824d-3a98958a74fa","inBundle":false},{"url":"db://assets/preIntroduce.scene","uuid":"1ae7d9f0-4b05-405c-96bd-84883c05b5c6","inBundle":false}],"wechatgame":[],"packages":{"windows":{"renderBackEnd":{"vulkan":false,"gles3":true,"gles2":true},"targetPlatform":"x64","__version__":"1.0.1"},"cocos-service":{"configID":"5526e7","services":[]},"native":{"encrypted":false,"xxteaKey":"37jMdu7UpCbrMuxH","compressZip":false,"JobSystem":"none","__version__":"1.0.2"}},"__version__":"1.3.3","huawei-quick-game":[],"web-mobile":[],"android":[],"windows":[]}
+2023-3-11 18:48:52-debug: cocos-service:(onBeforeBuild) in 8 ms2%
+2023-3-11 18:48:52-debug: // ---- build task cocos-service：onBeforeBuild ---- (8ms)
+2023-3-11 18:48:52-debug: Query all assets info in project
+2023-3-11 18:48:52-debug: init custom config: keepNodeUuid: false, useCache: true
+2023-3-11 18:48:52-debug: BuildAssetLibrary query-assets with assets 416
+2023-3-11 18:48:52-debug:   Number of all scripts: 35
+2023-3-11 18:48:52-debug:   Number of other assets: 645
+2023-3-11 18:48:52-debug: BuildAssetLibrary initialized with asset 605!
+2023-3-11 18:48:52-debug: // ---- build task native：onAfterInit ----
+2023-3-11 18:48:52-debug: native:(onAfterInit) start...2%
+2023-3-11 18:48:52-debug: Process: heapTotal 198.21MB heapUsed 190.77MB rss 219.16MB
+2023-3-11 18:48:52-debug:   Number of all scenes: 3
+2023-3-11 18:48:53-debug: Native engine root:D:\software\cocos_v3.6.2\resources\resources\3d\engine\native
+2023-3-11 18:48:53-debug: // ---- build task native：onAfterInit ---- (425ms)
+2023-3-11 18:48:53-debug: // ---- build task windows：onAfterInit ----
+2023-3-11 18:48:53-debug: native:(onAfterInit) in 425 ms3%
+2023-3-11 18:48:53-debug: Process: heapTotal 205.21MB heapUsed 194.89MB rss 225.96MB
+2023-3-11 18:48:53-debug: windows:(onAfterInit) start...3%
+2023-3-11 18:48:53-debug: cocos-service:(onAfterInit) start...3%
+2023-3-11 18:48:53-debug: // ---- build task windows：onAfterInit ---- (2ms)
+2023-3-11 18:48:53-debug: Process: heapTotal 205.21MB heapUsed 194.94MB rss 225.96MB
+2023-3-11 18:48:53-debug: // ---- build task cocos-service：onAfterInit ----
+2023-3-11 18:48:53-debug: windows:(onAfterInit) in 2 ms3%
+2023-3-11 18:48:53-debug: // ---- build task localization-editor：onAfterInit ----
+2023-3-11 18:48:53-debug: cocos-service:(onAfterInit) in 6 ms4%
+2023-3-11 18:48:53-debug: // ---- build task cocos-service：onAfterInit ---- (6ms)
+2023-3-11 18:48:53-debug: Process: heapTotal 205.21MB heapUsed 195.00MB rss 225.96MB
+2023-3-11 18:48:53-debug: localization-editor:(onAfterInit) start...4%
+2023-3-11 18:48:53-debug: 加载刷新项目脚本 start4%
+2023-3-11 18:48:53-debug: localization-editor:(onAfterInit) in 5 ms4%
+2023-3-11 18:48:53-debug: // ---- build task 加载刷新项目脚本 ----
+2023-3-11 18:48:53-debug: // ---- build task localization-editor：onAfterInit ---- (5ms)
+2023-3-11 18:48:53-debug: Process: heapTotal 205.21MB heapUsed 195.04MB rss 225.96MB
+2023-3-11 18:48:53-debug: reload all scripts.
+2023-3-11 18:48:53-debug: Incremental keys: 
+2023-3-11 18:48:53-debug: Set detail map pack:///resolution-detail-map.json: {}
+2023-3-11 18:48:53-debug: Unregister livingSystemManeger
+2023-3-11 18:48:53-debug: Unregister combatConfigManeger
+2023-3-11 18:48:53-debug: Unregister ShenMuManeger
+2023-3-11 18:48:53-debug: Unregister BingPerManeger
+2023-3-11 18:48:53-debug: Unregister targetManeger
+2023-3-11 18:48:53-debug: Unregister GuangziPerManeger
+2023-3-11 18:48:53-debug: Unregister PaoPerManeger
+2023-3-11 18:48:53-debug: Unregister sureComponent
+2023-3-11 18:48:53-debug: Unregister DanPerManeger
+2023-3-11 18:48:53-debug: Unregister updateComponent
+2023-3-11 18:48:53-debug: Unregister dijiTargetManeger
+2023-3-11 18:48:53-debug: Unregister diji
+2023-3-11 18:48:53-debug: Unregister FengyiPerManeger
+2023-3-11 18:48:53-debug: Unregister BulletPerManeger
+2023-3-11 18:48:53-debug: Unregister ToolStateManeger
+2023-3-11 18:48:53-debug: Unregister PaoState
+2023-3-11 18:48:53-debug: Unregister KongperManeger
+2023-3-11 18:48:53-debug: Unregister blockControlRightManeger
+2023-3-11 18:48:53-debug: Unregister blockControlLeftManeger
+2023-3-11 18:48:53-debug: Unregister canvas
+2023-3-11 18:48:53-debug: Unregister createFengManeger
+2023-3-11 18:48:53-debug: Unregister dijiDeathPerManeger
+2023-3-11 18:48:53-debug: Unregister loadManeger
+2023-3-11 18:48:53-debug: Unregister infoManeger
+2023-3-11 18:48:53-debug: Unregister createSoldier
+2023-3-11 18:48:53-debug: Unregister locationPyManeger
+2023-3-11 18:48:53-debug: Unregister middleManeger
+2023-3-11 18:48:53-debug: Unregister toolPyManeger
+2023-3-11 18:48:53-debug: Unregister scrollControl
+2023-3-11 18:48:53-debug: Unregister pao
+2023-3-11 18:48:53-debug: Unregister test
+2023-3-11 18:48:53-debug: Unregister talkManeger
+2023-3-11 18:48:53-debug: Unregister selectToolManeger
+2023-3-11 18:48:53-debug: Unregister workPyManeger
+2023-3-11 18:48:53-debug: Unregister tryAgain
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/93/93b3e14c65c29642a7e02f2941ad4992f625fc3f.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/07/07748249e2d63ca0c206e5511b4f76e83aab1563.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/cf/cf412fdd3c0c2f1c6695afe995e5b0407ee80f7c.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/e3/e3ee62c1f67db1da85725d21288b0723fb49a298.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/bc/bc618c01f836b0960ffc639ac6a311a057d6590b.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/1b/1b565cfdc2627d315e9f9c07100e7b1e9ca6d05c.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/c5/c59ae19a626d766cdb61aa68e66fb434829b9b80.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/9e/9e1fa747e09a107ac0fe835470c3e887c66cc935.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/33/3351552c3e50b25b60dd6ec6f538e752330437c7.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/46/46eff8a8cd24ebee116ca4c22a1c8e38d55d98ca.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/39/391c16ea4fb76cdfb1c82d1f8d2a00ebeaf29e5e.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/d2/d2a1ddb799462ca1e82152a69aa95276df4234a4.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/d7/d7ebb4b71d657c023d94632c146fee45bad48817.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/d8/d81aab4155825ee0050ffad9f4e75b3c830737d4.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/b4/b413d7ad34eb2776e81b2badf121bce3c21306e1.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/e2/e2f9c09dd8baca64705e253d19972dd1c5022ab3.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/5a/5a7331273adeeb75cd340cc43cfdce489316e903.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/cc/cca8185474538e658345c0bb828d1ec55bdabe10.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/cc/cc7a7fd22fd62bafc5eb63094f2c5a1aca9f7d7b.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/1f/1ffc91b7d93dabb6ef05fa67c0497c3315be73a1.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/2d/2d1f1cac31c6b47e68bfb9c5334a38bbeb985a20.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/1b/1b3c07356490407dffe38124a57aa8970fa35afb.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/d5/d5722eb5cd02b74539d844dec067a354dff14cf1.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/81/812c08c365136b650563e3e6fa6be0b632c37465.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/db/db448801276896695e3a9221a924baab8c4d32ef.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/1a/1ab8d666561756b2c7b29faf1b94eb798e34304e.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/6f/6fca296441468aa982d3836080f72e9c0b3a8989.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/d8/d8d5afda0e4968a334825adc323f705a9b229fc9.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/6d/6d96f860497701bbbed5274699e4a3d0d3f082ca.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/d7/d731a73c5b2c0b7e93e392a360642eb3ceecabca.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/ca/ca669ab6d3338ad107bedec1d604e9ffa90a108e.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/e8/e8983958f8bddd67379b60d869f4499aa720f202.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/11/118234bd9bb6bb23889481231d10e8d1d5311a56.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/60/600f0de44cabff851009b796089a80baf9d05c46.js'
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js" loaded.
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/a2/a285254399b65dadb330108c41155d3e7a9c93c0.js'
+2023-3-11 18:48:53-debug: Invalidating 'pack:///chunks/8f/8f33d25952a44dc4521fbd4124a2558190d36178.js'
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/07/07748249e2d63ca0c206e5511b4f76e83aab1563.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register ShenMuManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/e3/e3ee62c1f67db1da85725d21288b0723fb49a298.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register livingSystemManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register combatConfigManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/c5/c59ae19a626d766cdb61aa68e66fb434829b9b80.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/cf/cf412fdd3c0c2f1c6695afe995e5b0407ee80f7c.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register BingPerManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/93/93b3e14c65c29642a7e02f2941ad4992f625fc3f.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/9e/9e1fa747e09a107ac0fe835470c3e887c66cc935.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register targetManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register GuangziPerManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/d7/d7ebb4b71d657c023d94632c146fee45bad48817.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/d2/d2a1ddb799462ca1e82152a69aa95276df4234a4.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register PaoPerManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register sureComponent
+2023-3-11 18:48:53-debug: [[Executor]] Register updateComponent
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/d8/d81aab4155825ee0050ffad9f4e75b3c830737d4.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register DanPerManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/39/391c16ea4fb76cdfb1c82d1f8d2a00ebeaf29e5e.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register dijiTargetManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/46/46eff8a8cd24ebee116ca4c22a1c8e38d55d98ca.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/1b/1b565cfdc2627d315e9f9c07100e7b1e9ca6d05c.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register diji
+2023-3-11 18:48:53-debug: [[Executor]] Register BulletPerManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/bc/bc618c01f836b0960ffc639ac6a311a057d6590b.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/33/3351552c3e50b25b60dd6ec6f538e752330437c7.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/cc/cc7a7fd22fd62bafc5eb63094f2c5a1aca9f7d7b.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register KongperManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register FengyiPerManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register ToolStateManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register PaoState
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/cc/cca8185474538e658345c0bb828d1ec55bdabe10.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register blockControlLeftManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/b4/b413d7ad34eb2776e81b2badf121bce3c21306e1.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/5a/5a7331273adeeb75cd340cc43cfdce489316e903.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register blockControlRightManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/e2/e2f9c09dd8baca64705e253d19972dd1c5022ab3.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/1b/1b3c07356490407dffe38124a57aa8970fa35afb.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register canvas
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/d5/d5722eb5cd02b74539d844dec067a354dff14cf1.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register createFengManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/1f/1ffc91b7d93dabb6ef05fa67c0497c3315be73a1.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register createSoldier
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/2d/2d1f1cac31c6b47e68bfb9c5334a38bbeb985a20.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register dijiDeathPerManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register infoManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/81/812c08c365136b650563e3e6fa6be0b632c37465.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/db/db448801276896695e3a9221a924baab8c4d32ef.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register loadManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/d8/d8d5afda0e4968a334825adc323f705a9b229fc9.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/6f/6fca296441468aa982d3836080f72e9c0b3a8989.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register locationPyManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/1a/1ab8d666561756b2c7b29faf1b94eb798e34304e.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register toolPyManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/6d/6d96f860497701bbbed5274699e4a3d0d3f082ca.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register middleManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/ca/ca669ab6d3338ad107bedec1d604e9ffa90a108e.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register test
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/a2/a285254399b65dadb330108c41155d3e7a9c93c0.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/d7/d731a73c5b2c0b7e93e392a360642eb3ceecabca.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register pao
+2023-3-11 18:48:53-debug: [[Executor]] Register scrollControl
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/e8/e8983958f8bddd67379b60d869f4499aa720f202.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register talkManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register selectToolManeger
+2023-3-11 18:48:53-debug: [[Executor]] Register tryAgain
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/11/118234bd9bb6bb23889481231d10e8d1d5311a56.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Register workPyManeger
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/8f/8f33d25952a44dc4521fbd4124a2558190d36178.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/07/07748249e2d63ca0c206e5511b4f76e83aab1563.js" loaded.
+2023-3-11 18:48:53-debug: [[Executor]] Module "pack:///chunks/60/600f0de44cabff851009b796089a80baf9d05c46.js" loaded.
+2023-3-11 18:48:53-debug: // ---- build task 加载刷新项目脚本 ---- (43ms)
+2023-3-11 18:48:53-debug: 查询 Asset Bundle start6%
+2023-3-11 18:48:53-debug: run build task 加载刷新项目脚本 success in 43 ms √6%
+2023-3-11 18:48:53-debug: Process: heapTotal 205.21MB heapUsed 195.87MB rss 226.52MB
+2023-3-11 18:48:53-debug: // ---- build task 查询 Asset Bundle ----
+2023-3-11 18:48:53-debug: // ---- build task 查询 Asset Bundle ---- (14ms)
+2023-3-11 18:48:53-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2023-3-11 18:48:53-debug: Process: heapTotal 205.21MB heapUsed 196.00MB rss 226.55MB
+2023-3-11 18:48:53-debug: run build task 查询 Asset Bundle success in 14 ms √7%
+2023-3-11 18:48:53-debug: 查询使用的资源以及资源包配置 start7%
+2023-3-11 18:48:53-debug: Number of scenes: 3
+2023-3-11 18:48:53-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,1baf0fc9-befa-459c-8bdd-af1a450a0319,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,620b6bf3-0369-4560-837f-2a2c00b73c26,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,1d08ef62-a503-4ce2-8b9a-46c90873f7d3
+2023-3-11 18:48:53-debug: Number of assets: 234
+2023-3-11 18:48:53-debug: Number of asset bundle: 3
+2023-3-11 18:48:53-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2023-3-11 18:48:53-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (85ms)
+2023-3-11 18:48:53-debug: run build task 查询使用的资源以及资源包配置 success in 85 ms √8%
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 197.79MB rss 233.68MB
+2023-3-11 18:48:53-debug: 整理脚本分组与脚本数据 start8%
+2023-3-11 18:48:53-debug: sort script group...
+2023-3-11 18:48:53-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √9%
+2023-3-11 18:48:53-debug: // ---- build task 整理纹理压缩任务 ----
+2023-3-11 18:48:53-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2023-3-11 18:48:53-debug: 整理纹理压缩任务 start9%
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 197.86MB rss 233.68MB
+2023-3-11 18:48:53-debug: Number of image-compress task: 0
+2023-3-11 18:48:53-debug: // ---- build task 初步划分 JSON 合并分组 ----
+2023-3-11 18:48:53-debug: run build task 整理纹理压缩任务 success in 52 ms √11%
+2023-3-11 18:48:53-debug: 初步划分 JSON 合并分组 start11%
+2023-3-11 18:48:53-debug: // ---- build task 整理纹理压缩任务 ---- (52ms)
+2023-3-11 18:48:53-debug: Number of json group: 60
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 198.34MB rss 233.82MB
+2023-3-11 18:48:53-debug: 整理合并压缩 Texture2D 的 JSON 数据 start12%
+2023-3-11 18:48:53-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ----
+2023-3-11 18:48:53-debug: // ---- build task 初步划分 JSON 合并分组 ---- (2ms)
+2023-3-11 18:48:53-debug: run build task 初步划分 JSON 合并分组 success in 2 ms √12%
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 198.75MB rss 233.82MB
+2023-3-11 18:48:53-debug: run build task 整理合并压缩 Texture2D 的 JSON 数据 success in 2 ms √13%
+2023-3-11 18:48:53-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ---- (2ms)
+2023-3-11 18:48:53-debug: // ---- build task 收集 importMap 信息 ----
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 198.86MB rss 234.06MB
+2023-3-11 18:48:53-debug: 收集 importMap 信息 start13%
+2023-3-11 18:48:53-debug: run build task 收集 importMap 信息 success in 0 ms √14%
+2023-3-11 18:48:53-debug: // ---- build task native：onBeforeBuildAssets ----
+2023-3-11 18:48:53-debug: native:(onBeforeBuildAssets) start...14%
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 198.92MB rss 234.05MB
+2023-3-11 18:48:53-debug: localization-editor:(onBeforeBuildAssets) start...16%
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 198.98MB rss 234.05MB
+2023-3-11 18:48:53-debug: native:(onBeforeBuildAssets) in 0 ms16%
+2023-3-11 18:48:53-debug: // ---- build task localization-editor：onBeforeBuildAssets ----
+2023-3-11 18:48:53-debug: // ---- build task localization-editor：onBeforeBuildAssets ---- (6ms)
+2023-3-11 18:48:53-debug: // ---- build task 构建自动图集 ----
+2023-3-11 18:48:53-debug: localization-editor:(onBeforeBuildAssets) in 6 ms17%
+2023-3-11 18:48:53-debug: 构建自动图集 start17%
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 199.02MB rss 234.05MB
+2023-3-11 18:48:53-debug: Start collect pack info
+2023-3-11 18:48:53-debug: // ---- build task 构建自动图集 ---- (1ms)
+2023-3-11 18:48:53-debug: run build task 构建自动图集 success in 1 ms √23%
+2023-3-11 18:48:53-debug: 图片拷贝压缩任务 start23%
+2023-3-11 18:48:53-debug: // ---- build task 图片拷贝压缩任务 ----
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 199.08MB rss 234.05MB
+2023-3-11 18:48:53-debug: // ---- build task 将资源拷贝到指定位置 ----
+2023-3-11 18:48:53-debug: Process: heapTotal 211.15MB heapUsed 199.11MB rss 234.06MB
+2023-3-11 18:48:53-debug: 将资源拷贝到指定位置 start30%
+2023-3-11 18:48:53-debug: run build task 图片拷贝压缩任务 success in 0 ms √30%
+2023-3-11 18:48:53-debug: Asset Bundle(internal) handle assets: 36
+2023-3-11 18:48:53-debug: Asset Bundle(resources) handle assets: 162
+2023-3-11 18:48:53-debug: Asset Bundle(main) handle assets: 85
+2023-3-11 18:48:53-debug: 将分组后的 json 与散文件构建到指定位置 start37%
+2023-3-11 18:48:53-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ----
+2023-3-11 18:48:53-debug: // ---- build task 将资源拷贝到指定位置 ---- (49ms)
+2023-3-11 18:48:53-debug: run build task 将资源拷贝到指定位置 success in 49 ms √37%
+2023-3-11 18:48:53-debug: Process: heapTotal 211.40MB heapUsed 197.99MB rss 234.16MB
+2023-3-11 18:48:53-debug: Json group(06efdbec0) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(04c602246) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(069aae005) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(0be61df76) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(02ddcb2dc) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(099e475bf) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(0fa3942b4) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(07c591bfe) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(09506b8b4) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(0d813c55a) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(098d6f61a) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(05641ca82) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(05a0c5a74) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(08c40150a) compile success，json number: 6
+2023-3-11 18:48:53-debug: Json group(0136d7281) compile success，json number: 6
+2023-3-11 18:48:54-debug: Json group(05771f62b) compile success，json number: 6
+2023-3-11 18:48:54-debug: Json group(010e25bd1) compile success，json number: 6
+2023-3-11 18:48:54-debug: run build task 将分组后的 json 与散文件构建到指定位置 success in 427 ms √43%
+2023-3-11 18:48:54-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ---- (427ms)
+2023-3-11 18:48:54-debug: 打包脚本 start43%
+2023-3-11 18:48:54-debug: // ---- build task 打包脚本 ----
+2023-3-11 18:48:54-debug: Process: heapTotal 208.07MB heapUsed 196.22MB rss 228.97MB
+2023-3-11 18:48:54-debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2023-3-11 18:48:55-debug: 构建项目脚本 start...43%
+2023-3-11 18:48:55-debug: Process: heapTotal 211.84MB heapUsed 198.40MB rss 233.27MB
+2023-3-11 18:48:55-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2023-3-11 18:48:57-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/diji.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts
+2023-3-11 18:48:57-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts
+2023-3-11 18:49:00-debug: Copy externalScripts success!
+2023-3-11 18:49:00-debug: excute-script over with build-script 4463ms
+2023-3-11 18:49:00-debug: 构建项目脚本 in (4473 ms) √43%
+2023-3-11 18:49:00-debug: Process: heapTotal 211.84MB heapUsed 198.84MB rss 233.40MB
+2023-3-11 18:49:00-debug: 构建引擎脚本 start...43%
+2023-3-11 18:49:00-log: Run build task(build-engine) in child, see: chrome://inspect/#devices
+2023-3-11 18:49:00-debug: Engine cache ({link(C:\Users\天下第~1\AppData\Local\Temp\CocosCreator\3.6.2\builder\engine\da7dcc980acb1fe5f3b660e69638e532)}) does not exist.
+2023-3-11 18:49:00-log: [build-engine]Build-engine options: {  "engine": "D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine",  "platform": "NATIVE",  "moduleFormat": 2,  "compress": true,  "split": false,  "ammoJsWasm": "js",  "assetURLFormat": "runtime-resolved",  "noDeprecatedFeatures": false,  "engineName": "cocos-js",  "sourceMaps": false,  "features": [    "2d",    "3d",    "animation",    "audio",    "base",    "dragon-bones",    "gfx-webgl",    "gfx-webgl2",    "intersection-2d",    "marionette",    "particle",    "particle-2d",    "physics-2d-builtin",    "physics-ammo",    "primitive",    "profiler",    "skeletal-animation",    "spine",    "terrain",    "tiled-map",    "tween",    "ui",    "video",    "webview",    "xr"  ],  "loose": true,  "mode": "BUILD",  "flags": {    "DEBUG": false,    "UI_GPU_DRIVEN": false  },  "name": "cocos-js",  "incremental": "C:\\Users\\天下第~1\\AppData\\Local\\Temp\\CocosCreator\\3.6.2\\builder\\engine\\da7dcc980acb1fe5f3b660e69638e532.watch-files.json",  "out": "C:\\Users\\天下第~1\\AppData\\Local\\Temp\\CocosCreator\\3.6.2\\builder\\engine\\da7dcc980acb1fe5f3b660e69638e532",  "buildTimeConstants": {    "HTML5": false,    "NATIVE": true,    "WECHAT": false,    "BAIDU": false,    "XIAOMI": false,    "ALIPAY": false,    "BYTEDANCE": false,    "OPPO": false,    "VIVO": false,    "HUAWEI": false,    "COCOSPLAY": false,    "QTT": false,    "LINKSURE": false,    "EDITOR": false,    "PREVIEW": false,    "BUILD": true,    "TEST": false,    "DEBUG": false,    "SERVER_MODE": false,    "DEV": false,    "MINIGAME": false,    "RUNTIME_BASED": false,    "SUPPORT_JIT": true,    "JSB": true,    "NOT_PACK_PHYSX_LIBS": false,    "NET_MODE": 0,    "WEBGPU": false  },  "metaFile": "C:\\Users\\天下第~1\\AppData\\Local\\Temp\\CocosCreator\\3.6.2\\builder\\engine\\da7dcc980acb1fe5f3b660e69638e532.meta\\meta.json",  "targets": "chrome 80"}
+2023-3-11 18:49:00-log: [build-engine]Module source "internal-constants":function tryDefineGlobal (name, value) {    const _global = typeof window === 'undefined' ? global : window;    if (typeof _global[name] === 'undefined') {        return (_global[name] = value);    } else {        // eslint-disable-next-line @typescript-eslint/no-unsafe-return        return _global[name];    }}export const HTML5 = false;export const NATIVE = true;export const WECHAT = false;tryDefineGlobal('CC_WECHAT', false);export const BAIDU = false;tryDefineGlobal('CC_BAIDU', false);export const XIAOMI = false;tryDefineGlobal('CC_XIAOMI', false);export const ALIPAY = false;tryDefineGlobal('CC_ALIPAY', false);export const BYTEDANCE = false;tryDefineGlobal('CC_BYTEDANCE', false);export const OPPO = false;tryDefineGlobal('CC_OPPO', false);export const VIVO = false;tryDefineGlobal('CC_VIVO', false);export const HUAWEI = false;tryDefineGlobal('CC_HUAWEI', false);export const COCOSPLAY = false;tryDefineGlobal('CC_COCOSPLAY', false);export const QTT = false;tryDefineGlobal('CC_QTT', false);export const LINKSURE = false;tryDefineGlobal('CC_LINKSURE', false);export const EDITOR = false;tryDefineGlobal('CC_EDITOR', false);export const PREVIEW = false;tryDefineGlobal('CC_PREVIEW', false);export const BUILD = true;tryDefineGlobal('CC_BUILD', true);export const TEST = false;tryDefineGlobal('CC_TEST', false);export const DEBUG = false;tryDefineGlobal('CC_DEBUG', false);export const SERVER_MODE = false;export const DEV = false;tryDefineGlobal('CC_DEV', false);export const MINIGAME = false;tryDefineGlobal('CC_MINIGAME', false);export const RUNTIME_BASED = false;tryDefineGlobal('CC_RUNTIME_BASED', false);export const SUPPORT_JIT = true;tryDefineGlobal('CC_SUPPORT_JIT', true);export const JSB = true;tryDefineGlobal('CC_JSB', true);export const NOT_PACK_PHYSX_LIBS = false;export const NET_MODE = 0;export const WEBGPU = false;Module source "cc":export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\2d.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\3d.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\animation.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\audio.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\base.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\dragon-bones.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\gfx-webgl.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\gfx-webgl2.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\intersection-2d.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\particle.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\particle-2d.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\physics-2d-builtin.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\physics-2d-framework.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\physics-ammo.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\physics-framework.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\primitive.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\profiler.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\skeletal-animation.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\spine.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\terrain.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\tiled-map.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\tween.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\ui.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\video.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\webview.ts';export * from 'D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\exports\\xr.ts';
+2023-3-11 18:49:00-log: [build-engine]Redirect module internal:native to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\native-binding\impl.ts
+2023-3-11 18:49:01-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\dragon-bones\index.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\dragon-bones\index.jsb.ts
+2023-3-11 18:49:01-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\spine\index.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\spine\index.jsb.ts
+2023-3-11 18:49:01-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\material.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\material.jsb.ts
+2023-3-11 18:49:01-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\node.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\node.jsb.ts
+2023-3-11 18:49:01-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\assets\mesh.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\assets\mesh.jsb.ts
+2023-3-11 18:49:01-log: [build-engine]Redirect module pal/system-info to D:\software\cocos_v3.6.2\resources\resources\3d\engine\pal\system-info\native\system-info.ts
+2023-3-11 18:49:02-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\root.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\root.jsb.ts
+2023-3-11 18:49:02-log: [build-engine]Redirect module pal/env to D:\software\cocos_v3.6.2\resources\resources\3d\engine\pal\env\native\env.tsRedirect module pal/pacer to D:\software\cocos_v3.6.2\resources\resources\3d\engine\pal\pacer\pacer-native.ts
+2023-3-11 18:49:02-log: [build-engine]Redirect module pal/input to D:\software\cocos_v3.6.2\resources\resources\3d\engine\pal\input\native\index.ts
+2023-3-11 18:49:03-log: [build-engine]Redirect module pal/audio to D:\software\cocos_v3.6.2\resources\resources\3d\engine\pal\audio\native\player.ts
+2023-3-11 18:49:04-log: [build-engine]Redirect module pal/screen-adapter to D:\software\cocos_v3.6.2\resources\resources\3d\engine\pal\screen-adapter\native\screen-adapter.ts
+2023-3-11 18:49:04-log: [build-engine]Redirect module pal/minigame to D:\software\cocos_v3.6.2\resources\resources\3d\engine\pal\minigame\non-minigame.ts
+2023-3-11 18:49:06-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\index.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\index.jsb.ts
+2023-3-11 18:49:06-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\gfx\index.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\gfx\index.jsb.ts
+2023-3-11 18:49:06-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\models\morph-model.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\models\morph-model.jsb.ts
+2023-3-11 18:49:07-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\program-lib.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\program-lib.jsb.ts
+2023-3-11 18:49:07-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\pass.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\pass.jsb.ts
+2023-3-11 18:49:07-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\render-scene.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\render-scene.jsb.ts
+2023-3-11 18:49:07-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\material-instance.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\material-instance.jsb.ts
+2023-3-11 18:49:09-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\pipeline\index.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\pipeline\index.jsb.ts
+2023-3-11 18:49:09-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\index.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\index.jsb.ts
+2023-3-11 18:49:15-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\pipeline\render-pipeline.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\pipeline\render-pipeline.jsb.ts
+2023-3-11 18:49:15-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\builtin\builtin-res-mgr.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\builtin\builtin-res-mgr.jsb.ts
+2023-3-11 18:49:15-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\scene-asset.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\scene-asset.jsb.ts
+2023-3-11 18:49:15-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\asset.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\asset.jsb.ts
+2023-3-11 18:49:15-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\texture-2d.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\texture-2d.jsb.ts
+2023-3-11 18:49:15-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\image-asset.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\image-asset.jsb.ts
+2023-3-11 18:49:15-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\rendering-sub-mesh.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\rendering-sub-mesh.jsb.ts
+2023-3-11 18:49:16-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\submodel.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\submodel.jsb.ts
+2023-3-11 18:49:16-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\2d\renderer\native-2d.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\2d\renderer\native-2d.jsb.ts
+2023-3-11 18:49:17-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\misc\create-mesh.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\misc\create-mesh.jsb.ts
+2023-3-11 18:49:17-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\gfx\base\pipeline-state.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\gfx\base\pipeline-state.jsb.ts
+2023-3-11 18:49:17-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\effect-asset.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\effect-asset.jsb.ts
+2023-3-11 18:49:17-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\texture-base.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\texture-base.jsb.ts
+2023-3-11 18:49:17-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\base-node.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\base-node.jsb.ts
+2023-3-11 18:49:18-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\index.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\index.jsb.ts
+2023-3-11 18:49:18-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\camera.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\camera.jsb.ts
+2023-3-11 18:49:19-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\spine\lib\spine-core.js
+2023-3-11 18:49:19-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\spine\lib\spine-core.js
+2023-3-11 18:49:19-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\assets\skeleton.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\assets\skeleton.jsb.ts
+2023-3-11 18:49:20-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\native-pools.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\core\native-pools.jsb.ts
+2023-3-11 18:49:20-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\buffer-asset.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\buffer-asset.jsb.ts
+2023-3-11 18:49:22-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\scene.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\scene.jsb.ts
+2023-3-11 18:49:22-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\scene-globals.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\scene-graph\scene-globals.jsb.ts
+2023-3-11 18:49:23-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\software\cocos_v3.6.2\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
+2023-3-11 18:49:23-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\software\cocos_v3.6.2\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
+2023-3-11 18:49:23-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\render-texture.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\render-texture.jsb.ts
+2023-3-11 18:49:24-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\texture-cube.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\texture-cube.jsb.ts
+2023-3-11 18:49:24-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\simple-texture.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\assets\simple-texture.jsb.ts
+2023-3-11 18:49:24-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\models\skinning-model.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\models\skinning-model.jsb.ts
+2023-3-11 18:49:24-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\models\baked-skinning-model.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\3d\models\baked-skinning-model.jsb.ts
+2023-3-11 18:49:25-log: [build-engine]Redirect module D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\model.ts to D:\software\cocos_v3.6.2\resources\resources\3d\engine\cocos\core\renderer\scene\model.jsb.ts
+2023-3-11 18:49:27-log: [build-engine]==== Performance ===={"# BUILD":[27421.2697,97207624,506561824],"## generate module graph":[25517.2751,73437512,482793936],"- plugin 0 (@cocos/build-engine|external-asset) - resolveId":[8.080099999999735,857416,498305300],"- plugin 0 (@cocos/build-engine|external-asset) - resolveId (async)":[29.12019999999985,2552472,498306312],"- plugin 1 (@cocos/build-engine|code-asset) - resolveId":[6.6747000000000885,234672,498309448],"- plugin 2 (@cocos/build-engine|load-asset) - resolveId":[5.777799999999806,760044,498314932],"- plugin 2 (@cocos/build-engine|load-asset) - resolveId (async)":[55.97039999999988,-16833004,498315944],"- plugin 3 (@cocos/build-engine|module-overrides) - resolveId":[5.745099999999924,234668,498319080],"- plugin 4 (virtual) - resolveId":[25.02169999999984,4459744,498332804],"- plugin 5 (ts-paths) - resolveId":[8.08370000000004,-5635524,498335940],"- plugin 6 (node-resolve) - resolveId":[45.49069999999992,9429848,498361980],"- plugin 6 (node-resolve) - resolveId (async)":[172335.24339999972,-4016004420,499434828],"load modules":[166182.59180000002,2253492112,496811020],"- plugin 0 (@cocos/build-engine|external-asset) - load":[2.2567000000000017,187616,496353296],"- plugin 0 (@cocos/build-engine|external-asset) - load (async)":[1.5957000000000137,180944,496353580],"- plugin 1 (@cocos/build-engine|code-asset) - load":[10.34300000000001,721144,496354748],"- plugin 1 (@cocos/build-engine|code-asset) - load (async)":[1.5875000000000221,177680,496355032],"- plugin 2 (@cocos/build-engine|load-asset) - load":[1.4936000000000083,194496,496355588],"- plugin 2 (@cocos/build-engine|load-asset) - load (async)":[1.1933000000000045,177460,496355872],"- plugin 3 (@cocos/build-engine|module-overrides) - load":[8.238899999999992,447564,496356460],"- plugin 4 (virtual) - load":[1.2457000000000038,50848,496356852],"- plugin 7 (json) - transform":[4.68450000000001,659864,496816292],"- plugin 8 (commonjs) - transform":[1310.6430000000032,-13034972,496819116],"- plugin 9 (babel) - transform":[323.47570000000064,12746996,496854032],"generate ast":[2857.436500000005,-259206804,497495536],"analyse ast":[1327.9806000000003,94750332,498281844],"- plugin 6 (node-resolve) - load":[1.3579000000000068,50484,496357284],"- plugin 8 (commonjs) - load":[4.6854,624940,496358464],"- plugin 9 (babel) - load":[106.26499999999918,4937448,496358856],"- plugin 9 (babel) - transform (async)":[14566.259499999991,565291152,517270044],"- plugin 8 (commonjs) - resolveId":[0.7836999999999998,14932,477260644],"- plugin 9 (babel) - resolveId":[0.3605000000000001,8880,477261060],"- plugin 8 (commonjs) - resolveId (async)":[0.712,25004,230841728],"## sort modules":[368.638,17061432,499855512],"## mark included statements":[1535.2393,6705220,506560888],"treeshaking pass 1":[280.7593,5333824,504372816],"treeshaking pass 2":[228.9908,-1771376,502601588],"treeshaking pass 3":[167.3524,-1820820,500780916],"treeshaking pass 4":[102.8124,5363988,506145052],"treeshaking pass 5":[89.2379,-2389344,503755856],"treeshaking pass 6":[185.2157,2197324,505953328],"treeshaking pass 7":[148.169,-4376472,501577004],"treeshaking pass 8":[108.3155,5356520,506933672],"treeshaking pass 9":[100.9232,-36948,506898436],"treeshaking pass 10":[101.2225,-337844,506560740]}====             ====
+2023-3-11 18:49:51-debug: excute-script over with build-engine 51442ms
+2023-3-11 18:49:51-debug: 构建引擎脚本 in (51493 ms) √43%
+2023-3-11 18:49:51-debug: // ---- build task 打包脚本 ---- (57872ms)
+2023-3-11 18:49:51-debug: run build task 打包脚本 success in 57872 ms √50%
+2023-3-11 18:49:51-debug: 压缩 Zip Bundle start50%
+2023-3-11 18:49:51-debug: // ---- build task 压缩 Zip Bundle ----
+2023-3-11 18:49:51-debug: Process: heapTotal 211.84MB heapUsed 199.48MB rss 233.16MB
+2023-3-11 18:49:51-debug: run build task 压缩 Zip Bundle success in 0 ms √57%
+2023-3-11 18:49:51-debug: native:(onAfterBuildAssets) start...57%
+2023-3-11 18:49:51-debug: Process: heapTotal 211.84MB heapUsed 199.53MB rss 233.16MB
+2023-3-11 18:49:51-debug: // ---- build task native：onAfterBuildAssets ----
+2023-3-11 18:49:51-debug: // ---- build task native：onAfterBuildAssets ---- (1ms)
+2023-3-11 18:49:51-debug: 给所有的资源加上 MD5 后缀 start59%
+2023-3-11 18:49:51-debug: native:(onAfterBuildAssets) in 1 ms59%
+2023-3-11 18:49:51-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2023-3-11 18:49:51-debug: Process: heapTotal 211.84MB heapUsed 199.58MB rss 233.13MB
+2023-3-11 18:49:51-debug: Process: heapTotal 211.84MB heapUsed 199.62MB rss 233.11MB
+2023-3-11 18:49:51-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2023-3-11 18:49:51-debug: run build task 给所有的资源加上 MD5 后缀 success in 0 ms √69%
+2023-3-11 18:49:51-debug: 初始化 settings.json 与 config.json start69%
+2023-3-11 18:49:51-debug: builder.tasks.settings.macro start69%
+2023-3-11 18:49:51-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2023-3-11 18:49:51-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √69%
+2023-3-11 18:49:51-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2023-3-11 18:49:51-debug: // ---- build task builder.tasks.settings.macro ----
+2023-3-11 18:49:51-debug: Process: heapTotal 211.84MB heapUsed 199.68MB rss 233.11MB
+2023-3-11 18:49:52-debug: // ---- build task builder.tasks.settings.macro ---- (5ms)
+2023-3-11 18:49:52-debug: run build task builder.tasks.settings.macro success in 5 ms √70%
+2023-3-11 18:49:52-debug: 整理部分构建选项内数据到 settings.json start70%
+2023-3-11 18:49:52-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2023-3-11 18:49:52-debug: Process: heapTotal 211.84MB heapUsed 199.72MB rss 233.11MB
+2023-3-11 18:49:52-debug: // ---- build task custom joint texture layouts ----
+2023-3-11 18:49:52-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2023-3-11 18:49:52-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms √71%
+2023-3-11 18:49:52-debug: Process: heapTotal 211.84MB heapUsed 199.80MB rss 233.16MB
+2023-3-11 18:49:52-debug: custom joint texture layouts start71%
+2023-3-11 18:49:52-debug: custom joint physics start71%
+2023-3-11 18:49:52-debug: // ---- build task custom joint physics ----
+2023-3-11 18:49:52-debug: // ---- build task custom joint texture layouts ---- (5ms)
+2023-3-11 18:49:52-debug: Process: heapTotal 211.84MB heapUsed 199.84MB rss 233.16MB
+2023-3-11 18:49:52-debug: run build task custom joint texture layouts success in 5 ms √71%
+2023-3-11 18:49:52-debug: run build task custom joint physics success in 0 ms √72%
+2023-3-11 18:49:52-debug: // ---- build task 填充脚本数据到 settings.json ----
+2023-3-11 18:49:52-debug: 填充脚本数据到 settings.json start72%
+2023-3-11 18:49:52-debug: Process: heapTotal 211.84MB heapUsed 199.88MB rss 233.16MB
+2023-3-11 18:49:52-debug: // ---- build task 填充场景数据到 settings.json ----
+2023-3-11 18:49:52-debug: run build task 填充脚本数据到 settings.json success in 0 ms √72%
+2023-3-11 18:49:52-debug: Process: heapTotal 205.09MB heapUsed 196.99MB rss 226.34MB
+2023-3-11 18:49:52-debug: 填充场景数据到 settings.json start72%
+2023-3-11 18:49:52-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2023-3-11 18:49:52-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start73%
+2023-3-11 18:49:52-debug: run build task 填充场景数据到 settings.json success in 1 ms √73%
+2023-3-11 18:49:52-debug: Process: heapTotal 205.09MB heapUsed 197.03MB rss 226.34MB
+2023-3-11 18:49:52-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2023-3-11 18:49:52-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (1ms)
+2023-3-11 18:49:52-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 1 ms √73%
+2023-3-11 18:49:52-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start73%
+2023-3-11 18:49:52-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2023-3-11 18:49:52-debug: Process: heapTotal 205.09MB heapUsed 197.18MB rss 226.60MB
+2023-3-11 18:49:52-debug: options.md5Cache is false.
+2023-3-11 18:49:52-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2023-3-11 18:49:52-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √74%
+2023-3-11 18:49:52-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2023-3-11 18:49:52-debug: cocos-service:(onBeforeCompressSettings) start...74%
+2023-3-11 18:49:52-debug: Process: heapTotal 205.09MB heapUsed 197.25MB rss 226.54MB
+2023-3-11 18:49:52-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (7ms)
+2023-3-11 18:49:52-debug: 生成 import-map.json start76%
+2023-3-11 18:49:52-debug: // ---- build task 生成 import-map.json ----
+2023-3-11 18:49:52-debug: cocos-service:(onBeforeCompressSettings) in 7 ms76%
+2023-3-11 18:49:52-debug: Process: heapTotal 205.09MB heapUsed 197.31MB rss 226.28MB
+2023-3-11 18:49:52-debug: // ---- build task 压缩 config.json 与 settings.json ----
+2023-3-11 18:49:52-debug: 压缩 config.json 与 settings.json start77%
+2023-3-11 18:49:52-debug: // ---- build task 生成 import-map.json ---- (2ms)
+2023-3-11 18:49:52-debug: Process: heapTotal 205.09MB heapUsed 197.35MB rss 226.28MB
+2023-3-11 18:49:52-debug: run build task 生成 import-map.json success in 2 ms √77%
+2023-3-11 18:49:52-debug: run build task 压缩 config.json 与 settings.json success in 2 ms √78%
+2023-3-11 18:49:52-debug: // ---- build task 保存 config.json ----
+2023-3-11 18:49:52-debug: // ---- build task 压缩 config.json 与 settings.json ---- (2ms)
+2023-3-11 18:49:52-debug: 保存 config.json start78%
+2023-3-11 18:49:52-debug: Process: heapTotal 204.84MB heapUsed 197.01MB rss 225.57MB
+2023-3-11 18:49:52-debug: run build task 保存 config.json success in 3 ms √79%
+2023-3-11 18:49:52-debug: 保存 settings.json start79%
+2023-3-11 18:49:52-debug: // ---- build task 保存 settings.json ----
+2023-3-11 18:49:52-debug: Process: heapTotal 204.84MB heapUsed 197.11MB rss 225.67MB
+2023-3-11 18:49:52-debug: // ---- build task 保存 config.json ---- (3ms)
+2023-3-11 18:49:52-debug: // ---- build task 保存 settings.json ---- (2ms)
+2023-3-11 18:49:52-debug: run build task 保存 settings.json success in 2 ms √80%
+2023-3-11 18:49:52-debug: // ---- build task 整理静态模板文件 ----
+2023-3-11 18:49:52-debug: Process: heapTotal 204.84MB heapUsed 197.36MB rss 225.85MB
+2023-3-11 18:49:52-debug: 整理静态模板文件 start80%
+2023-3-11 18:49:52-debug: run build task 整理静态模板文件 success in 27 ms √81%
+2023-3-11 18:49:52-debug: native:(onAfterCompressSettings) start...81%
+2023-3-11 18:49:52-debug: // ---- build task 整理静态模板文件 ---- (27ms)
+2023-3-11 18:49:52-debug: // ---- build task native：onAfterCompressSettings ----
+2023-3-11 18:49:52-debug: Process: heapTotal 204.84MB heapUsed 197.74MB rss 226.23MB
+2023-3-11 18:49:52-debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME NewProject-001)","COCOS_X_PATH":"set(COCOS_X_PATH \"D:/software/cocos_v3.6.2/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_ANTIALIAS_FXAA":"set(ENABLE_ANTIALIAS_FXAA OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)","CC_USE_VULKAN":"set(CC_USE_VULKAN OFF)"}
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\build\windows\proj\settings.gradle
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\native\engine\win64/res/values/strings.xml
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\build\windows\proj\main.cpp
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\build\windows\proj\main.m
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\native\engine\win64/app/build.gradle
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\native\engine\win64/instantapp/AndroidManifest.xml
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\native\engine\win64/instantapp/build.gradle
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\native\engine\win64/entry/src/main/config.json
+2023-3-11 18:49:52-log: While replace template content, file D:\Gameproject\NewProject-001\native\engine\win64/app/AndroidManifest.xml
+2023-3-11 18:49:52-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2023-3-11 18:49:52-debug: cocos-service:(onAfterCompressSettings) start...82%
+2023-3-11 18:49:52-debug: // ---- build task native：onAfterCompressSettings ---- (41ms)
+2023-3-11 18:49:52-debug: native:(onAfterCompressSettings) in 41 ms82%
+2023-3-11 18:49:52-debug: Process: heapTotal 204.84MB heapUsed 197.39MB rss 225.87MB
+2023-3-11 18:49:52-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (6ms)
+2023-3-11 18:49:52-debug: native:(onAfterBuild) start...83%
+2023-3-11 18:49:52-debug: // ---- build task native：onAfterBuild ----
+2023-3-11 18:49:52-debug: Process: heapTotal 204.84MB heapUsed 197.57MB rss 226.43MB
+2023-3-11 18:49:52-debug: cocos-service:(onAfterCompressSettings) in 6 ms83%
+2023-3-11 18:49:52-log: selecting visual studio generator ...
+2023-3-11 18:50:00-log:  using Visual Studio 15 2017
+2023-3-11 18:50:00-log: run D:\software\cocos_v3.6.2\resources\tools\cmake\bin\cmake.exe -S"D:/Gameproject/NewProject-001/native/engine/win64" -B"D:/Gameproject/NewProject-001/build/windows/proj" -A x64 -DRES_DIR="D:/Gameproject/NewProject-001/build/windows" -DAPP_NAME="NewProject-001" 
+2023-3-11 18:50:00-log: [cmake] -- Building for: Visual Studio 15 2017
+2023-3-11 18:50:00-log: [cmake] -- Selecting Windows SDK version 10.0.17763.0 to target Windows 10.0.22621.
+2023-3-11 18:50:01-log: [cmake] -- The CXX compiler identification is MSVC 19.16.27045.0
+2023-3-11 18:50:01-log: [cmake] -- Detecting CXX compiler ABI info
+2023-3-11 18:50:02-log: [cmake] -- Detecting CXX compiler ABI info - done
+2023-3-11 18:50:02-log: [cmake] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe - skipped
+2023-3-11 18:50:02-log: [cmake] -- Detecting CXX compile features
+2023-3-11 18:50:02-log: [cmake] -- Detecting CXX compile features - done
+2023-3-11 18:50:03-log: [cmake] -- The C compiler identification is MSVC 19.16.27045.0
+2023-3-11 18:50:04-log: [cmake] -- The ASM compiler identification is MSVC
+2023-3-11 18:50:04-log: [cmake] -- Found assembler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe
+2023-3-11 18:50:04-log: [cmake] -- Detecting C compiler ABI info
+2023-3-11 18:50:05-log: [cmake] -- Detecting C compiler ABI info - done
+2023-3-11 18:50:05-log: [cmake] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx86/x64/cl.exe - skipped
+2023-3-11 18:50:05-log: [cmake] -- Detecting C compile features
+2023-3-11 18:50:05-log: [cmake] -- Detecting C compile features - done
+2023-3-11 18:50:05-log: [cmake] -- platform: Windows
+2023-3-11 18:50:05-log: [cmake] -- Ignore NO_WERROR
+2023-3-11 18:50:05-log: [cmake] -- OPTION BUILTIN_COCOS_X_PATH:	-- OPTION USE_BUILTIN_EXTERNAL:	OFF-- OPTION USE_MODULES:	OFF-- OPTION CC_USE_METAL:	-- OPTION CC_USE_GLES3:	ON-- OPTION CC_USE_GLES2:	ON-- OPTION CC_USE_VULKAN:	OFF-- OPTION CC_DEBUG_FORCE:	OFF-- OPTION USE_SE_V8:	ON-- OPTION USE_V8_DEBUGGER:	ON-- OPTION USE_V8_DEBUGGER_FORCE:	OFF-- OPTION USE_SE_SM:	OFF-- OPTION USE_SOCKET:	ON-- OPTION USE_AUDIO:	ON-- OPTION USE_EDIT_BOX:	ON-- OPTION USE_VIDEO:	OFF-- OPTION USE_WEBVIEW:	OFF-- OPTION USE_MIDDLEWARE:	ON-- OPTION USE_DRAGONBONES:	ON-- OPTION USE_SPINE:	ON-- OPTION USE_WEBSOCKET_SERVER:	OFF-- OPTION USE_PHYSICS_PHYSX:	OFF-- OPTION USE_JOB_SYSTEM_TBB:	OFF-- OPTION USE_JOB_SYSTEM_TASKFLOW:	OFF-- OPTION USE_XR:	OFF-- OPTION USE_SERVER_MODE:	OFF
+2023-3-11 18:50:05-log: [cmake] -- OPTION USE_CCACHE:	-- OPTION CCACHE_EXECUTABLE:	CCACHE_EXECUTABLE-NOTFOUND-- OPTION NODE_EXECUTABLE:	C:/Program Files/nodejs/node.exe-- OPTION NET_MODE:	0-- OPTION USE_REMOTE_LOG:	OFF-- platform path: 
+2023-3-11 18:50:05-log: [cmake] -- Try generating D:/Gameproject/NewProject-001/native/engine/win64/Pre-AutoLoadPlulgins.cmake
+2023-3-11 18:50:05-log: [cmake] --  execute C:/Program Files/nodejs/node.exe plugin_parser.js
+2023-3-11 18:50:05-log: [cmake] [searching plugins] directory D:/Gameproject/NewProject-001/extensions does not exist
+2023-3-11 18:50:05-log: [cmake] [searching plugins] no plugins found!
+2023-3-11 18:50:05-log: [cmake] -- Searching hook files Pre*.cmake or *Pre.cmake in D:/Gameproject/NewProject-001/native/engine/win64-- No plugins are loaded!
+2023-3-11 18:50:05-log: [cmake] -- Searching hook files Post*.cmake or *Post.cmake in D:/Gameproject/NewProject-001/native/engine/win64
+2023-3-11 18:50:05-log: [cmake] -- Configuring done
+2023-3-11 18:50:06-log: [cmake] -- Generating done
+2023-3-11 18:50:06-log: [cmake] -- Build files have been written to: D:/Gameproject/NewProject-001/build/windows/proj
+2023-3-11 18:50:06-debug: // ---- build task native：onAfterBuild ---- (14024ms)
+2023-3-11 18:50:06-debug: // ---- build task cocos-service：onAfterBuild ----
+2023-3-11 18:50:06-debug: Process: heapTotal 205.59MB heapUsed 198.30MB rss 226.78MB
+2023-3-11 18:50:06-debug: native:(onAfterBuild) in 14024 ms84%
+2023-3-11 18:50:06-debug: cocos-service:(onAfterBuild) start...84%
+2023-3-11 18:50:06-debug: // ---- build task cocos-service：onAfterBuild ---- (7ms)
+2023-3-11 18:50:06-debug: cocos-service:(onAfterBuild) in 7 ms86%
+2023-3-11 18:50:06-debug: build success in 73325 ms!
+2023-3-11 18:50:06-debug: builder:build-project-total (73325ms)
+2023-3-11 18:50:06-debug: ================================ Build Task (windows) Finished in (73331)ms ================================
+2023-3-11 18:50:11-log: [task:run]: init options success, 10%
+2023-3-11 18:50:11-debug: // ---- builder:run-build-stage-run ----
+2023-3-11 18:50:11-debug: Use build file cocos.compile.config.json in root(D:\Gameproject\NewProject-001\build\windows)
+2023-3-11 18:50:11-debug: init options success
+2023-3-11 18:50:11-debug: native:(run) start...
+2023-3-11 18:50:11-debug: // ---- build task native：run ----
+2023-3-11 18:50:11-log: [task:run]: native:(run) start..., 10%
+2023-3-11 18:50:11-warn: Error: [windows run] 'NewProject-001.exe' is not found within ' + D:\Gameproject\NewProject-001\build\windows\proj\Release!    at WindowsPackTool.run (D:\software\cocos_v3.6.2\resources\resources\3d\engine\scripts\native-pack-tool\source\platforms\windows.ts:141:19)    at NativePackToolManager.run (D:\software\cocos_v3.6.2\resources\resources\3d\engine\scripts\native-pack-tool\source\base\manager.ts:65:20)    at PackToolHandler.runTask (D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\native-utils\index.ccc:1:3008)    at BuildStageTask.run (D:\software\cocos_v3.6.2\resources\app.asar\modules\platform-extensions\extensions\native\dist\builder\hooks.ccc:1:6302)    at BuildStageTask._runPluginTask (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\stage-task-manager.ccc:1:2275)    at BuildStageTask.run (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\builder\stage-task-manager.ccc:1:1779)    at Ipc.<anonymous> (D:\software\cocos_v3.6.2\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:6684)
+2023-3-11 18:50:11-error: run package D:\Gameproject\NewProject-001\build\windows failed!
+2023-3-11 18:50:11-log: [task:run]: failed!

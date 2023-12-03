@@ -1,0 +1,65 @@
+[
+    1,
+    [
+        "173rzDCmtLirAL3Fi4hVge"
+    ],
+    [
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_props",
+                "_states",
+                "_defines"
+            ],
+            -1
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "default-trail-material",
+            [
+                {}
+            ],
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {}
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

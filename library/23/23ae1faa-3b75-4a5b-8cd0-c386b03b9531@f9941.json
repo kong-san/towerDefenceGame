@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "preIntroduce",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 739,
+      "height": 418
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 739,
+      "height": 418
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -369.5,
+        -209,
+        0,
+        369.5,
+        -209,
+        0,
+        -369.5,
+        209,
+        0,
+        369.5,
+        209,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        418,
+        739,
+        418,
+        0,
+        0,
+        739,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -369.5,
+        "y": -209,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 369.5,
+        "y": 209,
+        "z": 0
+      }
+    },
+    "texture": "23ae1faa-3b75-4a5b-8cd0-c386b03b9531@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

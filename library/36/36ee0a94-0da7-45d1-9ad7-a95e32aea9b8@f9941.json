@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "langhua1",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 150,
+      "height": 400
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 150,
+      "height": 400
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -75,
+        -200,
+        0,
+        75,
+        -200,
+        0,
+        -75,
+        200,
+        0,
+        75,
+        200,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        400,
+        150,
+        400,
+        0,
+        0,
+        150,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -75,
+        "y": -200,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 75,
+        "y": 200,
+        "z": 0
+      }
+    },
+    "texture": "36ee0a94-0da7-45d1-9ad7-a95e32aea9b8@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

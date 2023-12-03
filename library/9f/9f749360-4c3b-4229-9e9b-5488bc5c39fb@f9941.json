@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gameoverlabel",
+    "atlas": "",
+    "rect": {
+      "x": 15,
+      "y": 33,
+      "width": 282,
+      "height": 80
+    },
+    "offset": {
+      "x": 6,
+      "y": 2
+    },
+    "originalSize": {
+      "width": 300,
+      "height": 150
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -141,
+        -40,
+        0,
+        141,
+        -40,
+        0,
+        -141,
+        40,
+        0,
+        141,
+        40,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        15,
+        117,
+        297,
+        117,
+        15,
+        37,
+        297,
+        37
+      ],
+      "nuv": [
+        0.05,
+        0.24666666666666667,
+        0.99,
+        0.24666666666666667,
+        0.05,
+        0.78,
+        0.99,
+        0.78
+      ],
+      "minPos": {
+        "x": -141,
+        "y": -40,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 141,
+        "y": 40,
+        "z": 0
+      }
+    },
+    "texture": "9f749360-4c3b-4229-9e9b-5488bc5c39fb@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

@@ -1,0 +1,963 @@
+2023-9-13 00:05:04-debug: Start build task, options:{"name":"神木","platform":"wechatgame","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"subpackage","replaceSplashScreen":true,"startScene":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","outputName":"wechatgame-003","scenes":[{"url":"db://assets/load.scene","uuid":"7ab0506f-f898-45f8-bc06-eee80cb03d0a","inBundle":false},{"url":"db://assets/preIntroduce.scene","uuid":"1ae7d9f0-4b05-405c-96bd-84883c05b5c6","inBundle":false},{"url":"db://assets/scene.scene","uuid":"d1d1c4a5-1307-4697-824d-3a98958a74fa","inBundle":false}],"wechatgame":[],"packages":{"cocos-service":{"configID":"5526e7","services":[],"__version__":"3.0.4"},"wechatgame":{"startSceneAssetBundle":true,"orientation":"landscapeRight","appid":"wx6ac3f5090a6b99c5","buildOpenDataContextTemplate":"","separateEngine":false,"wasm":"wasm","enabelWebGL2":"off","__version__":"1.0.2"}},"__version__":"1.3.3"}
+2023-9-13 00:05:04-debug: cocos-service:(onBeforeBuild) start...0%
+2023-9-13 00:05:04-debug: =================================== Build Task (wechatgame-003) Start ================================
+2023-9-13 00:05:04-debug: // ---- build task cocos-service：onBeforeBuild ----
+2023-9-13 00:05:04-debug: Build with Cocos Creator 3.6.2
+2023-9-13 00:05:04-debug: Process: heapTotal 207.61MB heapUsed 199.31MB rss 507.13MB
+2023-9-13 00:05:04-debug: cocos-service:(onBeforeBuild) in 7 ms2%
+2023-9-13 00:05:04-debug: // ---- build task cocos-service：onBeforeBuild ---- (7ms)
+2023-9-13 00:05:04-debug: Query all assets info in project
+2023-9-13 00:05:04-debug: init custom config: keepNodeUuid: false, useCache: true
+2023-9-13 00:05:04-debug:   Number of all scenes: 3
+2023-9-13 00:05:04-debug:   Number of all scripts: 36
+2023-9-13 00:05:04-debug:   Number of other assets: 648
+2023-9-13 00:05:04-debug: BuildAssetLibrary initialized with asset 613!
+2023-9-13 00:05:04-debug: BuildAssetLibrary query-assets with assets 428
+2023-9-13 00:05:04-debug: // ---- build task wechatgame：onAfterInit ----
+2023-9-13 00:05:04-debug: Process: heapTotal 207.72MB heapUsed 200.31MB rss 508.46MB
+2023-9-13 00:05:04-debug: wechatgame:(onAfterInit) start...2%
+2023-9-13 00:05:04-debug: // ---- build task wechatgame：onAfterInit ---- (6ms)
+2023-9-13 00:05:04-debug: // ---- build task cocos-service：onAfterInit ----
+2023-9-13 00:05:04-debug: Process: heapTotal 207.72MB heapUsed 200.38MB rss 507.60MB
+2023-9-13 00:05:04-debug: wechatgame:(onAfterInit) in 6 ms3%
+2023-9-13 00:05:04-debug: cocos-service:(onAfterInit) start...3%
+2023-9-13 00:05:04-debug: // ---- build task cocos-service：onAfterInit ---- (5ms)
+2023-9-13 00:05:04-debug: cocos-service:(onAfterInit) in 5 ms4%
+2023-9-13 00:05:04-debug: localization-editor:(onAfterInit) start...4%
+2023-9-13 00:05:04-debug: Process: heapTotal 207.72MB heapUsed 200.45MB rss 507.57MB
+2023-9-13 00:05:04-debug: // ---- build task localization-editor：onAfterInit ----
+2023-9-13 00:05:04-debug: localization-editor:(onAfterInit) in 4 ms4%
+2023-9-13 00:05:04-debug: // ---- build task 加载刷新项目脚本 ----
+2023-9-13 00:05:04-debug: Process: heapTotal 207.72MB heapUsed 200.51MB rss 507.63MB
+2023-9-13 00:05:04-debug: // ---- build task localization-editor：onAfterInit ---- (4ms)
+2023-9-13 00:05:04-debug: 加载刷新项目脚本 start4%
+2023-9-13 00:05:04-debug: reload all scripts.
+2023-9-13 00:05:04-debug: Incremental keys: 
+2023-9-13 00:05:04-debug: Unregister livingSystemManeger
+2023-9-13 00:05:04-debug: Set detail map pack:///resolution-detail-map.json: {}
+2023-9-13 00:05:04-debug: Unregister ShenMuManeger
+2023-9-13 00:05:04-debug: Unregister BingPerManeger
+2023-9-13 00:05:04-debug: Unregister audioBeginController
+2023-9-13 00:05:04-debug: Unregister targetManeger
+2023-9-13 00:05:04-debug: Unregister combatConfigManeger
+2023-9-13 00:05:04-debug: Unregister PaoPerManeger
+2023-9-13 00:05:04-debug: Unregister sureComponent
+2023-9-13 00:05:04-debug: Unregister GuangziPerManeger
+2023-9-13 00:05:04-debug: Unregister DanPerManeger
+2023-9-13 00:05:04-debug: Unregister updateComponent
+2023-9-13 00:05:04-debug: Unregister dijiTargetManeger
+2023-9-13 00:05:04-debug: Unregister BulletPerManeger
+2023-9-13 00:05:04-debug: Unregister diji
+2023-9-13 00:05:04-debug: Unregister FengyiPerManeger
+2023-9-13 00:05:04-debug: Unregister KongperManeger
+2023-9-13 00:05:04-debug: Unregister blockControlLeftManeger
+2023-9-13 00:05:04-debug: Unregister ToolStateManeger
+2023-9-13 00:05:04-debug: Unregister canvas
+2023-9-13 00:05:04-debug: Unregister createFengManeger
+2023-9-13 00:05:04-debug: Unregister dijiDeathPerManeger
+2023-9-13 00:05:04-debug: Unregister blockControlRightManeger
+2023-9-13 00:05:04-debug: Unregister infoManeger
+2023-9-13 00:05:04-debug: Unregister createSoldier
+2023-9-13 00:05:04-debug: Unregister loadManeger
+2023-9-13 00:05:04-debug: Unregister toolPyManeger
+2023-9-13 00:05:04-debug: Unregister locationPyManeger
+2023-9-13 00:05:04-debug: Unregister scrollControl
+2023-9-13 00:05:04-debug: Unregister selectToolManeger
+2023-9-13 00:05:04-debug: Unregister tryAgain
+2023-9-13 00:05:04-debug: Unregister middleManeger
+2023-9-13 00:05:04-debug: Unregister talkManeger
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/1f/1f734225e0668870d8121d621e8ac213e2487f40.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/93/93b3e14c65c29642a7e02f2941ad4992f625fc3f.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/83/8309b5dbc6dc546c0cb65722438a8de37875a316.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/bc/bc618c01f836b0960ffc639ac6a311a057d6590b.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/e3/e3ee62c1f67db1da85725d21288b0723fb49a298.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/1b/1b565cfdc2627d315e9f9c07100e7b1e9ca6d05c.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/1f/1f2887ea3facfdecbd66bad39a69e458152bd04a.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/16/16477c34ade813da56b2d3e3782ef6dfc083a36d.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/9b/9bc02791e3741ce6c6fa7bebafa242f7650f204f.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/9e/9e1fa747e09a107ac0fe835470c3e887c66cc935.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/33/3351552c3e50b25b60dd6ec6f538e752330437c7.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/9d/9dde1bd56c61610f5dbe2a6db49188b3743f8a8c.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/82/824113c2322d92c2fcf6e43ce3c219ed87e8dd99.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/22/22a9769f0530dcbf9778e73ac4a21ffcb79b7566.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/db/db0a17a65a72774020fa915245394b6ce28a3e98.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/ed/ed4aa66836e03ae74abe12adf006b1083510c228.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/c3/c359cf0cfd9ab53b5aa6888421bd57c21f82566c.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/88/88deed57ff9161b3ac6e010e4bd4a5e225d0e8d9.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/d8/d8ea12ade3c52fa69d0b3062be1ee88efd10ade2.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/cc/cca8185474538e658345c0bb828d1ec55bdabe10.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/9d/9d12b10b967c697519021f2bdc93f6d24e9da170.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/52/52fc1954807e9ece5cc3e65b40026d57e6b41472.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/d5/d5722eb5cd02b74539d844dec067a354dff14cf1.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/b7/b754a84393aa60218f76c69e6274d3f7b69da87e.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/d8/d8d5afda0e4968a334825adc323f705a9b229fc9.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/e9/e99af8e47e11ceddacb4163a0073918104d33d4f.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/ae/aea1e851f9de21134b1cfbaa07b0dbedd9f9b708.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/6f/6fca296441468aa982d3836080f72e9c0b3a8989.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/f8/f840eccdfd11a2f387a627e34db9da1e3943697f.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/88/8803e270d36c797b492198d19aaab74a9b249167.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/a2/a285254399b65dadb330108c41155d3e7a9c93c0.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/37/375bf305fb9a91dfd608dcd484a31e8ef8edaf93.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/09/09aa212bab6f05b5bad441886cf8d11d6d152f45.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/cb/cbf18ec9067c9321c9a80053ea5a1250babcf343.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/16/16b41bd5264b6cc8b47d28362e4657a009fc274b.js'
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/1b/1b3cfc1e3926fcbfb82040b68f67441a7b5a300e.js'
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/d0/d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/1f/1f734225e0668870d8121d621e8ac213e2487f40.js" loaded.
+2023-9-13 00:05:04-debug: Invalidating 'pack:///chunks/6c/6c1f7a5af6a4bea0b26793b3607ae3ba7509df19.js'
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register ShenMuManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/e3/e3ee62c1f67db1da85725d21288b0723fb49a298.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/1f/1f2887ea3facfdecbd66bad39a69e458152bd04a.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register livingSystemManeger
+2023-9-13 00:05:04-debug: [[Executor]] Register BingPerManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/83/8309b5dbc6dc546c0cb65722438a8de37875a316.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register targetManeger
+2023-9-13 00:05:04-debug: [[Executor]] Register combatConfigManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/93/93b3e14c65c29642a7e02f2941ad4992f625fc3f.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register audioBeginController
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/9e/9e1fa747e09a107ac0fe835470c3e887c66cc935.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/9d/9dde1bd56c61610f5dbe2a6db49188b3743f8a8c.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/22/22a9769f0530dcbf9778e73ac4a21ffcb79b7566.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register GuangziPerManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/82/824113c2322d92c2fcf6e43ce3c219ed87e8dd99.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register PaoPerManeger
+2023-9-13 00:05:04-debug: [[Executor]] Register sureComponent
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/ed/ed4aa66836e03ae74abe12adf006b1083510c228.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register updateComponent
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/9b/9bc02791e3741ce6c6fa7bebafa242f7650f204f.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register DanPerManeger
+2023-9-13 00:05:04-debug: [[Executor]] Register dijiTargetManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/16/16477c34ade813da56b2d3e3782ef6dfc083a36d.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register diji
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/33/3351552c3e50b25b60dd6ec6f538e752330437c7.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/1b/1b565cfdc2627d315e9f9c07100e7b1e9ca6d05c.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register BulletPerManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/bc/bc618c01f836b0960ffc639ac6a311a057d6590b.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/db/db0a17a65a72774020fa915245394b6ce28a3e98.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register FengyiPerManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/88/88deed57ff9161b3ac6e010e4bd4a5e225d0e8d9.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/c3/c359cf0cfd9ab53b5aa6888421bd57c21f82566c.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register KongperManeger
+2023-9-13 00:05:04-debug: [[Executor]] Register blockControlLeftManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/d8/d8ea12ade3c52fa69d0b3062be1ee88efd10ade2.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register ToolStateManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/cc/cca8185474538e658345c0bb828d1ec55bdabe10.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register blockControlRightManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/9d/9d12b10b967c697519021f2bdc93f6d24e9da170.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/d5/d5722eb5cd02b74539d844dec067a354dff14cf1.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register canvas
+2023-9-13 00:05:04-debug: [[Executor]] Register createFengManeger
+2023-9-13 00:05:04-debug: [[Executor]] Register createSoldier
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/52/52fc1954807e9ece5cc3e65b40026d57e6b41472.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register dijiDeathPerManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/b7/b754a84393aa60218f76c69e6274d3f7b69da87e.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register infoManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/d8/d8d5afda0e4968a334825adc323f705a9b229fc9.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/ae/aea1e851f9de21134b1cfbaa07b0dbedd9f9b708.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register loadManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/6f/6fca296441468aa982d3836080f72e9c0b3a8989.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register locationPyManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/e9/e99af8e47e11ceddacb4163a0073918104d33d4f.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register toolPyManeger
+2023-9-13 00:05:04-debug: [[Executor]] Register middleManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/f8/f840eccdfd11a2f387a627e34db9da1e3943697f.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register scrollControl
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/37/375bf305fb9a91dfd608dcd484a31e8ef8edaf93.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/88/8803e270d36c797b492198d19aaab74a9b249167.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register selectToolManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/09/09aa212bab6f05b5bad441886cf8d11d6d152f45.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/cb/cbf18ec9067c9321c9a80053ea5a1250babcf343.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/1b/1b3cfc1e3926fcbfb82040b68f67441a7b5a300e.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register tryAgain
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/a2/a285254399b65dadb330108c41155d3e7a9c93c0.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Register talkManeger
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/6c/6c1f7a5af6a4bea0b26793b3607ae3ba7509df19.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/16/16b41bd5264b6cc8b47d28362e4657a009fc274b.js" loaded.
+2023-9-13 00:05:04-debug: [[Executor]] Module "pack:///chunks/1f/1f734225e0668870d8121d621e8ac213e2487f40.js" loaded.
+2023-9-13 00:05:04-debug: // ---- build task 加载刷新项目脚本 ---- (43ms)
+2023-9-13 00:05:04-debug: run build task 加载刷新项目脚本 success in 43 ms √6%
+2023-9-13 00:05:04-debug: // ---- build task 查询 Asset Bundle ----
+2023-9-13 00:05:04-debug: Process: heapTotal 208.22MB heapUsed 200.89MB rss 508.09MB
+2023-9-13 00:05:04-debug: 查询 Asset Bundle start6%
+2023-9-13 00:05:04-debug: 查询使用的资源以及资源包配置 start7%
+2023-9-13 00:05:04-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2023-9-13 00:05:04-debug: run build task 查询 Asset Bundle success in 15 ms √7%
+2023-9-13 00:05:04-debug: Process: heapTotal 208.22MB heapUsed 201.05MB rss 508.18MB
+2023-9-13 00:05:04-debug: // ---- build task 查询 Asset Bundle ---- (15ms)
+2023-9-13 00:05:04-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,1baf0fc9-befa-459c-8bdd-af1a450a0319,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,620b6bf3-0369-4560-837f-2a2c00b73c26,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,1d08ef62-a503-4ce2-8b9a-46c90873f7d3
+2023-9-13 00:05:04-debug: Number of scenes: 3
+2023-9-13 00:05:04-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/left/cloud"Missing uuid: "77b2f77e-fa93-4cff-991d-cc3ca1d274d3@f9941"
+2023-9-13 00:05:04-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/right/cloud"Missing uuid: "b1e65df3-360a-4f5e-8452-3fc866fc13f5@f9941"
+2023-9-13 00:05:04-debug: Number of assets: 241
+2023-9-13 00:05:04-debug: Number of asset bundle: 6
+2023-9-13 00:05:04-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (98ms)
+2023-9-13 00:05:04-debug: 整理脚本分组与脚本数据 start8%
+2023-9-13 00:05:04-debug: run build task 查询使用的资源以及资源包配置 success in 98 ms √8%
+2023-9-13 00:05:04-debug: sort script group...
+2023-9-13 00:05:04-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2023-9-13 00:05:04-debug: Process: heapTotal 216.36MB heapUsed 205.25MB rss 519.25MB
+2023-9-13 00:05:04-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √9%
+2023-9-13 00:05:04-debug: // ---- build task 整理纹理压缩任务 ----
+2023-9-13 00:05:04-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2023-9-13 00:05:04-debug: 整理纹理压缩任务 start9%
+2023-9-13 00:05:04-debug: Process: heapTotal 216.36MB heapUsed 205.33MB rss 519.25MB
+2023-9-13 00:05:04-debug: Number of image-compress task: 43
+2023-9-13 00:05:04-debug: // ---- build task 初步划分 JSON 合并分组 ----
+2023-9-13 00:05:04-debug: // ---- build task 整理纹理压缩任务 ---- (47ms)
+2023-9-13 00:05:04-debug: Process: heapTotal 216.36MB heapUsed 205.81MB rss 519.29MB
+2023-9-13 00:05:04-debug: 初步划分 JSON 合并分组 start11%
+2023-9-13 00:05:04-debug: run build task 整理纹理压缩任务 success in 47 ms √11%
+2023-9-13 00:05:04-debug: Number of json group: 54
+2023-9-13 00:05:04-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ----
+2023-9-13 00:05:04-debug: // ---- build task 初步划分 JSON 合并分组 ---- (1ms)
+2023-9-13 00:05:04-debug: run build task 初步划分 JSON 合并分组 success in 1 ms √12%
+2023-9-13 00:05:04-debug: 整理合并压缩 Texture2D 的 JSON 数据 start12%
+2023-9-13 00:05:04-debug: Process: heapTotal 216.36MB heapUsed 206.16MB rss 519.29MB
+2023-9-13 00:05:04-debug: run build task 整理合并压缩 Texture2D 的 JSON 数据 success in 3 ms √13%
+2023-9-13 00:05:04-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ---- (3ms)
+2023-9-13 00:05:04-debug: 收集 importMap 信息 start13%
+2023-9-13 00:05:04-debug: Process: heapTotal 216.36MB heapUsed 206.27MB rss 519.66MB
+2023-9-13 00:05:04-debug: // ---- build task 收集 importMap 信息 ----
+2023-9-13 00:05:04-debug: // ---- build task 收集 importMap 信息 ---- (1ms)
+2023-9-13 00:05:04-debug: run build task 收集 importMap 信息 success in 1 ms √14%
+2023-9-13 00:05:04-debug: Process: heapTotal 216.36MB heapUsed 206.35MB rss 519.58MB
+2023-9-13 00:05:04-debug: // ---- build task localization-editor：onBeforeBuildAssets ----
+2023-9-13 00:05:04-debug: localization-editor:(onBeforeBuildAssets) start...14%
+2023-9-13 00:05:05-debug: localization-editor:(onBeforeBuildAssets) in 4 ms17%
+2023-9-13 00:05:04-debug: // ---- build task localization-editor：onBeforeBuildAssets ---- (4ms)
+2023-9-13 00:05:05-debug: Process: heapTotal 216.36MB heapUsed 206.40MB rss 519.48MB
+2023-9-13 00:05:05-debug: 构建自动图集 start17%
+2023-9-13 00:05:05-debug: // ---- build task 构建自动图集 ----
+2023-9-13 00:05:05-debug: Start collect pack info
+2023-9-13 00:05:05-debug: // ---- build task 图片拷贝压缩任务 ----
+2023-9-13 00:05:05-debug: run build task 构建自动图集 success in 1 ms √23%
+2023-9-13 00:05:05-debug: Process: heapTotal 216.36MB heapUsed 206.47MB rss 519.48MB
+2023-9-13 00:05:05-debug: // ---- build task 构建自动图集 ---- (1ms)
+2023-9-13 00:05:05-debug: 图片拷贝压缩任务 start23%
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677760765553.5247,"src":"D:\\Gameproject\\NewProject-001\\library\\56\\56d35c68-7084-4d48-b203-680bb7892a31.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\56\\56d35c68-7084-4d48-b203-680bb7892a31.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677898016506.889,"src":"D:\\Gameproject\\NewProject-001\\library\\74\\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\74\\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677760765568.9097,"src":"D:\\Gameproject\\NewProject-001\\library\\92\\927a110f-5db3-4de9-a20e-b6428b0f2ed7.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\92\\927a110f-5db3-4de9-a20e-b6428b0f2ed7.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1692438375163.954,"src":"D:\\Gameproject\\NewProject-001\\library\\9b\\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\9b\\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676473525599.286,"src":"D:\\Gameproject\\NewProject-001\\library\\00\\0080297a-c412-49c7-ac6a-ee03d0f3dd59.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\00\\0080297a-c412-49c7-ac6a-ee03d0f3dd59.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677293498824.4048,"src":"D:\\Gameproject\\NewProject-001\\library\\08\\08a74941-7d78-48ed-8db5-91676cc68960.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\08\\08a74941-7d78-48ed-8db5-91676cc68960.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677675043923.4045,"src":"D:\\Gameproject\\NewProject-001\\library\\12\\12ee59ae-c5cb-4af7-840d-3c5007a245f4.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\12\\12ee59ae-c5cb-4af7-840d-3c5007a245f4.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677676885395.521,"src":"D:\\Gameproject\\NewProject-001\\library\\17\\1725355e-18b9-4aa2-a34a-e145818251b3.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\17\\1725355e-18b9-4aa2-a34a-e145818251b3.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1678510591131.2505,"src":"D:\\Gameproject\\NewProject-001\\library\\23\\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\23\\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677596433343.3767,"src":"D:\\Gameproject\\NewProject-001\\library\\24\\24b60c99-9a01-483d-b6e2-640f2992bb1d.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\24\\24b60c99-9a01-483d-b6e2-640f2992bb1d.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676559903267.3499,"src":"D:\\Gameproject\\NewProject-001\\library\\31\\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\31\\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677592066016.5413,"src":"D:\\Gameproject\\NewProject-001\\library\\34\\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\34\\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677859283251.2583,"src":"D:\\Gameproject\\NewProject-001\\library\\38\\386b34e3-17ec-4276-b6d9-71803db76347.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\38\\386b34e3-17ec-4276-b6d9-71803db76347.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677761939410.784,"src":"D:\\Gameproject\\NewProject-001\\library\\3b\\3be579ec-92e5-4466-a532-33fb4a08831c.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3b\\3be579ec-92e5-4466-a532-33fb4a08831c.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676085608915.8562,"src":"D:\\Gameproject\\NewProject-001\\library\\3d\\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3d\\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676108017406.5444,"src":"D:\\Gameproject\\NewProject-001\\library\\3e\\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3e\\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677898118779.4788,"src":"D:\\Gameproject\\NewProject-001\\library\\3f\\3fbe30bd-2535-41ba-8ff3-475d90596627.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3f\\3fbe30bd-2535-41ba-8ff3-475d90596627.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677991402914.532,"src":"D:\\Gameproject\\NewProject-001\\library\\44\\44699811-e3b9-4f59-912c-eec1b0b88333.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\44\\44699811-e3b9-4f59-912c-eec1b0b88333.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676472701853.056,"src":"D:\\Gameproject\\NewProject-001\\library\\48\\4856f8a1-06db-455e-b2cd-a4755ff6c92a.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\48\\4856f8a1-06db-455e-b2cd-a4755ff6c92a.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676085892272.016,"src":"D:\\Gameproject\\NewProject-001\\library\\63\\63803eab-9cdc-4887-a45c-0f0e951e2426.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\63\\63803eab-9cdc-4887-a45c-0f0e951e2426.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1678511043628.1167,"src":"D:\\Gameproject\\NewProject-001\\library\\67\\6702dadd-4454-4c5d-8b23-81ef9142297a.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\67\\6702dadd-4454-4c5d-8b23-81ef9142297a.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677765826227.2627,"src":"D:\\Gameproject\\NewProject-001\\library\\67\\6793a92d-5eff-48ba-8a67-f3666efd5bfe.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\67\\6793a92d-5eff-48ba-8a67-f3666efd5bfe.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677675221718.2559,"src":"D:\\Gameproject\\NewProject-001\\library\\6c\\6ce14783-eec9-416c-9f7e-26ddd80ce493.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\6c\\6ce14783-eec9-416c-9f7e-26ddd80ce493.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676706746466.779,"src":"D:\\Gameproject\\NewProject-001\\library\\71\\7137b893-aa43-4f38-9da5-9a23e642bc5a.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\71\\7137b893-aa43-4f38-9da5-9a23e642bc5a.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676473648425.7886,"src":"D:\\Gameproject\\NewProject-001\\library\\74\\74febf1d-c717-46a2-9084-f219847dc367.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\74\\74febf1d-c717-46a2-9084-f219847dc367.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677761939425.868,"src":"D:\\Gameproject\\NewProject-001\\library\\7a\\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\7a\\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677594040835.8113,"src":"D:\\Gameproject\\NewProject-001\\library\\8e\\8edc1ec2-3316-492c-82a2-641bdfba83aa.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\8e\\8edc1ec2-3316-492c-82a2-641bdfba83aa.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677597160769.8777,"src":"D:\\Gameproject\\NewProject-001\\library\\8f\\8fe26f2f-d40c-4250-8968-192964604a34.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\8f\\8fe26f2f-d40c-4250-8968-192964604a34.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677991637911.7078,"src":"D:\\Gameproject\\NewProject-001\\library\\9f\\9f749360-4c3b-4229-9e9b-5488bc5c39fb.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\9f\\9f749360-4c3b-4229-9e9b-5488bc5c39fb.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676180796992.5696,"src":"D:\\Gameproject\\NewProject-001\\library\\a4\\a4ed0d8c-3029-42a4-a575-cf337ae414d9.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\a4\\a4ed0d8c-3029-42a4-a575-cf337ae414d9.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1692438260851.0337,"src":"D:\\Gameproject\\NewProject-001\\library\\a6\\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\a6\\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676470593357.4463,"src":"D:\\Gameproject\\NewProject-001\\library\\ad\\ad09df44-0d28-4142-a770-64a584baaa43.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\ad\\ad09df44-0d28-4142-a770-64a584baaa43.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677594487668.979,"src":"D:\\Gameproject\\NewProject-001\\library\\ae\\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\ae\\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677761939441.1548,"src":"D:\\Gameproject\\NewProject-001\\library\\be\\be280619-28dc-4e4d-8c94-81fc190af0d3.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\be\\be280619-28dc-4e4d-8c94-81fc190af0d3.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677677600157.0793,"src":"D:\\Gameproject\\NewProject-001\\library\\cd\\cdd6303d-0a45-4560-ae8e-b21217ed7664.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\cd\\cdd6303d-0a45-4560-ae8e-b21217ed7664.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676095333039.4246,"src":"D:\\Gameproject\\NewProject-001\\library\\d2\\d29ae220-58dc-497d-bde5-ce8bf934f0f4.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\d2\\d29ae220-58dc-497d-bde5-ce8bf934f0f4.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677765826212.2627,"src":"D:\\Gameproject\\NewProject-001\\library\\de\\de94231b-3031-43b8-9498-d4ffe719a37a.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\de\\de94231b-3031-43b8-9498-d4ffe719a37a.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676704030397.021,"src":"D:\\Gameproject\\NewProject-001\\library\\e7\\e7ce3f40-6794-46e2-a019-36c6d3351aa9.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\e7\\e7ce3f40-6794-46e2-a019-36c6d3351aa9.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676471886045.8848,"src":"D:\\Gameproject\\NewProject-001\\library\\e9\\e960954c-b68c-4544-9a04-fae766e5b4cf.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\e9\\e960954c-b68c-4544-9a04-fae766e5b4cf.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676558170802.297,"src":"D:\\Gameproject\\NewProject-001\\library\\eb\\eba116c3-c09d-411c-aea4-9943704e75b1.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\eb\\eba116c3-c09d-411c-aea4-9943704e75b1.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677676272597.7117,"src":"D:\\Gameproject\\NewProject-001\\library\\f2\\f2cc5328-2f60-4dfd-afb5-18fb20df1907.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\f2\\f2cc5328-2f60-4dfd-afb5-18fb20df1907.png"}
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1677765826202.2456,"src":"D:\\Gameproject\\NewProject-001\\library\\f7\\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\f7\\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.png"}
+2023-9-13 00:05:05-debug: start compress etcD:\Gameproject\NewProject-001\library\56\56d35c68-7084-4d48-b203-680bb7892a31.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\56\56d35c68-7084-4d48-b203-680bb7892a31.pkmetc1_rgb
+2023-9-13 00:05:05-debug: Get cache compress image failed with {"option":{"mtime":1676555237550.7764,"src":"D:\\Gameproject\\NewProject-001\\library\\fa\\faa4a9d4-4087-47fa-ac44-1c100f76fca9.png","compressOption":{"etc1_rgb":{"quality":"fast"},"pvrtc_4bits_rgb":{"quality":"fast"},"png":{"quality":80},"jpg":{"quality":80}}},"suffix":[],"dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\fa\\faa4a9d4-4087-47fa-ac44-1c100f76fca9.png"}
+2023-9-13 00:05:05-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\56\56d35c68-7084-4d48-b203-680bb7892a31.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\56 -c etc1 -s fast
+2023-9-13 00:05:05-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\56\\56d35c68-7084-4d48-b203-680bb7892a31.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\56\\56d35c68-7084-4d48-b203-680bb7892a31.pvr","compressOptions":{"quality":"fast"},"uuid":"56d35c68-7084-4d48-b203-680bb7892a31"}
+2023-9-13 00:05:05-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\56\56d35c68-7084-4d48-b203-680bb7892a31.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\56\56d35c68-7084-4d48-b203-680bb7892a31.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:05-log: The compressed image(D:\Gameproject\NewProject-001\library\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.png) size(117825) is larger than the original image(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.png) size(81759), and the original image will be used. To ignore this protection mechanism, please configure it in Project Settings -> Texture Compression Configuration.
+2023-9-13 00:05:05-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\56\56d35c68-7084-4d48-b203-680bb7892a31.pkm
+2023-9-13 00:05:06-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\56\56d35c68-7084-4d48-b203-680bb7892a31.pvr
+2023-9-13 00:05:06-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\74\\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\74\\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pvr","compressOptions":{"quality":"fast"},"uuid":"74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f"}
+2023-9-13 00:05:06-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\56\56d35c68-7084-4d48-b203-680bb7892a31.pvr)}
+2023-9-13 00:05:06-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:06-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:06-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pvr
+2023-9-13 00:05:06-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:06-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\92\\927a110f-5db3-4de9-a20e-b6428b0f2ed7.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\92\\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pvr","compressOptions":{"quality":"fast"},"uuid":"927a110f-5db3-4de9-a20e-b6428b0f2ed7"}
+2023-9-13 00:05:06-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pvr)}
+2023-9-13 00:05:06-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:06-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pvr
+2023-9-13 00:05:06-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:06-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pvr)}
+2023-9-13 00:05:06-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\9b\\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\9b\\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pvr","compressOptions":{"quality":"fast"},"uuid":"9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64"}
+2023-9-13 00:05:06-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:07-log: [compress etc][malitc-4]Compression time: 25 ms
+2023-9-13 00:05:07-log: [compress etc][malitc-5]RMSE: 7.25241[malitc-6]PSNR: 35.6924[malitc-7]Perceptually weighted RMSE: 5.37288[malitc-8]Perceptual PSNR: 38.2979
+2023-9-13 00:05:07-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\56\56d35c68-7084-4d48-b203-680bb7892a31.pkm)}
+2023-9-13 00:05:07-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74 -c etc1 -s fast
+2023-9-13 00:05:07-debug: start compress etcD:\Gameproject\NewProject-001\library\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pkmetc1_rgb
+2023-9-13 00:05:07-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:07-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pkm
+2023-9-13 00:05:07-log: [compress etc][malitc-4]Compression time: 3 ms
+2023-9-13 00:05:07-log: [compress etc][malitc-5]RMSE: 4.00953[malitc-6]PSNR: 40.8401[malitc-7]Perceptually weighted RMSE: 3.57961[malitc-8]Perceptual PSNR: 41.8253
+2023-9-13 00:05:07-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\92 -c etc1 -s fast
+2023-9-13 00:05:07-debug: start compress etcD:\Gameproject\NewProject-001\library\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pkmetc1_rgb
+2023-9-13 00:05:07-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74ae1c25-26ff-4c2c-bba4-443ea3fe8e9f.pkm)}
+2023-9-13 00:05:07-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:07-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pkm
+2023-9-13 00:05:07-log: [compress etc][malitc-4]Compression time: 32 ms
+2023-9-13 00:05:07-log: [compress etc][malitc-5]RMSE: 8.38931[malitc-6]PSNR: 34.4275[malitc-7]Perceptually weighted RMSE: 6.2335[malitc-8]Perceptual PSNR: 37.0074
+2023-9-13 00:05:07-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\92\927a110f-5db3-4de9-a20e-b6428b0f2ed7.pkm)}
+2023-9-13 00:05:07-debug: start compress etcD:\Gameproject\NewProject-001\library\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pkmetc1_rgb
+2023-9-13 00:05:07-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:07-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9b -c etc1 -s fast
+2023-9-13 00:05:07-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pkm
+2023-9-13 00:05:08-log: [compress etc][malitc-4]Compression time: 166 ms
+2023-9-13 00:05:08-log: [compress etc][malitc-5]RMSE: 3.59863[malitc-6]PSNR: 41.7793[malitc-7]Perceptually weighted RMSE: 3.25028[malitc-8]Perceptual PSNR: 42.6636
+2023-9-13 00:05:08-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:08-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pkm)}
+2023-9-13 00:05:08-debug: start compress etcD:\Gameproject\NewProject-001\library\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pkmetc1_rgb
+2023-9-13 00:05:08-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\00 -c etc1 -s fast
+2023-9-13 00:05:08-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pkm
+2023-9-13 00:05:08-log: [compress etc][malitc-4]Compression time: 54 ms
+2023-9-13 00:05:08-log: [compress etc][malitc-5]RMSE: 7.99323[malitc-6]PSNR: 34.8476[malitc-7]Perceptually weighted RMSE: 5.9352[malitc-8]Perceptual PSNR: 37.4333
+2023-9-13 00:05:08-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\08\08a74941-7d78-48ed-8db5-91676cc68960.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\08 -c etc1 -s fast
+2023-9-13 00:05:08-debug: start compress etcD:\Gameproject\NewProject-001\library\08\08a74941-7d78-48ed-8db5-91676cc68960.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\08\08a74941-7d78-48ed-8db5-91676cc68960.pkmetc1_rgb
+2023-9-13 00:05:08-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:08-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pkm)}
+2023-9-13 00:05:08-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\08\08a74941-7d78-48ed-8db5-91676cc68960.pkm
+2023-9-13 00:05:08-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pvr
+2023-9-13 00:05:08-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\00\\0080297a-c412-49c7-ac6a-ee03d0f3dd59.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\00\\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pvr","compressOptions":{"quality":"fast"},"uuid":"0080297a-c412-49c7-ac6a-ee03d0f3dd59"}
+2023-9-13 00:05:08-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:08-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9b\9b9d29ce-8ee9-4d26-81f6-3f38cf4b0a64.pvr)}
+2023-9-13 00:05:08-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:08-log: [compress etc][malitc-4]Compression time: 27 ms
+2023-9-13 00:05:08-log: [compress etc][malitc-5]RMSE: 6.14769[malitc-6]PSNR: 37.1278[malitc-7]Perceptually weighted RMSE: 5.13234[malitc-8]Perceptual PSNR: 38.6957
+2023-9-13 00:05:08-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\08\08a74941-7d78-48ed-8db5-91676cc68960.pkm)}
+2023-9-13 00:05:08-debug: start compress etcD:\Gameproject\NewProject-001\library\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pkmetc1_rgb
+2023-9-13 00:05:08-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\12 -c etc1 -s fast
+2023-9-13 00:05:08-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:09-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pvr
+2023-9-13 00:05:09-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:09-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\08\08a74941-7d78-48ed-8db5-91676cc68960.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\08\08a74941-7d78-48ed-8db5-91676cc68960.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:09-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\00\0080297a-c412-49c7-ac6a-ee03d0f3dd59.pvr)}
+2023-9-13 00:05:09-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\08\\08a74941-7d78-48ed-8db5-91676cc68960.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\08\\08a74941-7d78-48ed-8db5-91676cc68960.pvr","compressOptions":{"quality":"fast"},"uuid":"08a74941-7d78-48ed-8db5-91676cc68960"}
+2023-9-13 00:05:09-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pkm
+2023-9-13 00:05:09-log: [compress etc][malitc-4]Compression time: 41 ms
+2023-9-13 00:05:09-log: [compress etc][malitc-5]RMSE: 10.8356[malitc-6]PSNR: 32.205[malitc-7]Perceptually weighted RMSE: 8.9989[malitc-8]Perceptual PSNR: 33.8182
+2023-9-13 00:05:09-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:09-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\17\1725355e-18b9-4aa2-a34a-e145818251b3.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\17 -c etc1 -s fast
+2023-9-13 00:05:09-debug: start compress etcD:\Gameproject\NewProject-001\library\17\1725355e-18b9-4aa2-a34a-e145818251b3.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\17\1725355e-18b9-4aa2-a34a-e145818251b3.pkmetc1_rgb
+2023-9-13 00:05:09-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pkm)}
+2023-9-13 00:05:09-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\17\1725355e-18b9-4aa2-a34a-e145818251b3.pkm
+2023-9-13 00:05:09-log: [compress etc][malitc-4]Compression time: 28 ms
+2023-9-13 00:05:09-log: [compress etc][malitc-5]RMSE: 5.3553[malitc-6]PSNR: 38.3263[malitc-7]Perceptually weighted RMSE: 5.08613[malitc-8]Perceptual PSNR: 38.7743
+2023-9-13 00:05:09-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:09-debug: start compress etcD:\Gameproject\NewProject-001\library\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pkmetc1_rgb
+2023-9-13 00:05:09-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\23 -c etc1 -s fast
+2023-9-13 00:05:09-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\17\1725355e-18b9-4aa2-a34a-e145818251b3.pkm)}
+2023-9-13 00:05:09-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\08\08a74941-7d78-48ed-8db5-91676cc68960.pvr
+2023-9-13 00:05:09-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\08\08a74941-7d78-48ed-8db5-91676cc68960.pvr)}
+2023-9-13 00:05:09-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:09-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:09-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\12\\12ee59ae-c5cb-4af7-840d-3c5007a245f4.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\12\\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pvr","compressOptions":{"quality":"fast"},"uuid":"12ee59ae-c5cb-4af7-840d-3c5007a245f4"}
+2023-9-13 00:05:09-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pkm
+2023-9-13 00:05:09-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pvr
+2023-9-13 00:05:09-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:09-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\12\12ee59ae-c5cb-4af7-840d-3c5007a245f4.pvr)}
+2023-9-13 00:05:09-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\17\1725355e-18b9-4aa2-a34a-e145818251b3.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\17\1725355e-18b9-4aa2-a34a-e145818251b3.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:09-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\17\\1725355e-18b9-4aa2-a34a-e145818251b3.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\17\\1725355e-18b9-4aa2-a34a-e145818251b3.pvr","compressOptions":{"quality":"fast"},"uuid":"1725355e-18b9-4aa2-a34a-e145818251b3"}
+2023-9-13 00:05:10-log: [compress etc][malitc-4]Compression time: 216 ms
+2023-9-13 00:05:10-log: [compress etc][malitc-5]RMSE: 6.90057[malitc-6]PSNR: 36.1243[malitc-7]Perceptually weighted RMSE: 6.15959[malitc-8]Perceptual PSNR: 37.111
+2023-9-13 00:05:10-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:10-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pkm)}
+2023-9-13 00:05:10-debug: start compress etcD:\Gameproject\NewProject-001\library\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.pkmetc1_rgb
+2023-9-13 00:05:10-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\24 -c etc1 -s fast
+2023-9-13 00:05:10-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\17\1725355e-18b9-4aa2-a34a-e145818251b3.pvr
+2023-9-13 00:05:10-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\17\1725355e-18b9-4aa2-a34a-e145818251b3.pvr)}
+2023-9-13 00:05:10-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\23\\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\23\\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pvr","compressOptions":{"quality":"fast"},"uuid":"23ae1faa-3b75-4a5b-8cd0-c386b03b9531"}
+2023-9-13 00:05:10-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:10-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:10-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.pkm
+2023-9-13 00:05:10-log: [compress etc][malitc-4]Compression time: 22 ms
+2023-9-13 00:05:10-log: [compress etc][malitc-5]RMSE: 4.8661[malitc-6]PSNR: 39.1584[malitc-7]Perceptually weighted RMSE: 4.43068[malitc-8]Perceptual PSNR: 39.9726
+2023-9-13 00:05:10-debug: start compress etcD:\Gameproject\NewProject-001\library\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pkmetc1_rgb
+2023-9-13 00:05:10-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:10-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\31 -c etc1 -s fast
+2023-9-13 00:05:10-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.pkm)}
+2023-9-13 00:05:10-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pkm
+2023-9-13 00:05:10-log: [compress etc][malitc-4]Compression time: 19 ms
+2023-9-13 00:05:10-log: [compress etc][malitc-5]RMSE: 7.27005[malitc-6]PSNR: 35.6713[malitc-7]Perceptually weighted RMSE: 5.83284[malitc-8]Perceptual PSNR: 37.5844
+2023-9-13 00:05:10-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pkm)}
+2023-9-13 00:05:10-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\34 -c etc1 -s fast
+2023-9-13 00:05:10-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:10-debug: start compress etcD:\Gameproject\NewProject-001\library\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pkmetc1_rgb
+2023-9-13 00:05:10-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pvr
+2023-9-13 00:05:10-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\24\\24b60c99-9a01-483d-b6e2-640f2992bb1d.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\24\\24b60c99-9a01-483d-b6e2-640f2992bb1d.pvr","compressOptions":{"quality":"fast"},"uuid":"24b60c99-9a01-483d-b6e2-640f2992bb1d"}
+2023-9-13 00:05:10-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:10-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\23\23ae1faa-3b75-4a5b-8cd0-c386b03b9531.pvr)}
+2023-9-13 00:05:10-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:10-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pkm
+2023-9-13 00:05:10-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.pvr
+2023-9-13 00:05:10-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\31\\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\31\\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pvr","compressOptions":{"quality":"fast"},"uuid":"3192a14d-7eae-4f3f-b8c0-17309f0b8b5f"}
+2023-9-13 00:05:10-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:10-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:10-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\24\24b60c99-9a01-483d-b6e2-640f2992bb1d.pvr)}
+2023-9-13 00:05:11-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pvr
+2023-9-13 00:05:11-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:11-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\31\3192a14d-7eae-4f3f-b8c0-17309f0b8b5f.pvr)}
+2023-9-13 00:05:11-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\34\\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\34\\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pvr","compressOptions":{"quality":"fast"},"uuid":"3480d36b-c9ca-4a65-9f65-058fe0df8d7d"}
+2023-9-13 00:05:11-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:11-log: [compress etc][malitc-4]Compression time: 663 ms
+2023-9-13 00:05:11-log: [compress etc][malitc-5]RMSE: 1.82992[malitc-6]PSNR: 47.6534[malitc-7]Perceptually weighted RMSE: 1.75124[malitc-8]Perceptual PSNR: 48.0351
+2023-9-13 00:05:11-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:11-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pkm)}
+2023-9-13 00:05:11-debug: start compress etcD:\Gameproject\NewProject-001\library\38\386b34e3-17ec-4276-b6d9-71803db76347.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\38\386b34e3-17ec-4276-b6d9-71803db76347.pkmetc1_rgb
+2023-9-13 00:05:11-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\38\386b34e3-17ec-4276-b6d9-71803db76347.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\38 -c etc1 -s fast
+2023-9-13 00:05:11-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\38\386b34e3-17ec-4276-b6d9-71803db76347.pkm
+2023-9-13 00:05:11-log: [compress etc][malitc-4]Compression time: 22 ms
+2023-9-13 00:05:11-log: [compress etc][malitc-5]RMSE: 4.60136[malitc-6]PSNR: 39.6443[malitc-7]Perceptually weighted RMSE: 4.2912[malitc-8]Perceptual PSNR: 40.2505
+2023-9-13 00:05:11-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:11-debug: start compress etcD:\Gameproject\NewProject-001\library\3b\3be579ec-92e5-4466-a532-33fb4a08831c.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\3b\3be579ec-92e5-4466-a532-33fb4a08831c.pkmetc1_rgb
+2023-9-13 00:05:11-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\38\386b34e3-17ec-4276-b6d9-71803db76347.pkm)}
+2023-9-13 00:05:11-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\3b\3be579ec-92e5-4466-a532-33fb4a08831c.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3b -c etc1 -s fast
+2023-9-13 00:05:12-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3b\3be579ec-92e5-4466-a532-33fb4a08831c.pkm
+2023-9-13 00:05:12-log: [compress etc][malitc-4]Compression time: 34 ms
+2023-9-13 00:05:12-log: [compress etc][malitc-5]RMSE: 6.78854[malitc-6]PSNR: 36.2665[malitc-7]Perceptually weighted RMSE: 6.63946[malitc-8]Perceptual PSNR: 36.4594
+2023-9-13 00:05:12-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:12-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3b\3be579ec-92e5-4466-a532-33fb4a08831c.pkm)}
+2023-9-13 00:05:12-debug: start compress etcD:\Gameproject\NewProject-001\library\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pkmetc1_rgb
+2023-9-13 00:05:12-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d -c etc1 -s fast
+2023-9-13 00:05:12-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pkm
+2023-9-13 00:05:12-log: [compress etc][malitc-4]Compression time: 17 ms
+2023-9-13 00:05:12-log: [compress etc][malitc-5]RMSE: 4.86266[malitc-6]PSNR: 39.1645[malitc-7]Perceptually weighted RMSE: 3.62687[malitc-8]Perceptual PSNR: 41.7114
+2023-9-13 00:05:12-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pkm)}
+2023-9-13 00:05:12-debug: start compress etcD:\Gameproject\NewProject-001\library\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pkmetc1_rgb
+2023-9-13 00:05:12-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:12-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3e -c etc1 -s fast
+2023-9-13 00:05:12-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pkm
+2023-9-13 00:05:12-log: [compress etc][malitc-4]Compression time: 13 ms
+2023-9-13 00:05:12-log: [compress etc][malitc-5]RMSE: 6.96418[malitc-6]PSNR: 36.0446[malitc-7]Perceptually weighted RMSE: 6.90218[malitc-8]Perceptual PSNR: 36.1223
+2023-9-13 00:05:12-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pkm)}
+2023-9-13 00:05:12-debug: start compress etcD:\Gameproject\NewProject-001\library\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.pkmetc1_rgb
+2023-9-13 00:05:12-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:12-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3f -c etc1 -s fast
+2023-9-13 00:05:12-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.pkm
+2023-9-13 00:05:13-log: [compress etc][malitc-4]Compression time: 3 ms[malitc-5]RMSE: 3.42552[malitc-6]PSNR: 42.2075[malitc-7]Perceptually weighted RMSE: 3.03412[malitc-8]Perceptual PSNR: 43.2614
+2023-9-13 00:05:13-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:13-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.pkm)}
+2023-9-13 00:05:13-debug: start compress etcD:\Gameproject\NewProject-001\library\44\44699811-e3b9-4f59-912c-eec1b0b88333.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\44\44699811-e3b9-4f59-912c-eec1b0b88333.pkmetc1_rgb
+2023-9-13 00:05:13-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\44\44699811-e3b9-4f59-912c-eec1b0b88333.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\44 -c etc1 -s fast
+2023-9-13 00:05:13-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\44\44699811-e3b9-4f59-912c-eec1b0b88333.pkm
+2023-9-13 00:05:13-log: [compress etc][malitc-4]Compression time: 13 ms
+2023-9-13 00:05:13-log: [compress etc][malitc-5]RMSE: 5.44144[malitc-6]PSNR: 38.1877[malitc-7]Perceptually weighted RMSE: 5.05143[malitc-8]Perceptual PSNR: 38.8337
+2023-9-13 00:05:13-debug: start compress etcD:\Gameproject\NewProject-001\library\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pkmetc1_rgb
+2023-9-13 00:05:13-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\44\44699811-e3b9-4f59-912c-eec1b0b88333.pkm)}
+2023-9-13 00:05:13-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\48 -c etc1 -s fast
+2023-9-13 00:05:13-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:13-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pvr
+2023-9-13 00:05:13-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:13-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\38\\386b34e3-17ec-4276-b6d9-71803db76347.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\38\\386b34e3-17ec-4276-b6d9-71803db76347.pvr","compressOptions":{"quality":"fast"},"uuid":"386b34e3-17ec-4276-b6d9-71803db76347"}
+2023-9-13 00:05:13-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\38\386b34e3-17ec-4276-b6d9-71803db76347.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\38\386b34e3-17ec-4276-b6d9-71803db76347.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:13-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\34\3480d36b-c9ca-4a65-9f65-058fe0df8d7d.pvr)}
+2023-9-13 00:05:13-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pkm
+2023-9-13 00:05:13-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\38\386b34e3-17ec-4276-b6d9-71803db76347.pvr
+2023-9-13 00:05:13-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:13-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\3b\\3be579ec-92e5-4466-a532-33fb4a08831c.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3b\\3be579ec-92e5-4466-a532-33fb4a08831c.pvr","compressOptions":{"quality":"fast"},"uuid":"3be579ec-92e5-4466-a532-33fb4a08831c"}
+2023-9-13 00:05:13-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\3b\3be579ec-92e5-4466-a532-33fb4a08831c.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3b\3be579ec-92e5-4466-a532-33fb4a08831c.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:13-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\38\386b34e3-17ec-4276-b6d9-71803db76347.pvr)}
+2023-9-13 00:05:13-log: [compress etc][malitc-4]Compression time: 6 ms
+2023-9-13 00:05:13-log: [compress etc][malitc-5]RMSE: 13.6275[malitc-6]PSNR: 30.2137[malitc-7]Perceptually weighted RMSE: 10.2297[malitc-8]Perceptual PSNR: 32.7048
+2023-9-13 00:05:13-debug: start compress etcD:\Gameproject\NewProject-001\library\63\63803eab-9cdc-4887-a45c-0f0e951e2426.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\63\63803eab-9cdc-4887-a45c-0f0e951e2426.pkmetc1_rgb
+2023-9-13 00:05:13-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:13-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\63\63803eab-9cdc-4887-a45c-0f0e951e2426.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\63 -c etc1 -s fast
+2023-9-13 00:05:13-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pkm)}
+2023-9-13 00:05:13-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\63\63803eab-9cdc-4887-a45c-0f0e951e2426.pkm
+2023-9-13 00:05:13-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3b\3be579ec-92e5-4466-a532-33fb4a08831c.pvr
+2023-9-13 00:05:13-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\3d\\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3d\\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pvr","compressOptions":{"quality":"fast"},"uuid":"3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3"}
+2023-9-13 00:05:13-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:13-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:13-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3b\3be579ec-92e5-4466-a532-33fb4a08831c.pvr)}
+2023-9-13 00:05:14-log: [compress etc][malitc-4]Compression time: 12 ms
+2023-9-13 00:05:14-log: [compress etc][malitc-5]RMSE: 4.51243[malitc-6]PSNR: 39.8138[malitc-7]Perceptually weighted RMSE: 3.23591[malitc-8]Perceptual PSNR: 42.7021
+2023-9-13 00:05:14-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:14-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\63\63803eab-9cdc-4887-a45c-0f0e951e2426.pkm)}
+2023-9-13 00:05:14-debug: start compress etcD:\Gameproject\NewProject-001\library\67\6702dadd-4454-4c5d-8b23-81ef9142297a.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6702dadd-4454-4c5d-8b23-81ef9142297a.pkmetc1_rgb
+2023-9-13 00:05:14-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\67\6702dadd-4454-4c5d-8b23-81ef9142297a.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67 -c etc1 -s fast
+2023-9-13 00:05:14-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6702dadd-4454-4c5d-8b23-81ef9142297a.pkm
+2023-9-13 00:05:14-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pvr
+2023-9-13 00:05:14-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:14-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3d\3d6705bb-33e1-4d69-b4cc-6f1aeca8d2e3.pvr)}
+2023-9-13 00:05:14-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\3e\\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3e\\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pvr","compressOptions":{"quality":"fast"},"uuid":"3e63f86d-8106-446f-88ac-0b7ddd0f85b0"}
+2023-9-13 00:05:14-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:14-log: [compress etc][malitc-4]Compression time: 15 ms
+2023-9-13 00:05:14-log: [compress etc][malitc-5]RMSE: 2.16392[malitc-6]PSNR: 46.1972[malitc-7]Perceptually weighted RMSE: 2.12282[malitc-8]Perceptual PSNR: 46.3638
+2023-9-13 00:05:14-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:14-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6702dadd-4454-4c5d-8b23-81ef9142297a.pkm)}
+2023-9-13 00:05:14-debug: start compress etcD:\Gameproject\NewProject-001\library\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pkmetc1_rgb
+2023-9-13 00:05:14-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67 -c etc1 -s fast
+2023-9-13 00:05:14-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pkm
+2023-9-13 00:05:14-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pvr
+2023-9-13 00:05:14-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:14-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:14-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\3f\\3fbe30bd-2535-41ba-8ff3-475d90596627.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\3f\\3fbe30bd-2535-41ba-8ff3-475d90596627.pvr","compressOptions":{"quality":"fast"},"uuid":"3fbe30bd-2535-41ba-8ff3-475d90596627"}
+2023-9-13 00:05:14-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3e\3e63f86d-8106-446f-88ac-0b7ddd0f85b0.pvr)}
+2023-9-13 00:05:14-log: [compress etc][malitc-4]Compression time: 50 ms
+2023-9-13 00:05:14-log: [compress etc][malitc-5]RMSE: 8.99328[malitc-6]PSNR: 33.8237[malitc-7]Perceptually weighted RMSE: 8.00578[malitc-8]Perceptual PSNR: 34.8339
+2023-9-13 00:05:14-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\6c -c etc1 -s fast
+2023-9-13 00:05:14-debug: start compress etcD:\Gameproject\NewProject-001\library\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.pkmetc1_rgb
+2023-9-13 00:05:14-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pkm)}
+2023-9-13 00:05:14-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:14-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.pvr
+2023-9-13 00:05:14-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\44\\44699811-e3b9-4f59-912c-eec1b0b88333.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\44\\44699811-e3b9-4f59-912c-eec1b0b88333.pvr","compressOptions":{"quality":"fast"},"uuid":"44699811-e3b9-4f59-912c-eec1b0b88333"}
+2023-9-13 00:05:14-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\44\44699811-e3b9-4f59-912c-eec1b0b88333.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\44\44699811-e3b9-4f59-912c-eec1b0b88333.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:14-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\3f\3fbe30bd-2535-41ba-8ff3-475d90596627.pvr)}
+2023-9-13 00:05:14-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:14-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.pkm
+2023-9-13 00:05:14-log: [compress etc][malitc-4]Compression time: 8 ms
+2023-9-13 00:05:14-log: [compress etc][malitc-5]RMSE: 1.14749[malitc-6]PSNR: 51.707[malitc-7]Perceptually weighted RMSE: 0.67106[malitc-8]Perceptual PSNR: 56.3668
+2023-9-13 00:05:14-debug: start compress etcD:\Gameproject\NewProject-001\library\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.pkmetc1_rgb
+2023-9-13 00:05:14-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.pkm)}
+2023-9-13 00:05:14-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\71 -c etc1 -s fast
+2023-9-13 00:05:14-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:14-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\44\44699811-e3b9-4f59-912c-eec1b0b88333.pvr
+2023-9-13 00:05:14-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:14-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\44\44699811-e3b9-4f59-912c-eec1b0b88333.pvr)}
+2023-9-13 00:05:14-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:14-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\48\\4856f8a1-06db-455e-b2cd-a4755ff6c92a.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\48\\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pvr","compressOptions":{"quality":"fast"},"uuid":"4856f8a1-06db-455e-b2cd-a4755ff6c92a"}
+2023-9-13 00:05:14-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.pkm
+2023-9-13 00:05:15-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pvr
+2023-9-13 00:05:15-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\48\4856f8a1-06db-455e-b2cd-a4755ff6c92a.pvr)}
+2023-9-13 00:05:15-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\63\63803eab-9cdc-4887-a45c-0f0e951e2426.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\63\63803eab-9cdc-4887-a45c-0f0e951e2426.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:15-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:15-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\63\\63803eab-9cdc-4887-a45c-0f0e951e2426.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\63\\63803eab-9cdc-4887-a45c-0f0e951e2426.pvr","compressOptions":{"quality":"fast"},"uuid":"63803eab-9cdc-4887-a45c-0f0e951e2426"}
+2023-9-13 00:05:15-log: [compress etc][malitc-4]Compression time: 26 ms
+2023-9-13 00:05:15-log: [compress etc][malitc-5]RMSE: 6.86248[malitc-6]PSNR: 36.1724[malitc-7]Perceptually weighted RMSE: 5.75959[malitc-8]Perceptual PSNR: 37.6942
+2023-9-13 00:05:15-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:15-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.pkm)}
+2023-9-13 00:05:15-debug: start compress etcD:\Gameproject\NewProject-001\library\74\74febf1d-c717-46a2-9084-f219847dc367.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74febf1d-c717-46a2-9084-f219847dc367.pkmetc1_rgb
+2023-9-13 00:05:15-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\74\74febf1d-c717-46a2-9084-f219847dc367.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74 -c etc1 -s fast
+2023-9-13 00:05:15-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\63\63803eab-9cdc-4887-a45c-0f0e951e2426.pvr
+2023-9-13 00:05:15-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\63\63803eab-9cdc-4887-a45c-0f0e951e2426.pvr)}
+2023-9-13 00:05:15-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:15-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\67\6702dadd-4454-4c5d-8b23-81ef9142297a.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6702dadd-4454-4c5d-8b23-81ef9142297a.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:15-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\67\\6702dadd-4454-4c5d-8b23-81ef9142297a.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\67\\6702dadd-4454-4c5d-8b23-81ef9142297a.pvr","compressOptions":{"quality":"fast"},"uuid":"6702dadd-4454-4c5d-8b23-81ef9142297a"}
+2023-9-13 00:05:15-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74febf1d-c717-46a2-9084-f219847dc367.pkm
+2023-9-13 00:05:15-log: [compress etc][malitc-4]Compression time: 1 ms
+2023-9-13 00:05:15-log: [compress etc][malitc-5]RMSE: 4.08892[malitc-6]PSNR: 40.6698[malitc-7]Perceptually weighted RMSE: 3.36251[malitc-8]Perceptual PSNR: 42.3687
+2023-9-13 00:05:15-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:15-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74febf1d-c717-46a2-9084-f219847dc367.pkm)}
+2023-9-13 00:05:15-debug: start compress etcD:\Gameproject\NewProject-001\library\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pkmetc1_rgb
+2023-9-13 00:05:15-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\7a -c etc1 -s fast
+2023-9-13 00:05:15-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pkm
+2023-9-13 00:05:15-log: [compress etc][malitc-4]Compression time: 38 ms
+2023-9-13 00:05:15-log: [compress etc][malitc-5]RMSE: 7.11457[malitc-6]PSNR: 35.859[malitc-7]Perceptually weighted RMSE: 7.00347[malitc-8]Perceptual PSNR: 35.9958
+2023-9-13 00:05:15-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:15-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8e -c etc1 -s fast
+2023-9-13 00:05:15-debug: start compress etcD:\Gameproject\NewProject-001\library\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.pkmetc1_rgb
+2023-9-13 00:05:15-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pkm)}
+2023-9-13 00:05:15-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.pkm
+2023-9-13 00:05:16-log: [compress etc][malitc-4]Compression time: 23 ms
+2023-9-13 00:05:16-log: [compress etc][malitc-5]RMSE: 7.34124[malitc-6]PSNR: 35.5866[malitc-7]Perceptually weighted RMSE: 5.88316[malitc-8]Perceptual PSNR: 37.5098
+2023-9-13 00:05:16-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:16-debug: start compress etcD:\Gameproject\NewProject-001\library\8f\8fe26f2f-d40c-4250-8968-192964604a34.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\8f\8fe26f2f-d40c-4250-8968-192964604a34.pkmetc1_rgb
+2023-9-13 00:05:16-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\8f\8fe26f2f-d40c-4250-8968-192964604a34.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8f -c etc1 -s fast
+2023-9-13 00:05:16-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.pkm)}
+2023-9-13 00:05:16-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8f\8fe26f2f-d40c-4250-8968-192964604a34.pkm
+2023-9-13 00:05:16-log: [compress etc][malitc-4]Compression time: 32 ms
+2023-9-13 00:05:16-log: [compress etc][malitc-5]RMSE: 9.09549[malitc-6]PSNR: 33.7255[malitc-7]Perceptually weighted RMSE: 6.76582[malitc-8]Perceptual PSNR: 36.2956
+2023-9-13 00:05:16-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8f\8fe26f2f-d40c-4250-8968-192964604a34.pkm)}
+2023-9-13 00:05:16-debug: start compress etcD:\Gameproject\NewProject-001\library\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pkmetc1_rgb
+2023-9-13 00:05:16-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:16-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9f -c etc1 -s fast
+2023-9-13 00:05:16-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pkm
+2023-9-13 00:05:16-log: [compress etc][malitc-4]Compression time: 2 ms
+2023-9-13 00:05:16-log: [compress etc][malitc-5]RMSE: 2.06658[malitc-6]PSNR: 46.597[malitc-7]Perceptually weighted RMSE: 2.58245[malitc-8]Perceptual PSNR: 44.6614
+2023-9-13 00:05:16-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:16-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pkm)}
+2023-9-13 00:05:16-debug: start compress etcD:\Gameproject\NewProject-001\library\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pkmetc1_rgb
+2023-9-13 00:05:16-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a4 -c etc1 -s fast
+2023-9-13 00:05:16-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pkm
+2023-9-13 00:05:16-log: [compress etc][malitc-4]Compression time: 4 ms[malitc-5]RMSE: 9.91943[malitc-6]PSNR: 32.9723[malitc-7]Perceptually weighted RMSE: 7.46755[malitc-8]Perceptual PSNR: 35.4385
+2023-9-13 00:05:16-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:16-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6 -c etc1 -s fast
+2023-9-13 00:05:16-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pkm)}
+2023-9-13 00:05:16-debug: start compress etcD:\Gameproject\NewProject-001\library\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pkmetc1_rgb
+2023-9-13 00:05:16-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pkm
+2023-9-13 00:05:17-log: [compress etc][malitc-4]Compression time: 65 ms
+2023-9-13 00:05:17-log: [compress etc][malitc-5]RMSE: 7.6209[malitc-6]PSNR: 35.2619[malitc-7]Perceptually weighted RMSE: 7.13303[malitc-8]Perceptual PSNR: 35.8365
+2023-9-13 00:05:17-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\ad\ad09df44-0d28-4142-a770-64a584baaa43.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ad -c etc1 -s fast
+2023-9-13 00:05:17-debug: start compress etcD:\Gameproject\NewProject-001\library\ad\ad09df44-0d28-4142-a770-64a584baaa43.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\ad\ad09df44-0d28-4142-a770-64a584baaa43.pkmetc1_rgb
+2023-9-13 00:05:17-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pkm)}
+2023-9-13 00:05:17-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:17-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ad\ad09df44-0d28-4142-a770-64a584baaa43.pkm
+2023-9-13 00:05:17-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6702dadd-4454-4c5d-8b23-81ef9142297a.pvr
+2023-9-13 00:05:17-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:17-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\67\\6793a92d-5eff-48ba-8a67-f3666efd5bfe.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\67\\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pvr","compressOptions":{"quality":"fast"},"uuid":"6793a92d-5eff-48ba-8a67-f3666efd5bfe"}
+2023-9-13 00:05:17-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6702dadd-4454-4c5d-8b23-81ef9142297a.pvr)}
+2023-9-13 00:05:17-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:17-log: [compress etc][malitc-4]Compression time: 20 ms[malitc-5]RMSE: 3.06162[malitc-6]PSNR: 43.183[malitc-7]Perceptually weighted RMSE: 2.53049[malitc-8]Perceptual PSNR: 44.8379
+2023-9-13 00:05:17-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:17-debug: start compress etcD:\Gameproject\NewProject-001\library\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pkmetc1_rgb
+2023-9-13 00:05:17-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ad\ad09df44-0d28-4142-a770-64a584baaa43.pkm)}
+2023-9-13 00:05:17-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ae -c etc1 -s fast
+2023-9-13 00:05:17-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pkm
+2023-9-13 00:05:17-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pvr
+2023-9-13 00:05:17-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\67\6793a92d-5eff-48ba-8a67-f3666efd5bfe.pvr)}
+2023-9-13 00:05:17-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\6c\\6ce14783-eec9-416c-9f7e-26ddd80ce493.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\6c\\6ce14783-eec9-416c-9f7e-26ddd80ce493.pvr","compressOptions":{"quality":"fast"},"uuid":"6ce14783-eec9-416c-9f7e-26ddd80ce493"}
+2023-9-13 00:05:17-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:17-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:17-log: [compress etc][malitc-4]Compression time: 8 ms
+2023-9-13 00:05:17-log: [compress etc][malitc-5]RMSE: 3.76708[malitc-6]PSNR: 41.3819[malitc-7]Perceptually weighted RMSE: 3.39365[malitc-8]Perceptual PSNR: 42.2887
+2023-9-13 00:05:17-debug: start compress etcD:\Gameproject\NewProject-001\library\be\be280619-28dc-4e4d-8c94-81fc190af0d3.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\be\be280619-28dc-4e4d-8c94-81fc190af0d3.pkmetc1_rgb
+2023-9-13 00:05:17-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\be\be280619-28dc-4e4d-8c94-81fc190af0d3.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\be -c etc1 -s fast
+2023-9-13 00:05:17-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:17-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pkm)}
+2023-9-13 00:05:17-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\be\be280619-28dc-4e4d-8c94-81fc190af0d3.pkm
+2023-9-13 00:05:18-log: [compress etc][malitc-4]Compression time: 34 ms
+2023-9-13 00:05:18-log: [compress etc][malitc-5]RMSE: 6.71731[malitc-6]PSNR: 36.3581[malitc-7]Perceptually weighted RMSE: 6.54011[malitc-8]Perceptual PSNR: 36.5903
+2023-9-13 00:05:18-debug: start compress etcD:\Gameproject\NewProject-001\library\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.pkmetc1_rgb
+2023-9-13 00:05:18-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\be\be280619-28dc-4e4d-8c94-81fc190af0d3.pkm)}
+2023-9-13 00:05:18-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\cd -c etc1 -s fast
+2023-9-13 00:05:18-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:18-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.pkm
+2023-9-13 00:05:18-log: [compress etc][malitc-4]Compression time: 22 ms
+2023-9-13 00:05:18-log: [compress etc][malitc-5]RMSE: 4.853[malitc-6]PSNR: 39.1818[malitc-7]Perceptually weighted RMSE: 4.52843[malitc-8]Perceptual PSNR: 39.7831
+2023-9-13 00:05:18-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.pkm)}
+2023-9-13 00:05:18-debug: start compress etcD:\Gameproject\NewProject-001\library\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pkmetc1_rgb
+2023-9-13 00:05:18-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\d2 -c etc1 -s fast
+2023-9-13 00:05:18-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:18-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pkm
+2023-9-13 00:05:18-log: [compress etc][malitc-4]Compression time: 14 ms
+2023-9-13 00:05:18-log: [compress etc][malitc-5]RMSE: 5.06166[malitc-6]PSNR: 38.8162[malitc-7]Perceptually weighted RMSE: 4.18773[malitc-8]Perceptual PSNR: 40.4624
+2023-9-13 00:05:18-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:18-debug: start compress etcD:\Gameproject\NewProject-001\library\de\de94231b-3031-43b8-9498-d4ffe719a37a.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\de\de94231b-3031-43b8-9498-d4ffe719a37a.pkmetc1_rgb
+2023-9-13 00:05:18-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\de\de94231b-3031-43b8-9498-d4ffe719a37a.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\de -c etc1 -s fast
+2023-9-13 00:05:18-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pkm)}
+2023-9-13 00:05:18-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\de\de94231b-3031-43b8-9498-d4ffe719a37a.pkm
+2023-9-13 00:05:18-log: [compress etc][malitc-4]Compression time: 43 ms
+2023-9-13 00:05:18-log: [compress etc][malitc-5]RMSE: 8.77358[malitc-6]PSNR: 34.0385[malitc-7]Perceptually weighted RMSE: 7.86429[malitc-8]Perceptual PSNR: 34.9888
+2023-9-13 00:05:18-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e7 -c etc1 -s fast
+2023-9-13 00:05:18-debug: start compress etcD:\Gameproject\NewProject-001\library\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pkmetc1_rgb
+2023-9-13 00:05:18-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\de\de94231b-3031-43b8-9498-d4ffe719a37a.pkm)}
+2023-9-13 00:05:18-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:19-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pkm
+2023-9-13 00:05:19-log: [compress etc][malitc-4]Compression time: 7 ms
+2023-9-13 00:05:19-log: [compress etc][malitc-5]RMSE: 7.12593[malitc-6]PSNR: 35.8452[malitc-7]Perceptually weighted RMSE: 5.93144[malitc-8]Perceptual PSNR: 37.4388
+2023-9-13 00:05:19-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pkm)}
+2023-9-13 00:05:19-debug: start compress etcD:\Gameproject\NewProject-001\library\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.pkmetc1_rgb
+2023-9-13 00:05:19-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:19-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e9 -c etc1 -s fast
+2023-9-13 00:05:19-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.pkm
+2023-9-13 00:05:19-log: [compress etc][malitc-4]Compression time: 27 ms
+2023-9-13 00:05:19-log: [compress etc][malitc-5]RMSE: 8.86771[malitc-6]PSNR: 33.9458[malitc-7]Perceptually weighted RMSE: 6.17413[malitc-8]Perceptual PSNR: 37.0905
+2023-9-13 00:05:19-debug: start compress etcD:\Gameproject\NewProject-001\library\eb\eba116c3-c09d-411c-aea4-9943704e75b1.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\eb\eba116c3-c09d-411c-aea4-9943704e75b1.pkmetc1_rgb
+2023-9-13 00:05:19-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\eb\eba116c3-c09d-411c-aea4-9943704e75b1.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\eb -c etc1 -s fast
+2023-9-13 00:05:19-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.pkm)}
+2023-9-13 00:05:19-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:19-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\eb\eba116c3-c09d-411c-aea4-9943704e75b1.pkm
+2023-9-13 00:05:19-log: [compress etc][malitc-4]Compression time: 58 ms
+2023-9-13 00:05:19-log: [compress etc][malitc-5]RMSE: 7.64292[malitc-6]PSNR: 35.2368[malitc-7]Perceptually weighted RMSE: 7.39992[malitc-8]Perceptual PSNR: 35.5175
+2023-9-13 00:05:19-debug: start compress etcD:\Gameproject\NewProject-001\library\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pkmetc1_rgb
+2023-9-13 00:05:19-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\eb\eba116c3-c09d-411c-aea4-9943704e75b1.pkm)}
+2023-9-13 00:05:19-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f2 -c etc1 -s fast
+2023-9-13 00:05:19-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:19-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.pvr
+2023-9-13 00:05:19-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:19-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\71\\7137b893-aa43-4f38-9da5-9a23e642bc5a.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\71\\7137b893-aa43-4f38-9da5-9a23e642bc5a.pvr","compressOptions":{"quality":"fast"},"uuid":"7137b893-aa43-4f38-9da5-9a23e642bc5a"}
+2023-9-13 00:05:19-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\6c\6ce14783-eec9-416c-9f7e-26ddd80ce493.pvr)}
+2023-9-13 00:05:19-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:19-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pkm
+2023-9-13 00:05:20-log: [compress etc][malitc-4]Compression time: 25 ms
+2023-9-13 00:05:20-log: [compress etc][malitc-5]RMSE: 5.88138[malitc-6]PSNR: 37.5124[malitc-7]Perceptually weighted RMSE: 5.60028[malitc-8]Perceptual PSNR: 37.9378
+2023-9-13 00:05:20-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pkm)}
+2023-9-13 00:05:20-debug: start compress etcD:\Gameproject\NewProject-001\library\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pkmetc1_rgb
+2023-9-13 00:05:20-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:20-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f7 -c etc1 -s fast
+2023-9-13 00:05:20-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.pvr
+2023-9-13 00:05:20-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\74\74febf1d-c717-46a2-9084-f219847dc367.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74febf1d-c717-46a2-9084-f219847dc367.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:20-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:20-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\74\\74febf1d-c717-46a2-9084-f219847dc367.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\74\\74febf1d-c717-46a2-9084-f219847dc367.pvr","compressOptions":{"quality":"fast"},"uuid":"74febf1d-c717-46a2-9084-f219847dc367"}
+2023-9-13 00:05:20-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\71\7137b893-aa43-4f38-9da5-9a23e642bc5a.pvr)}
+2023-9-13 00:05:20-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pkm
+2023-9-13 00:05:20-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74febf1d-c717-46a2-9084-f219847dc367.pvr
+2023-9-13 00:05:20-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\74\74febf1d-c717-46a2-9084-f219847dc367.pvr)}
+2023-9-13 00:05:20-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:20-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:20-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\7a\\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\7a\\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pvr","compressOptions":{"quality":"fast"},"uuid":"7a6a217c-7aa4-40e0-9d1c-146ed7745aab"}
+2023-9-13 00:05:20-log: [compress etc][malitc-4]Compression time: 51 ms
+2023-9-13 00:05:20-log: [compress etc][malitc-5]RMSE: 9.1154[malitc-6]PSNR: 33.7065[malitc-7]Perceptually weighted RMSE: 8.18213[malitc-8]Perceptual PSNR: 34.6447
+2023-9-13 00:05:20-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pkm)}
+2023-9-13 00:05:20-debug: start compress etcD:\Gameproject\NewProject-001\library\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pngD:\Gameproject\NewProject-001\temp\builder\CompressTexture\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pkmetc1_rgb
+2023-9-13 00:05:20-debug: etc compress command :  .\etcpack.exe D:\Gameproject\NewProject-001\library\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.png D:\Gameproject\NewProject-001\temp\builder\CompressTexture\fa -c etc1 -s fast
+2023-9-13 00:05:20-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:20-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pvr
+2023-9-13 00:05:20-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\7a\7a6a217c-7aa4-40e0-9d1c-146ed7745aab.pvr)}
+2023-9-13 00:05:20-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\8e\\8edc1ec2-3316-492c-82a2-641bdfba83aa.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\8e\\8edc1ec2-3316-492c-82a2-641bdfba83aa.pvr","compressOptions":{"quality":"fast"},"uuid":"8edc1ec2-3316-492c-82a2-641bdfba83aa"}
+2023-9-13 00:05:20-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:20-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:20-log: [compress etc][malitc-1]Compressing. Output file: D:\Gameproject\NewProject-001\temp\builder\CompressTexture\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pkm
+2023-9-13 00:05:20-log: [compress etc][malitc-4]Compression time: 35 ms
+2023-9-13 00:05:20-log: [compress etc][malitc-5]RMSE: 8.1845[malitc-6]PSNR: 34.6422[malitc-7]Perceptually weighted RMSE: 5.7435[malitc-8]Perceptual PSNR: 37.7185
+2023-9-13 00:05:20-debug: [compress etc]Child process exit width code 0
+2023-9-13 00:05:20-log: compress etc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pkm)}
+2023-9-13 00:05:20-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.pvr
+2023-9-13 00:05:20-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\8f\\8fe26f2f-d40c-4250-8968-192964604a34.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\8f\\8fe26f2f-d40c-4250-8968-192964604a34.pvr","compressOptions":{"quality":"fast"},"uuid":"8fe26f2f-d40c-4250-8968-192964604a34"}
+2023-9-13 00:05:20-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\8f\8fe26f2f-d40c-4250-8968-192964604a34.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8f\8fe26f2f-d40c-4250-8968-192964604a34.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:20-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:20-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8e\8edc1ec2-3316-492c-82a2-641bdfba83aa.pvr)}
+2023-9-13 00:05:21-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8f\8fe26f2f-d40c-4250-8968-192964604a34.pvr
+2023-9-13 00:05:21-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\8f\8fe26f2f-d40c-4250-8968-192964604a34.pvr)}
+2023-9-13 00:05:21-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\9f\\9f749360-4c3b-4229-9e9b-5488bc5c39fb.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\9f\\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pvr","compressOptions":{"quality":"fast"},"uuid":"9f749360-4c3b-4229-9e9b-5488bc5c39fb"}
+2023-9-13 00:05:21-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:21-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:21-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pvr
+2023-9-13 00:05:21-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:21-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\a4\\a4ed0d8c-3029-42a4-a575-cf337ae414d9.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\a4\\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pvr","compressOptions":{"quality":"fast"},"uuid":"a4ed0d8c-3029-42a4-a575-cf337ae414d9"}
+2023-9-13 00:05:21-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:21-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\9f\9f749360-4c3b-4229-9e9b-5488bc5c39fb.pvr)}
+2023-9-13 00:05:21-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pvr
+2023-9-13 00:05:21-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\a6\\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\a6\\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pvr","compressOptions":{"quality":"fast"},"uuid":"a6e8f35f-a94f-4c5f-8056-55c450f6adf4"}
+2023-9-13 00:05:21-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:21-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:21-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a4\a4ed0d8c-3029-42a4-a575-cf337ae414d9.pvr)}
+2023-9-13 00:05:21-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pvr
+2023-9-13 00:05:21-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\a6\a6e8f35f-a94f-4c5f-8056-55c450f6adf4.pvr)}
+2023-9-13 00:05:21-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\ad\\ad09df44-0d28-4142-a770-64a584baaa43.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\ad\\ad09df44-0d28-4142-a770-64a584baaa43.pvr","compressOptions":{"quality":"fast"},"uuid":"ad09df44-0d28-4142-a770-64a584baaa43"}
+2023-9-13 00:05:21-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\ad\ad09df44-0d28-4142-a770-64a584baaa43.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ad\ad09df44-0d28-4142-a770-64a584baaa43.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:21-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:21-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ad\ad09df44-0d28-4142-a770-64a584baaa43.pvr
+2023-9-13 00:05:21-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ad\ad09df44-0d28-4142-a770-64a584baaa43.pvr)}
+2023-9-13 00:05:21-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\ae\\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\ae\\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pvr","compressOptions":{"quality":"fast"},"uuid":"aed2ff4e-7406-4d19-86f2-b13dbf46d42b"}
+2023-9-13 00:05:21-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:21-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:22-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pvr
+2023-9-13 00:05:22-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:22-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\be\be280619-28dc-4e4d-8c94-81fc190af0d3.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\be\be280619-28dc-4e4d-8c94-81fc190af0d3.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:22-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\be\\be280619-28dc-4e4d-8c94-81fc190af0d3.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\be\\be280619-28dc-4e4d-8c94-81fc190af0d3.pvr","compressOptions":{"quality":"fast"},"uuid":"be280619-28dc-4e4d-8c94-81fc190af0d3"}
+2023-9-13 00:05:22-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\ae\aed2ff4e-7406-4d19-86f2-b13dbf46d42b.pvr)}
+2023-9-13 00:05:22-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\be\be280619-28dc-4e4d-8c94-81fc190af0d3.pvr
+2023-9-13 00:05:22-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\cd\\cdd6303d-0a45-4560-ae8e-b21217ed7664.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\cd\\cdd6303d-0a45-4560-ae8e-b21217ed7664.pvr","compressOptions":{"quality":"fast"},"uuid":"cdd6303d-0a45-4560-ae8e-b21217ed7664"}
+2023-9-13 00:05:22-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:22-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:22-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\be\be280619-28dc-4e4d-8c94-81fc190af0d3.pvr)}
+2023-9-13 00:05:22-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.pvr
+2023-9-13 00:05:22-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\d2\\d29ae220-58dc-497d-bde5-ce8bf934f0f4.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\d2\\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pvr","compressOptions":{"quality":"fast"},"uuid":"d29ae220-58dc-497d-bde5-ce8bf934f0f4"}
+2023-9-13 00:05:22-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:22-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\cd\cdd6303d-0a45-4560-ae8e-b21217ed7664.pvr)}
+2023-9-13 00:05:22-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:22-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pvr
+2023-9-13 00:05:22-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:22-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\d2\d29ae220-58dc-497d-bde5-ce8bf934f0f4.pvr)}
+2023-9-13 00:05:22-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\de\\de94231b-3031-43b8-9498-d4ffe719a37a.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\de\\de94231b-3031-43b8-9498-d4ffe719a37a.pvr","compressOptions":{"quality":"fast"},"uuid":"de94231b-3031-43b8-9498-d4ffe719a37a"}
+2023-9-13 00:05:22-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\de\de94231b-3031-43b8-9498-d4ffe719a37a.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\de\de94231b-3031-43b8-9498-d4ffe719a37a.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:23-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\de\de94231b-3031-43b8-9498-d4ffe719a37a.pvr
+2023-9-13 00:05:23-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:23-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\e7\\e7ce3f40-6794-46e2-a019-36c6d3351aa9.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\e7\\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pvr","compressOptions":{"quality":"fast"},"uuid":"e7ce3f40-6794-46e2-a019-36c6d3351aa9"}
+2023-9-13 00:05:23-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\de\de94231b-3031-43b8-9498-d4ffe719a37a.pvr)}
+2023-9-13 00:05:23-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:23-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pvr
+2023-9-13 00:05:23-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:23-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\e9\\e960954c-b68c-4544-9a04-fae766e5b4cf.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\e9\\e960954c-b68c-4544-9a04-fae766e5b4cf.pvr","compressOptions":{"quality":"fast"},"uuid":"e960954c-b68c-4544-9a04-fae766e5b4cf"}
+2023-9-13 00:05:23-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:23-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e7\e7ce3f40-6794-46e2-a019-36c6d3351aa9.pvr)}
+2023-9-13 00:05:23-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.pvr
+2023-9-13 00:05:23-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\eb\eba116c3-c09d-411c-aea4-9943704e75b1.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\eb\eba116c3-c09d-411c-aea4-9943704e75b1.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:23-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\e9\e960954c-b68c-4544-9a04-fae766e5b4cf.pvr)}
+2023-9-13 00:05:23-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\eb\\eba116c3-c09d-411c-aea4-9943704e75b1.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\eb\\eba116c3-c09d-411c-aea4-9943704e75b1.pvr","compressOptions":{"quality":"fast"},"uuid":"eba116c3-c09d-411c-aea4-9943704e75b1"}
+2023-9-13 00:05:23-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:23-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\eb\eba116c3-c09d-411c-aea4-9943704e75b1.pvr
+2023-9-13 00:05:23-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\eb\eba116c3-c09d-411c-aea4-9943704e75b1.pvr)}
+2023-9-13 00:05:23-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\f2\\f2cc5328-2f60-4dfd-afb5-18fb20df1907.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\f2\\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pvr","compressOptions":{"quality":"fast"},"uuid":"f2cc5328-2f60-4dfd-afb5-18fb20df1907"}
+2023-9-13 00:05:23-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:23-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:23-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pvr
+2023-9-13 00:05:23-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f2\f2cc5328-2f60-4dfd-afb5-18fb20df1907.pvr)}
+2023-9-13 00:05:23-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:23-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\f7\\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\f7\\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pvr","compressOptions":{"quality":"fast"},"uuid":"f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e"}
+2023-9-13 00:05:23-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:24-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pvr
+2023-9-13 00:05:24-debug: pvrtc compress command :  D:\software\cocos_v3.6.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Gameproject\NewProject-001\library\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.png -o D:\Gameproject\NewProject-001\temp\builder\CompressTexture\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+2023-9-13 00:05:24-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:24-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\f7\f7bbf0c1-fc1c-4e03-b92a-aa2f10b6217e.pvr)}
+2023-9-13 00:05:24-debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Gameproject\\NewProject-001\\library\\fa\\faa4a9d4-4087-47fa-ac44-1c100f76fca9.png","dest":"D:\\Gameproject\\NewProject-001\\temp\\builder\\CompressTexture\\fa\\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pvr","compressOptions":{"quality":"fast"},"uuid":"faa4a9d4-4087-47fa-ac44-1c100f76fca9"}
+2023-9-13 00:05:24-log: [compress pvrtc]Compressing...Saved texture to D:\Gameproject\NewProject-001\temp\builder\CompressTexture\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pvr
+2023-9-13 00:05:24-debug: [compress pvrtc]Child process exit width code 0
+2023-9-13 00:05:24-log: compress pvrtc success {link(D:\Gameproject\NewProject-001\temp\builder\CompressTexture\fa\faa4a9d4-4087-47fa-ac44-1c100f76fca9.pvr)}
+2023-9-13 00:05:24-debug: builder:compress-texture (19234ms)
+2023-9-13 00:05:24-debug: Num of sorted image asset: 43
+2023-9-13 00:05:24-debug: run build task 图片拷贝压缩任务 success in 19514 ms √30%
+2023-9-13 00:05:24-debug: 将资源拷贝到指定位置 start30%
+2023-9-13 00:05:24-debug: // ---- build task 图片拷贝压缩任务 ---- (19514ms)
+2023-9-13 00:05:24-debug: Asset Bundle(internal) handle assets: 36
+2023-9-13 00:05:24-debug: // ---- build task 将资源拷贝到指定位置 ----
+2023-9-13 00:05:24-debug: Process: heapTotal 213.61MB heapUsed 206.53MB rss 537.28MB
+2023-9-13 00:05:24-debug: Asset Bundle(start-scene) handle assets: 37
+2023-9-13 00:05:24-debug: Asset Bundle(resources) handle assets: 154
+2023-9-13 00:05:24-debug: Asset Bundle(main) handle assets: 74
+2023-9-13 00:05:24-debug: Asset Bundle(script) handle assets: 0
+2023-9-13 00:05:24-debug: Asset Bundle(music) handle assets: 13
+2023-9-13 00:05:24-debug: 将分组后的 json 与散文件构建到指定位置 start37%
+2023-9-13 00:05:24-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ----
+2023-9-13 00:05:24-debug: Process: heapTotal 213.61MB heapUsed 206.81MB rss 537.82MB
+2023-9-13 00:05:24-debug: // ---- build task 将资源拷贝到指定位置 ---- (49ms)
+2023-9-13 00:05:24-debug: run build task 将资源拷贝到指定位置 success in 49 ms √37%
+2023-9-13 00:05:24-debug: Json group(06efdbec0) compile success，json number: 6
+2023-9-13 00:05:24-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/left/cloud"Missing uuid: "77b2f77e-fa93-4cff-991d-cc3ca1d274d3@f9941"
+2023-9-13 00:05:24-warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:Node path: "Canvas/middle/right/cloud"Missing uuid: "b1e65df3-360a-4f5e-8452-3fc866fc13f5@f9941"
+2023-9-13 00:05:24-debug: Json group(0d436e443) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(04c602246) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(045b840ac) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(0be61df76) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(02ddcb2dc) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(099e475bf) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(04bd59316) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(07c591bfe) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(09506b8b4) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(0d813c55a) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(098d6f61a) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(05641ca82) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(05a0c5a74) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(08c40150a) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(0310a1a27) compile success，json number: 6
+2023-9-13 00:05:24-debug: Json group(0f50d9d5e) compile success，json number: 6
+2023-9-13 00:05:24-debug: run build task 将分组后的 json 与散文件构建到指定位置 success in 365 ms √43%
+2023-9-13 00:05:24-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ---- (365ms)
+2023-9-13 00:05:24-debug: Process: heapTotal 222.69MB heapUsed 208.55MB rss 547.10MB
+2023-9-13 00:05:24-debug: 打包脚本 start43%
+2023-9-13 00:05:24-debug: // ---- build task 打包脚本 ----
+2023-9-13 00:05:29-debug: Process: heapTotal 222.86MB heapUsed 199.65MB rss 539.54MB
+2023-9-13 00:05:29-debug: 构建项目脚本 start...43%
+2023-9-13 00:05:29-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2023-9-13 00:05:31-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts
+2023-9-13 00:05:31-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts -> file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts -> file:///D:/Gameproject/NewProject-001/assets/script/diji.ts -> file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts
+2023-9-13 00:05:34-debug: Copy externalScripts success!
+2023-9-13 00:05:34-debug: excute-script over with build-script 5256ms
+2023-9-13 00:05:34-debug: 构建项目脚本 in (5276 ms) √43%
+2023-9-13 00:05:34-debug: Process: heapTotal 222.86MB heapUsed 200.08MB rss 539.05MB
+2023-9-13 00:05:34-debug: 构建引擎脚本 start...43%
+2023-9-13 00:05:34-debug: Use cache engine: {link(C:\Users\天下第~1\AppData\Local\Temp\CocosCreator\3.6.2\builder\engine\c3120909800723a836faa6d5141e9de3)}
+2023-9-13 00:05:34-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","animation","audio","base","dragon-bones","gfx-webgl","intersection-2d","marionette","particle","particle-2d","physics-2d-builtin","physics-ammo","primitive","profiler","skeletal-animation","spine","terrain","tiled-map","tween","ui","video","webview","xr"],"engineVersion":"3.6.2","platform":"WECHAT","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"skip":false,"ammoJsWasm":true,"assetURLFormat":"relative-from-out","flags":{"DEBUG":false},"entry":"D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine"}
+2023-9-13 00:05:34-debug: 构建引擎脚本 in (157 ms) √43%
+2023-9-13 00:05:34-debug: // ---- build task 打包脚本 ---- (9759ms)
+2023-9-13 00:05:34-debug: run build task 打包脚本 success in 9759 ms √50%
+2023-9-13 00:05:34-debug: 压缩 Zip Bundle start50%
+2023-9-13 00:05:34-debug: // ---- build task 压缩 Zip Bundle ----
+2023-9-13 00:05:34-debug: Process: heapTotal 216.61MB heapUsed 200.03MB rss 532.72MB
+2023-9-13 00:05:34-debug: // ---- build task 压缩 Zip Bundle ---- (1ms)
+2023-9-13 00:05:34-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2023-9-13 00:05:34-debug: Process: heapTotal 216.61MB heapUsed 200.10MB rss 532.70MB
+2023-9-13 00:05:34-debug: run build task 压缩 Zip Bundle success in 1 ms √57%
+2023-9-13 00:05:34-debug: 给所有的资源加上 MD5 后缀 start57%
+2023-9-13 00:05:34-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (1ms)
+2023-9-13 00:05:34-debug: run build task 给所有的资源加上 MD5 后缀 success in 1 ms √67%
+2023-9-13 00:05:34-debug: 初始化 settings.json 与 config.json start67%
+2023-9-13 00:05:34-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2023-9-13 00:05:34-debug: Process: heapTotal 216.61MB heapUsed 200.16MB rss 532.56MB
+2023-9-13 00:05:34-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2023-9-13 00:05:34-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √67%
+2023-9-13 00:05:34-debug: // ---- build task builder.tasks.settings.macro ----
+2023-9-13 00:05:34-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2023-9-13 00:05:34-debug: builder.tasks.settings.macro start67%
+2023-9-13 00:05:34-debug: Process: heapTotal 216.61MB heapUsed 200.23MB rss 532.44MB
+2023-9-13 00:05:34-debug: // ---- build task builder.tasks.settings.macro ---- (8ms)
+2023-9-13 00:05:34-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2023-9-13 00:05:34-debug: run build task builder.tasks.settings.macro success in 8 ms √68%
+2023-9-13 00:05:34-debug: Process: heapTotal 216.61MB heapUsed 200.29MB rss 532.44MB
+2023-9-13 00:05:34-debug: 整理部分构建选项内数据到 settings.json start68%
+2023-9-13 00:05:34-debug: // ---- build task custom joint texture layouts ----
+2023-9-13 00:05:34-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2023-9-13 00:05:34-debug: custom joint texture layouts start68%
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 199.62MB rss 531.60MB
+2023-9-13 00:05:34-debug: run build task 整理部分构建选项内数据到 settings.json success in 5 ms √68%
+2023-9-13 00:05:34-debug: run build task custom joint texture layouts success in 4 ms √69%
+2023-9-13 00:05:34-debug: // ---- build task custom joint physics ----
+2023-9-13 00:05:34-debug: // ---- build task custom joint texture layouts ---- (4ms)
+2023-9-13 00:05:34-debug: custom joint physics start69%
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 199.67MB rss 531.55MB
+2023-9-13 00:05:34-debug: run build task custom joint physics success in 1 ms √69%
+2023-9-13 00:05:34-debug: // ---- build task 填充脚本数据到 settings.json ----
+2023-9-13 00:05:34-debug: // ---- build task custom joint physics ---- (1ms)
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 199.72MB rss 531.60MB
+2023-9-13 00:05:34-debug: 填充脚本数据到 settings.json start69%
+2023-9-13 00:05:34-debug: // ---- build task 填充场景数据到 settings.json ----
+2023-9-13 00:05:34-debug: run build task 填充脚本数据到 settings.json success in 1 ms √70%
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 199.77MB rss 531.65MB
+2023-9-13 00:05:34-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2023-9-13 00:05:34-debug: 填充场景数据到 settings.json start70%
+2023-9-13 00:05:34-debug: run build task 填充场景数据到 settings.json success in 1 ms √71%
+2023-9-13 00:05:34-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2023-9-13 00:05:34-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start71%
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 199.82MB rss 531.70MB
+2023-9-13 00:05:34-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2023-9-13 00:05:34-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (2ms)
+2023-9-13 00:05:34-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 2 ms √71%
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 199.97MB rss 531.86MB
+2023-9-13 00:05:34-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2023-9-13 00:05:34-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start71%
+2023-9-13 00:05:34-debug: options.md5Cache is false.
+2023-9-13 00:05:34-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2023-9-13 00:05:34-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √72%
+2023-9-13 00:05:34-debug: wechatgame:(onBeforeCompressSettings) start...72%
+2023-9-13 00:05:34-debug: // ---- build task wechatgame：onBeforeCompressSettings ----
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 200.04MB rss 531.92MB
+2023-9-13 00:05:34-debug: wechatgame:(onBeforeCompressSettings) in 1 ms73%
+2023-9-13 00:05:34-debug: cocos-service:(onBeforeCompressSettings) start...73%
+2023-9-13 00:05:34-debug: // ---- build task wechatgame：onBeforeCompressSettings ---- (1ms)
+2023-9-13 00:05:34-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 200.10MB rss 531.98MB
+2023-9-13 00:05:34-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (7ms)
+2023-9-13 00:05:34-debug: cocos-service:(onBeforeCompressSettings) in 7 ms74%
+2023-9-13 00:05:34-debug: // ---- build task 生成 import-map.json ----
+2023-9-13 00:05:34-debug: Process: heapTotal 215.86MB heapUsed 200.17MB rss 532.05MB
+2023-9-13 00:05:34-debug: 生成 import-map.json start74%
+2023-9-13 00:05:34-debug: run build task 生成 import-map.json success in 21 ms √75%
+2023-9-13 00:05:34-debug: // ---- build task 生成 import-map.json ---- (21ms)
+2023-9-13 00:05:34-debug: // ---- build task 压缩 config.json 与 settings.json ----
+2023-9-13 00:05:34-debug: 压缩 config.json 与 settings.json start75%
+2023-9-13 00:05:34-debug: Process: heapTotal 218.86MB heapUsed 200.32MB rss 533.47MB
+2023-9-13 00:05:34-debug: // ---- build task 压缩 config.json 与 settings.json ---- (3ms)
+2023-9-13 00:05:34-debug: run build task 压缩 config.json 与 settings.json success in 3 ms √76%
+2023-9-13 00:05:34-debug: Process: heapTotal 218.86MB heapUsed 200.62MB rss 533.52MB
+2023-9-13 00:05:34-debug: 保存 config.json start76%
+2023-9-13 00:05:34-debug: // ---- build task 保存 config.json ----
+2023-9-13 00:05:34-debug: // ---- build task 保存 settings.json ----
+2023-9-13 00:05:34-debug: run build task 保存 config.json success in 3 ms √77%
+2023-9-13 00:05:34-debug: // ---- build task 保存 config.json ---- (3ms)
+2023-9-13 00:05:34-debug: Process: heapTotal 218.86MB heapUsed 200.74MB rss 533.64MB
+2023-9-13 00:05:34-debug: 保存 settings.json start77%
+2023-9-13 00:05:34-debug: 整理静态模板文件 start78%
+2023-9-13 00:05:34-debug: // ---- build task 整理静态模板文件 ----
+2023-9-13 00:05:34-debug: Process: heapTotal 218.86MB heapUsed 200.85MB rss 533.72MB
+2023-9-13 00:05:34-debug: // ---- build task 保存 settings.json ---- (2ms)
+2023-9-13 00:05:34-debug: run build task 保存 settings.json success in 2 ms √78%
+2023-9-13 00:05:34-debug: cocos-service:(onAfterCompressSettings) start...79%
+2023-9-13 00:05:34-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2023-9-13 00:05:34-debug: // ---- build task 整理静态模板文件 ---- (38ms)
+2023-9-13 00:05:34-debug: run build task 整理静态模板文件 success in 38 ms √79%
+2023-9-13 00:05:34-debug: Process: heapTotal 218.86MB heapUsed 200.34MB rss 537.16MB
+2023-9-13 00:05:34-debug: cocos-service:(onAfterCompressSettings) in 7 ms81%
+2023-9-13 00:05:34-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (7ms)
+2023-9-13 00:05:34-debug: Process: heapTotal 218.86MB heapUsed 201.98MB rss 536.07MB
+2023-9-13 00:05:34-debug: // ---- build task wechatgame：onAfterBuild ----
+2023-9-13 00:05:34-debug: wechatgame:(onAfterBuild) start...81%
+2023-9-13 00:05:34-debug: wechatgame:(onAfterBuild) in 17 ms82%
+2023-9-13 00:05:34-debug: cocos-service:(onAfterBuild) start...82%
+2023-9-13 00:05:34-debug: Process: heapTotal 218.86MB heapUsed 200.62MB rss 535.77MB
+2023-9-13 00:05:34-debug: // ---- build task cocos-service：onAfterBuild ----
+2023-9-13 00:05:34-debug: // ---- build task wechatgame：onAfterBuild ---- (17ms)
+2023-9-13 00:05:34-debug: cocos-service:(onAfterBuild) in 5 ms83%
+2023-9-13 00:05:34-debug: // ---- build task cocos-service：onAfterBuild ---- (5ms)
+2023-9-13 00:05:34-debug: build success in 30221 ms!
+2023-9-13 00:05:34-debug: builder:build-project-total (30221ms)
+2023-9-13 00:05:34-debug: ================================ Build Task (wechatgame-003) Finished in (30227)ms ================================

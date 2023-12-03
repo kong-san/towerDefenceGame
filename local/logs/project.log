@@ -1,0 +1,766 @@
+2023-12-01T12:49:19.341Z - log: [Package] menu@1.0.0 enable
+2023-12-01T12:49:19.344Z - log: [Package] profile@1.0.0 enable
+2023-12-01T12:49:19.356Z - log: [Package] project@1.0.2 enable
+2023-12-01T12:49:19.364Z - log: [Package] messages@1.0.0 enable
+2023-12-01T12:49:19.369Z - log: [Package] program@1.0.0 enable
+2023-12-01T12:49:19.379Z - log: [Package] tester@1.0.0 enable
+2023-12-01T12:49:19.386Z - log: [Package] preferences@1.0.0 enable
+2023-12-01T12:49:22.499Z - log: Load engine in D:\software\cocos_v3.6.2\resources\resources\3d\engine
+2023-12-01T12:49:23.000Z - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,gfx-webgl,gfx-webgl2,intersection-2d,physics-2d-builtin,primitive,profiler,spine,tween,ui,xr)
+2023-12-01T12:49:23.010Z - log: Register native engine in D:\software\cocos_v3.6.2\resources\resources\3d\engine\native
+2023-12-01T12:49:23.012Z - log: [Package] engine@1.0.7 enable
+2023-12-01T12:49:24.179Z - log: [Package] programming@1.0.0 enable
+2023-12-01T12:49:24.247Z - warn: 
+2023-12-01T12:49:24.282Z - warn: 
+2023-12-01T12:49:24.533Z - log: [Package] device@1.0.1 enable
+2023-12-01T12:49:24.567Z - log: [Package] ui-kit@1.0.1 enable
+2023-12-01T12:49:24.594Z - log: [Package] engine-extends@1.0.0 enable
+2023-12-01T12:49:24.672Z - log: [Package] asset-db@1.0.0 enable
+2023-12-01T12:49:24.673Z - warn: 
+2023-12-01T12:49:24.727Z - log: [Package] scene@1.0.0 enable
+2023-12-01T12:49:24.916Z - log: [Package] server@1.0.0 enable
+2023-12-01T12:49:24.957Z - log: [Package] utils@1.0.0 enable
+2023-12-01T12:49:29.074Z - warn: 
+2023-12-01T12:49:29.074Z - warn: 
+2023-12-01T12:49:29.075Z - warn: 
+2023-12-01T12:49:29.103Z - warn: 
+2023-12-01T12:49:29.103Z - warn: 
+2023-12-01T12:49:29.104Z - warn: 
+2023-12-01T12:49:30.667Z - warn: 
+2023-12-01T12:49:30.728Z - log: [Package] preview@1.0.1 enable
+2023-12-01T12:49:30.764Z - log: [Package] animator@1.0.0 enable
+2023-12-01T12:49:30.812Z - log: pluginManager init: 0.129ms
+2023-12-01T12:49:31.384Z - warn: 
+2023-12-01T12:49:31.384Z - warn: 
+2023-12-01T12:49:31.385Z - warn: 
+2023-12-01T12:49:32.027Z - log: [Package] builder@1.3.3 enable
+2023-12-01T12:49:32.064Z - log: [Package] shortcuts@1.0.1 enable
+2023-12-01T12:49:32.099Z - log: [Package] animation-graph@1.0.0 enable
+2023-12-01T12:49:32.132Z - log: [Package] about@1.0.0 enable
+2023-12-01T12:49:32.162Z - log: [Package] assets@1.0.0 enable
+2023-12-01T12:49:32.195Z - log: [Package] console@1.0.0 enable
+2023-12-01T12:49:32.390Z - log: [Package] extension@3.0.16 enable
+2023-12-01T12:49:32.420Z - log: [Package] hierarchy@1.0.0 enable
+2023-12-01T12:49:32.461Z - log: [Package] inspector@1.0.0 enable
+2023-12-01T12:49:32.494Z - log: [Package] lightmap@1.0.4 enable
+2023-12-01T12:49:32.981Z - log: [Package] localization-editor@1.0.0 enable
+2023-12-01T12:49:32.995Z - log: [Build-plugin] register pkg localization-editor: 7.628ms
+2023-12-01T12:49:33.025Z - log: [Package] node-library@1.0.1 enable
+2023-12-01T12:49:33.051Z - log: [Package] package-asset@1.0.0 enable
+2023-12-01T12:49:33.079Z - log: [Package] process@1.0.0 enable
+2023-12-01T12:49:33.112Z - log: [Package] reference-image@1.0.0 enable
+2023-12-01T12:49:33.138Z - log: [Package] alipay-mini-game@1.0.1 enable
+2023-12-01T12:49:33.146Z - log: [Build-plugin] register pkg alipay-mini-game: 7.413ms
+2023-12-01T12:49:33.172Z - log: [Package] android@1.0.1 enable
+2023-12-01T12:49:33.182Z - log: [Build-plugin] register pkg android: 9.389ms
+2023-12-01T12:49:33.247Z - log: [Package] baidu-mini-game@1.0.1 enable
+2023-12-01T12:49:33.249Z - log: [Build-plugin] register pkg baidu-mini-game: 1.524ms
+2023-12-01T12:49:33.280Z - log: [Package] bytedance-mini-game@1.0.2 enable
+2023-12-01T12:49:33.284Z - log: [Build-plugin] register pkg bytedance-mini-game: 3.402ms
+2023-12-01T12:49:33.309Z - log: [Package] certificate@1.0.0 enable
+2023-12-01T12:49:33.331Z - log: [Package] channel-upload-tools@1.0.0 enable
+2023-12-01T12:49:33.355Z - log: [Package] cocos-play@1.0.1 enable
+2023-12-01T12:49:33.362Z - log: [Build-plugin] register pkg cocos-play: 6.479ms
+2023-12-01T12:49:33.384Z - log: [Package] huawei-agc@1.0.0 enable
+2023-12-01T12:49:33.390Z - log: [Build-plugin] register pkg huawei-agc: 5.559ms
+2023-12-01T12:49:33.413Z - log: [Package] huawei-quick-game@1.0.1 enable
+2023-12-01T12:49:33.418Z - log: [Build-plugin] register pkg huawei-quick-game: 5.182ms
+2023-12-01T12:49:33.444Z - log: [Package] ios@1.0.0 enable
+2023-12-01T12:49:33.449Z - log: [Build-plugin] register pkg ios: 4.403ms
+2023-12-01T12:49:33.472Z - log: [Package] linux@1.0.0 enable
+2023-12-01T12:49:33.474Z - log: [Build-plugin] register pkg linux: 1.247ms
+2023-12-01T12:49:33.497Z - log: [Package] mac@1.0.0 enable
+2023-12-01T12:49:33.503Z - log: [Build-plugin] register pkg mac: 5.623ms
+2023-12-01T12:49:33.620Z - log: [Package] native@1.0.2 enable
+2023-12-01T12:49:33.629Z - log: [Build-plugin] register pkg native: 7.88ms
+2023-12-01T12:49:33.655Z - log: [Package] ohos@1.0.0 enable
+2023-12-01T12:49:33.659Z - log: [Build-plugin] register pkg ohos: 4.245ms
+2023-12-01T12:49:33.682Z - log: [Package] open-harmonyos@1.0.0 enable
+2023-12-01T12:49:33.684Z - log: [Build-plugin] register pkg open-harmonyos: 1.217ms
+2023-12-01T12:49:33.708Z - log: [Package] oppo-mini-game@1.0.1 enable
+2023-12-01T12:49:33.715Z - log: [Build-plugin] register pkg oppo-mini-game: 6.311ms
+2023-12-01T12:49:33.740Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2023-12-01T12:49:33.762Z - log: [Package] vivo-mini-game@1.0.1 enable
+2023-12-01T12:49:33.768Z - log: [Build-plugin] register pkg vivo-mini-game: 5.167ms
+2023-12-01T12:49:33.814Z - log: [Package] web-desktop@1.0.1 enable
+2023-12-01T12:49:33.821Z - log: [Build-plugin] register pkg web-desktop: 5.596ms
+2023-12-01T12:49:33.852Z - log: [Package] web-mobile@1.0.1 enable
+2023-12-01T12:49:33.859Z - log: [Build-plugin] register pkg web-mobile: 5.209ms
+2023-12-01T12:49:33.892Z - log: [Package] wechatgame@1.0.2 enable
+2023-12-01T12:49:33.897Z - log: [Build-plugin] register pkg wechatgame: 5.304ms
+2023-12-01T12:49:33.921Z - log: [Package] windows@1.0.1 enable
+2023-12-01T12:49:33.926Z - log: [Build-plugin] register pkg windows: 4.257ms
+2023-12-01T12:49:33.951Z - log: [Package] xiaomi-quick-game@1.0.1 enable
+2023-12-01T12:49:33.957Z - log: [Build-plugin] register pkg xiaomi-quick-game: 6.533ms
+2023-12-01T12:49:34.254Z - log: [Package] cocos-service@3.0.4 enable
+2023-12-01T12:49:34.259Z - log: [Build-plugin] register pkg cocos-service: 2.564ms
+2023-12-01T12:49:34.290Z - log: [Package] importer@1.1.0 enable
+2023-12-01T12:49:34.605Z - log: [Im-plugin] Check im-plugin version.
+2023-12-01T12:49:34.612Z - log: [Package] im-plugin@3.0.9 enable
+2023-12-01T12:49:35.704Z - log: [Im-plugin] No online info of im-plugin.
+2023-12-01T12:49:38.344Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.367Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.368Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.368Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.372Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-12-01T12:49:38.373Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-12-01T12:49:38.387Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.387Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.388Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.389Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.389Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.389Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.390Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.390Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.390Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.390Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.390Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.390Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.391Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.391Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.391Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.392Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.392Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.392Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.392Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.392Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-12-01T12:49:38.441Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-12-01T12:49:38.516Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-12-01T12:49:38.516Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-12-01T12:49:38.516Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-12-01T12:49:38.516Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-12-01T12:49:38.616Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-12-01T12:49:38.629Z - info: [Scene] [PHYSICS]: using builtin.
+2023-12-01T12:49:38.794Z - log: [Scene] Cocos Creator v3.6.2
+2023-12-01T12:49:38.794Z - info: [Scene] Forward render pipeline initialized.
+2023-12-01T12:49:38.946Z - warn: [Scene] Please specifiy a default value for "ShenMuManeger.currentLivingValue" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "ShenMuManeger.currentLivingValue" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T12:49:38.981Z - warn: [Scene] Please specifiy a default value for "combatConfigManeger.roundTime" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "combatConfigManeger.roundTime" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T12:49:38.981Z - warn: [Scene] Please specifiy a default value for "combatConfigManeger.roundNum" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "combatConfigManeger.roundNum" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T12:49:39.007Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.speed" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.speed" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T12:49:39.007Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.bulletType" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.bulletType" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T12:49:39.007Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.angle" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.angle" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T12:49:48.497Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-12-01T12:49:48.497Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2023-12-01T12:49:48.597Z - warn: 为更好地打开脚本，请在 偏好设置 -> 外部程序 -> 默认脚本编辑器 里配置打开脚本的应用程序
+2023-12-01T13:45:13.703Z - warn: [Scene] Please specifiy a default value for "ShenMuManeger.currentLivingValue" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "ShenMuManeger.currentLivingValue" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T13:45:13.704Z - warn: [Scene] Please specifiy a default value for "combatConfigManeger.roundTime" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "combatConfigManeger.roundTime" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T13:45:13.704Z - warn: [Scene] Please specifiy a default value for "combatConfigManeger.roundNum" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "combatConfigManeger.roundNum" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T13:45:13.714Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.speed" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.speed" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T13:45:13.714Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.bulletType" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.bulletType" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T13:45:13.715Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.angle" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.angle" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T15:10:33.855Z - error: getaddrinfo ENOTFOUND logstorage.cocos.comError: getaddrinfo ENOTFOUND logstorage.cocos.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+2023-12-01T16:35:46.242Z - warn: [Scene] Please specifiy a default value for "ShenMuManeger.currentLivingValue" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "ShenMuManeger.currentLivingValue" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T16:35:46.242Z - warn: [Scene] Please specifiy a default value for "combatConfigManeger.roundTime" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "combatConfigManeger.roundTime" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T16:35:46.243Z - warn: [Scene] Please specifiy a default value for "combatConfigManeger.roundNum" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "combatConfigManeger.roundNum" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T16:35:46.250Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.speed" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.speed" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T16:35:46.250Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.bulletType" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.bulletType" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T16:35:46.251Z - warn: [Scene] Please specifiy a default value for "BulletPerManeger.angle" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;Error: [Scene] Please specifiy a default value for "BulletPerManeger.angle" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+    at warn (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145571:12)
+    at warnID (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:145785:5)
+    at parseAttributes (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115749:7)
+    at defineProp (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115395:5)
+    at declareProperties (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115593:11)
+    at CCClass (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:115624:5)
+    at eval (D:\software\cocos_v3.6.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:224812:21)
+2023-12-01T16:35:50.460Z - warn: Metrics: no valid info

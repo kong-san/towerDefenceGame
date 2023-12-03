@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "huozu_d3",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 3,
+      "width": 300,
+      "height": 397
+    },
+    "offset": {
+      "x": 0,
+      "y": -1.5
+    },
+    "originalSize": {
+      "width": 300,
+      "height": 400
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -150,
+        -198.5,
+        0,
+        150,
+        -198.5,
+        0,
+        -150,
+        198.5,
+        0,
+        150,
+        198.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        397,
+        300,
+        397,
+        0,
+        0,
+        300,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.9925,
+        1,
+        0.9925
+      ],
+      "minPos": {
+        "x": -150,
+        "y": -198.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 150,
+        "y": 198.5,
+        "z": 0
+      }
+    },
+    "texture": "be280619-28dc-4e4d-8c94-81fc190af0d3@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

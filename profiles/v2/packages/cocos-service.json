@@ -1,0 +1,33 @@
+{
+  "options": {
+    "web-desktop": {
+      "configID": "5526e7",
+      "services": []
+    },
+    "android": {
+      "configID": "5526e7",
+      "services": []
+    },
+    "wechatgame": {
+      "configID": "5526e7",
+      "services": []
+    },
+    "huawei-quick-game": {
+      "configID": "5526e7",
+      "services": []
+    },
+    "web-mobile": {
+      "configID": "5526e7",
+      "services": []
+    },
+    "windows": {
+      "configID": "5526e7",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "5526e7",
+    "services": [],
+    "__version__": "3.0.4"
+  }
+}

@@ -1,0 +1,795 @@
+debug: Fri, 01 Dec 2023 12:49:30 GMT
+debug: Project: D:\Gameproject\NewProject-001
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: D:\software\cocos_v3.6.2\resources\resources\3d\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Loading cache costs 3.5441999435424805ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Loading cache costs 3.132699966430664ms.
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+debug: Sync engine features: 2d,3d,animation,audio,base,gfx-webgl,gfx-webgl2,intersection-2d,physics-2d-builtin,primitive,profiler,spine,tween,ui,xr
+debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "D:\\software\\cocos_v3.6.2\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "D:\\Gameproject\\NewProject-001\\assets"
+  }
+]
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///D:/software/cocos_v3.6.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Gameproject/NewProject-001/assets/"
+  }
+}
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///D:/software/cocos_v3.6.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Gameproject/NewProject-001/assets/"
+  }
+}
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 10.067899942398071ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 31
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Nov 28 2023 22:04:34 GMT+0800 (中国标准时间), Current mtime: Fri Dec 01 2023 20:49:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./ShenMuManeger from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./DanperManeger from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./DanperManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve ./GuangziPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts as cce:/internal/x/cc.
+debug: Resolve ./PaoPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve ./sureComponent from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve ./diji from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./dijiTargetManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./toolPyManeger from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./ToolStateManeger from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./infoManeger from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve ./toolPyManeger from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(editor) ends with cost 225.39190006256104ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-builtin from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-builtin.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Nov 28 2023 22:04:34 GMT+0800 (中国标准时间), Current mtime: Fri Dec 01 2023 20:49:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./ShenMuManeger from file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./DanperManeger from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./DanperManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve ./GuangziPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts as cce:/internal/x/cc.
+debug: Resolve ./PaoPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve ./sureComponent from file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as cce:/internal/x/cc.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve ./diji from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./dijiTargetManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/diji.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./toolPyManeger from file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./ToolStateManeger from file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./infoManeger from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve ./toolPyManeger from file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as cce:/internal/x/cc.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(preview) ends with cost 163.83599996566772ms.
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 13.810800075531006ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 31
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(editor) ends with cost 77.72269999980927ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(preview) ends with cost 59.09750008583069ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:55:50 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts. Last mtime: Sat Sep 16 2023 00:27:53 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07, Current mtime: Fri Dec 01 2023 21:39:13 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(editor) ends with cost 407.95879995822906ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:55:50 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts. Last mtime: Sat Sep 16 2023 00:27:53 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07, Current mtime: Fri Dec 01 2023 21:39:13 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(preview) ends with cost 281.237900018692ms.
+debug: Dispatch build request for time accumulated 3 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:50 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 11:46:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts. Last mtime: Sat Sep 16 2023 00:26:00 GMT+0800 (中国标准时间)@0aac6dd9-eebd-419c-8007-99ff7ad65e21, Current mtime: Fri Dec 01 2023 22:19:25 GMT+0800 (中国标准时间)@0aac6dd9-eebd-419c-8007-99ff7ad65e21
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./DanperManeger from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts. Last mtime: Fri Dec 01 2023 21:39:13 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07, Current mtime: Fri Dec 01 2023 22:14:27 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts. Last mtime: Sat Sep 16 2023 00:32:49 GMT+0800 (中国标准时间)@21b99981-ecb5-46f3-b184-1a8b9f2bbe7c, Current mtime: Fri Dec 01 2023 22:09:21 GMT+0800 (中国标准时间)@21b99981-ecb5-46f3-b184-1a8b9f2bbe7c
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve ./diji from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(editor) ends with cost 471.8736000061035ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:50 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 11:46:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BingPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts. Last mtime: Sat Sep 16 2023 00:26:00 GMT+0800 (中国标准时间)@0aac6dd9-eebd-419c-8007-99ff7ad65e21, Current mtime: Fri Dec 01 2023 22:19:25 GMT+0800 (中国标准时间)@0aac6dd9-eebd-419c-8007-99ff7ad65e21
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./DanperManeger from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts. Last mtime: Fri Dec 01 2023 21:39:13 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07, Current mtime: Fri Dec 01 2023 22:14:27 GMT+0800 (中国标准时间)@c5754533-5847-417f-a232-949552303f07
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./BulletPerManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts.
+debug: Resolve ./combatConfigManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve ./livingSystemManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve ./targetManeger from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Detected change: file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts. Last mtime: Sat Sep 16 2023 00:32:49 GMT+0800 (中国标准时间)@21b99981-ecb5-46f3-b184-1a8b9f2bbe7c, Current mtime: Fri Dec 01 2023 22:09:21 GMT+0800 (中国标准时间)@21b99981-ecb5-46f3-b184-1a8b9f2bbe7c
+debug: Inspect file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts as cce:/internal/x/cc.
+debug: Resolve ./updateComponent from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Resolve ./audioBeginController from file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve ./diji from file:///D:/Gameproject/NewProject-001/assets/script/BulletPerManeger.ts as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/DanperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/FengyiPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/GuangziPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/KongperManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/PaoPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ShenMuManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/ToolStateManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/audioBeginController.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlLeftManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/blockControlRightManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/combatConfigManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createFengManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/createSoldier.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/diji.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/diji.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiDeathPerManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/dijiTargetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/infoManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/livingSystemManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/loadManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/locationPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/middleManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/scrollControl.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/selectToolManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/sureComponent.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/talkManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/targetManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/toolPyManeger.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/tryAgain.ts.
+debug: Resolve file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Gameproject/NewProject-001/assets/script/updateComponent.ts.
+debug: Target(preview) ends with cost 286.04530000686646ms.

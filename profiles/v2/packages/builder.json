@@ -1,0 +1,890 @@
+{
+  "log": {
+    "level": 1
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "name": "shenmu",
+    "buildPath": "project://build",
+    "outputName": "wechatgame-001",
+    "mainBundleCompressionType": "merge_all_json",
+    "platform": "wechatgame",
+    "replaceSplashScreen": true,
+    "mainBundleIsRemote": false,
+    "skipCompressTexture": false,
+    "server": "",
+    "debug": false
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1678531283452": {
+        "type": "build",
+        "id": "1678531283452",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-3-11 18:42:31 Build success in 68129 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "replaceSplashScreen": false,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            }
+          ],
+          "web-desktop": [],
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": false,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3",
+          "android": [],
+          "wechatgame": []
+        },
+        "time": "2023-3-11 18:41",
+        "dirty": false
+      },
+      "1678531732842": {
+        "type": "build",
+        "id": "1678531732842",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2023-3-11 18:50:11 run package D:\\Gameproject\\NewProject-001\\build\\windows failed!",
+        "options": {
+          "name": "NewProject-001",
+          "platform": "windows",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "replaceSplashScreen": false,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "windows",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "packages": {
+            "windows": {
+              "renderBackEnd": {
+                "vulkan": false,
+                "gles3": true,
+                "gles2": true
+              },
+              "targetPlatform": "x64",
+              "__version__": "1.0.1"
+            },
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "native": {
+              "encrypted": false,
+              "xxteaKey": "37jMdu7UpCbrMuxH",
+              "compressZip": false,
+              "JobSystem": "none",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3",
+          "huawei-quick-game": [],
+          "web-mobile": [],
+          "android": [],
+          "windows": []
+        },
+        "time": "2023-3-11 18:48",
+        "dirty": false
+      },
+      "1694532792361": {
+        "type": "build",
+        "id": "1694532792361",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2023-9-12 23:34:16 Build success in 64325 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "subpackage",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-001",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "windows": [],
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3",
+          "wechatgame": []
+        },
+        "time": "2023-9-12 23:33",
+        "dirty": false
+      },
+      "1694533831103": {
+        "type": "build",
+        "id": "1694533831103",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2023-9-12 23:50:41 Build success in 10388 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-002",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-12 23:50",
+        "dirty": false
+      },
+      "1694534704668": {
+        "type": "build",
+        "id": "1694534704668",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-13 00:05:34 Build success in 30221 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "subpackage",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-003",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-13 00:05",
+        "dirty": false
+      },
+      "1694536810542": {
+        "type": "build",
+        "id": "1694536810542",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-13 00:40:25 Build success in 14843 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": true,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": true,
+          "mainBundleCompressionType": "merge_all_json",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-004",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-13 00:40",
+        "dirty": false
+      },
+      "1694622197728": {
+        "type": "build",
+        "id": "1694622197728",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-14 00:23:33 Build success in 16010 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-005",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": false,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-14 00:23",
+        "dirty": false
+      },
+      "1694622905352": {
+        "type": "build",
+        "id": "1694622905352",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-14 00:35:16 Build success in 11354 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-006",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": false,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": true,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-14 00:35",
+        "dirty": false
+      },
+      "1694623016397": {
+        "type": "build",
+        "id": "1694623016397",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-14 00:37:07 Build success in 10997 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "subpackage",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-007",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-14 00:36",
+        "dirty": false
+      },
+      "1694708919799": {
+        "type": "build",
+        "id": "1694708919799",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-15 00:28:55 Build success in 16071 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-008",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-15 00:28",
+        "dirty": false
+      },
+      "1694711490672": {
+        "type": "build",
+        "id": "1694711490672",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-15 01:13:08 Build success in 11030 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "subpackage",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-009",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-15 01:12",
+        "dirty": false
+      },
+      "1694795829821": {
+        "type": "build",
+        "id": "1694795829821",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-16 00:38:10 Build success in 10499 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-010",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-16 00:38",
+        "dirty": false
+      },
+      "1694960635600": {
+        "type": "build",
+        "id": "1694960635600",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-9-17 22:31:50 Build success in 48473 ms!",
+        "options": {
+          "name": "神木",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "replaceSplashScreen": true,
+          "startScene": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+          "outputName": "wechatgame-011",
+          "scenes": [
+            {
+              "url": "db://assets/load.scene",
+              "uuid": "7ab0506f-f898-45f8-bc06-eee80cb03d0a",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/preIntroduce.scene",
+              "uuid": "1ae7d9f0-4b05-405c-96bd-84883c05b5c6",
+              "inBundle": false
+            },
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "d1d1c4a5-1307-4697-824d-3a98958a74fa",
+              "inBundle": false
+            }
+          ],
+          "wechatgame": [],
+          "server": "",
+          "packages": {
+            "cocos-service": {
+              "configID": "5526e7",
+              "services": [],
+              "__version__": "3.0.4"
+            },
+            "wechatgame": {
+              "startSceneAssetBundle": true,
+              "orientation": "landscapeRight",
+              "appid": "wx6ac3f5090a6b99c5",
+              "buildOpenDataContextTemplate": "",
+              "separateEngine": false,
+              "wasm": "wasm",
+              "enabelWebGL2": "off",
+              "__version__": "1.0.2"
+            }
+          },
+          "__version__": "1.3.3"
+        },
+        "time": "2023-9-17 22:31",
+        "dirty": false
+      }
+    }
+  }
+}
